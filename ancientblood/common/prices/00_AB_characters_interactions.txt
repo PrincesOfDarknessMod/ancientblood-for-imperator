@@ -1,0 +1,3 @@
+﻿embrace_mortal = {
+	oratory = 100
+}

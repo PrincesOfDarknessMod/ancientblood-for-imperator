@@ -1,0 +1,133 @@
+﻿namespace = AB_Mortals_events
+
+# Scout for talents
+
+AB_Mortals_events.1 = { # called from decision
+	type = country_event
+	title = "AB_Mortals_events.1.t"
+	desc = "AB_Mortals_events.1.desc"
+	picture = greek_philosophers
+	
+	immediate = {
+		random_character = {
+			weight = {
+				modifier = {
+					factor = 100
+					has_trait = mortal
+				}
+			}
+			save_scope_as = family_target
+		}
+	}
+	option = {
+		name = "AB_Mortals_events.1.a"
+		
+		add_oratory_power = -50
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = mortal
+				add_charisma = 10
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = yes
+				force_add_trait = mortal
+				add_charisma = 10
+			}
+		  }
+		}
+	}	
+	option = { 
+		name = "AB_Mortals_events.1.b"
+		
+		add_military_power = -50
+		
+		random_list = {
+				70 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = mortal
+				add_martial = 10
+			}
+		  }
+				30 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = yes
+				force_add_trait = mortal
+				add_martial = 10
+			}
+		  }
+		}
+	}
+	option = {
+		name = "AB_Mortals_events.1.c"
+		
+		add_civic_power = -50
+		
+		random_list = {
+				30 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = mortal
+				add_finesse = 10
+			}
+		  }
+				70 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = yes
+				force_add_trait = mortal
+				add_finesse = 10
+			}
+		  }
+		}
+	}
+	option = {
+		name = "AB_Mortals_events.1.d"
+		
+		add_religious_power = -50
+		
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = mortal
+				add_zeal = 10
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = root.current_ruler.culture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = yes
+				force_add_trait = mortal
+				add_zeal = 10
+			}
+		  }
+		}
+	}	
+}

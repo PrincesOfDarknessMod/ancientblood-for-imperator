@@ -103,51 +103,51 @@ AB_startup_events.2 = {
 		
 		set_gender_equality = yes
 		
-		create_character = {
-                first_name = "Titus Brutus"
-                age = 300
-                female = no
-                culture = ventrueculture
-                religion = vampirereligion
-                family = char:208.family
-                birth_province = 17
-                force_add_trait = vampire
-                force_add_trait = generation5
-                force_add_trait = ventrue
-				force_add_trait = elder
-				force_add_trait = just
-                force_add_trait = kindly
-				mother = char:208
-                add_martial = 0
-                add_charisma = 0
-                add_finesse = 2
-                add_zeal = 0
-                add_loyalty = 50
-                add_prominence = 10
-                add_popularity = 30
-            }
+		# create_character = {
+                # first_name = "Titus Brutus"
+                # age = 300
+                # female = no
+                # culture = ventrueculture
+                # religion = vampirereligion
+                # family = char:208.family
+                # birth_province = 17
+                # force_add_trait = vampire
+                # force_add_trait = generation5
+                # force_add_trait = ventrue
+				# force_add_trait = elder
+				# force_add_trait = just
+                # force_add_trait = kindly
+				# mother = char:208
+                # add_martial = 0
+                # add_charisma = 0
+                # add_finesse = 2
+                # add_zeal = 0
+                # add_loyalty = 50
+                # add_prominence = 10
+                # add_popularity = 30
+            # }
 			
-		create_character = {
-                first_name = "Nerie Ancariu"
-                age = 20
-                female = no
-                culture = silverlegionculture
-                religion = infernalreligion
-                family = char:209.family
-				force_add_trait = lustful
-                force_add_trait = pious
-				force_add_trait = sarcastic
-				force_add_trait = rash
-                add_martial = 0
-                add_charisma = 3
-                add_finesse = 4
-                add_zeal = 5
-                add_loyalty = 20
-                add_prominence = 20
-                add_popularity = 30
-            }	
-				}
-	}
+		# create_character = {
+                # first_name = "Nerie Ancariu"
+                # age = 20
+                # female = no
+                # culture = silverlegionculture
+                # religion = infernalreligion
+                # family = char:209.family
+				# force_add_trait = lustful
+                # force_add_trait = pious
+				# force_add_trait = sarcastic
+				# force_add_trait = rash
+                # add_martial = 0
+                # add_charisma = 3
+                # add_finesse = 4
+                # add_zeal = 5
+                # add_loyalty = 20
+                # add_prominence = 20
+                # add_popularity = 30
+            # }	
+				 }
+	 }
 	
 	option = {
 		name = AB_startup_events.2.a
@@ -175,6 +175,7 @@ AB_startup_events.3 = {
 					has_trait = demon
 					has_trait = mage
 					has_trait = werewolf
+					has_trait = mortal
 					}
 				}
 				death = {

@@ -1,8 +1,19 @@
-﻿vampire = {
+﻿mortal = {
+	type = health
+	congenital = no
+	martial = -5
+	finesse = -5
+	zeal = -5
+	charisma = -5
+	prominence = -10
+
+}
+
+vampire = {
 	type = health
 	congenital = no
 	fertility = -10
-	martial = 2
+	charisma = 1
 }
 
 ghoul = {
@@ -361,7 +372,6 @@ ancilla = {
 	type = status
 	finesse = 1
 	max_rivals = 1
-	prominence = 5
 	opposites = {
 		neonate 
 		elder
@@ -376,7 +386,6 @@ elder = {
 	martial = 1
 	finesse = 2
 	max_rivals = 2
-	prominence = 10
 	opposites = {
 		neonate 
 		ancilla
@@ -392,7 +401,7 @@ ancient = {
 	finesse = 2
 	max_rivals = 2
 	max_friends = -1
-	prominence = 15
+	prominence = 5
 	opposites = {
 		neonate 
 		ancilla
@@ -408,7 +417,7 @@ methuselah = {
 	finesse = 2
 	max_rivals = 2
 	max_friends = -2
-	prominence = 20
+	prominence = 10
 	opposites = {
 		neonate 
 		ancilla
@@ -439,6 +448,7 @@ generation1 = {
 	type = status
 	martial = 20
 	finesse = 20
+	charisma = 20
 	prominence = 100
 	opposites = {
 		generation2
@@ -462,6 +472,7 @@ generation2 = {
 	type = status
 	martial = 15
 	finesse = 15
+	charisma = 15
 	prominence = 75
 	opposites = {
 		generation1
@@ -485,6 +496,7 @@ generation3 = {
 	type = status
 	martial = 10
 	finesse = 10
+	charisma = 10
 	prominence = 50
 	opposites = {
 		generation1
@@ -506,8 +518,9 @@ generation3 = {
 
 generation4 = {
 	type = status
-	martial = 6
-	finesse = 6
+	martial = 3
+	finesse = 3
+	charisma = 3
 	prominence = 30
 	opposites = {
 		generation1
@@ -529,8 +542,9 @@ generation4 = {
 
 generation5 = {
 	type = status
-	martial = 5
-	finesse = 5
+	martial = 2
+	finesse = 2
+	charisma = 2
 	prominence = 25
 	opposites = {
 		generation1
@@ -552,8 +566,9 @@ generation5 = {
 
 generation6 = {
 	type = status
-	martial = 4
-	finesse = 4
+	martial = 1
+	finesse = 1
+	charisma = 1
 	prominence = 20
 	opposites = {
 		generation1

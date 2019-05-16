@@ -2,7 +2,7 @@
 	type = health
 	congenital = no
     fertility = -10
-    martial = 1
+    zeal = 1
 }
 
 ebonlegion = {

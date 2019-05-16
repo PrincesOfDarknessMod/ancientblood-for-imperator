@@ -1,0 +1,248 @@
+﻿
+
+embrace_mortal = { 
+
+	on_other_nation = no
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_hold_triumph"
+	
+	
+	potential_trigger = {
+		scope:actor = {
+		}
+		
+		hidden:scope:target = {
+			is_alive = yes
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			is_adult = yes
+			has_trait = vampire
+		}
+	}
+	
+	
+	allowed_trigger = {
+		scope:target = {
+		}
+	hidden:scope:actor = {
+			can_pay_price = embrace_mortal
+		 }		
+	}
+	
+	
+	#for any character in the scope:target country
+	
+	character_actor_trigger = {
+		is_adult = yes
+		has_trait = mortal
+		NOT = {
+			has_character_modifier = foreign_citizen
+		}
+	}
+	
+	
+	effect = {
+	
+		if = {	
+			limit = {
+				exists = scope:recipient
+			}
+	scope:actor = {
+		pay_price = embrace_mortal }
+		}
+		
+		if = {	
+			limit = {
+				exists = scope:recipient
+			}
+			scope:recipient = {
+				remove_trait = mortal
+				add_trait = vampire
+				set_character_religion = scope:target.religion
+				set_culture = scope:target.culture
+				set_family = scope:target.family
+				add_trait = neonate
+				
+					if = {
+						limit = { 
+							scope:target = {
+								has_trait = brujah }
+												}
+									add_trait = brujah 
+									}
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = baali }
+												}
+									add_trait = baali 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = ventrue }
+												}
+									add_trait = ventrue 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = cappadocian }
+												}
+									add_trait = cappadocian 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = followerofset }
+												}
+									add_trait = followerofset 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = gangrel }
+												}
+									add_trait = gangrel 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = haqimite }
+												}
+									add_trait = haqimite 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = ishtarri }
+												}
+									add_trait = ishtarri 
+									}
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = malkavian }
+												}
+									add_trait = malkavian 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = nosferatu }
+												}
+									add_trait = nosferatu 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = ravnos }
+												}
+									add_trait = ravnos 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = salubri }
+												}
+									add_trait = salubri 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = tzimisce }
+												}
+									add_trait = tzimisce 
+									}										
+					if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation4 }
+												}
+									add_trait = generation5 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation3 }
+												}
+									add_trait = generation4 
+									}	
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation5 }
+												}
+									add_trait = generation6 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation6 }
+												}
+									add_trait = generation7 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation7 }
+												}
+									add_trait = generation8 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation8 }
+												}
+									add_trait = generation9 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation9 }
+												}
+									add_trait = generation10 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation10 }
+												}
+									add_trait = generation11 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation11 }
+												}
+									add_trait = generation12
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation12 }
+												}
+									add_trait = generation13
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation13 }
+												}
+									add_trait = generation14 
+									}		
+					else_if = {
+						limit = { 
+							scope:target = {
+								has_trait = generation14 }
+												}
+									add_trait = generation15 
+									}											
+			}
+		}
+	}
+	
+}
+
