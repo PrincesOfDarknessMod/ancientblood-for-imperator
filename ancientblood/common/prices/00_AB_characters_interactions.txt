@@ -1,3 +1,7 @@
 ﻿embrace_mortal = {
 	oratory = 100
 }
+
+find_an_apprentice = {
+	civic = 100
+}

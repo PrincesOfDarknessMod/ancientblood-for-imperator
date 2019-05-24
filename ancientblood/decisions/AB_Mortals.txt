@@ -6,12 +6,44 @@
 		allow = {
 			treasury >= 200
 		}
-		ai_allow = {
-		}
 		effect = {
 			add_treasury = -200
 			hidden_effect = {
 				trigger_event = { id = AB_Mortals_events.1	}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+			factor = 0		
+			any_character = {
+					count >= 20
+			}
+		}
+	}
+}
+
+scourthecountryside = {
+		potential = {
+			num_of_cities >= 1
+			current_ruler = { 
+				has_trait = werewolf
+				has_religion = gaiareligion	}
+		}
+		allow = {
+			treasury >= 300
+			military_power >= 300
+			oratory_power >= 100
+		}
+		effect = {
+			add_treasury = -300
+			add_military_power = -300
+			add_oratory_power = -100
+			
+			custom_tooltip = "scourthecountryside_effect_tooltip"
+			
+			hidden_effect = {
+				trigger_event = { id = AB_Mortals_events.3	}
 			}
 		}
 		ai_will_do = {
@@ -24,4 +56,5 @@
 		}
 	}
 }
+
 }

@@ -26,7 +26,7 @@ embrace_mortal = {
 	allowed_trigger = {
 		scope:target = {
 		}
-	hidden:scope:actor = {
+		scope:actor = {
 			can_pay_price = embrace_mortal
 		 }		
 	}
@@ -243,6 +243,170 @@ embrace_mortal = {
 			}
 		}
 	}
-	
+
+ai_will_do = {
+	base = 0
+		modifier = {
+			add = 100
+			trigger = {
+				employer = {
+					country_culture_group = vampireculture }
+				}
+			}
+		}
+
 }
+
+demonic_possession = {
+
+	on_other_nation = no 
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_banish"
+	
+	potential_trigger = {
+		hidden:scope:target = {
+			is_mercenary = no
+			employer = {
+				NOR = {
+					tag = PIR
+					tag = REB
+					tag = BAR
+				}
+			}
+			is_alive = yes
+			is_adult = yes
+			employer = scope:actor
+			has_religion = infernalreligion
+			has_trait = mortal
+		}
+	}
+	
+	allowed_trigger = {
+		scope:actor = {
+		 }	
+
+		scope:target = {
+			is_alive = yes
+		}
+	}
+	
+	
+	effect = {
+		scope:actor = {
+				save_scope_as = for_some_reason_i_have_to_save_this
+				set_variable = {
+					name = currently_possessing
+					value = scope:target
+				}
+			}
+		scope:actor = {
+				trigger_event = {
+					id = AB_Mortals_events.2
+				}
+		}	
+	}
+ai_will_do = {
+	base = 0
+		modifier = {
+			add = 100
+			trigger = {
+				employer = {
+					country_culture_group = demonculture }
+				}
+		}
+}	
+}
+
+
+find_an_apprentice = { 
+
+	on_other_nation = no
+	on_own_nation = yes
+	
+	sound = "event:/SFX/UI/Character/sfx_ui_character_hold_triumph"
+	
+	
+	potential_trigger = {
+		scope:actor = {
+		}
+		
+		hidden:scope:target = {
+			is_alive = yes
+			employer = scope:actor
+			NOT = { employer = { tag = REB } }
+			NOT = { employer = { tag = BAR } }
+			is_adult = yes
+			has_trait = mage
+			NOT =  { 
+				has_trait = apprentice 
+				}
+		}
+	}
+		
+	allowed_trigger = {
+		scope:target = {
+		}
+		scope:actor = {
+			can_pay_price = find_an_apprentice
+		 }		
+	}
+	
+	effect = {
+	
+	scope:actor = {
+		pay_price = find_an_apprentice }
+		
+	custom_tooltip = "find_an_apprentice_effect_tooltip"
+	
+	scope:actor = {
+	
+	hidden_effect = {
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = scope:target.culture
+				religion = scope:target.religion
+				family = scope:target.family
+				female = no
+				force_add_trait = mage
+				force_add_trait = apprentice
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = scope:target.culture
+				religion = scope:target.religion
+				family = scope:target.family
+				female = yes
+				force_add_trait = mage
+				force_add_trait = apprentice
+			}
+		  }
+		}
+	}
+}
+}
+
+ai_will_do = {
+	base = 0
+		modifier = {
+			add = 100
+			trigger = {
+				employer = {
+					country_culture_group = mageculture }
+				}
+			}
+		modifier = {
+			add=-100	
+			trigger = {	
+				employer = {
+				any_character = {
+						count >= 30
+			}
+			}
+			}
+		}
+	}
+}	
 

@@ -34,10 +34,6 @@ diplomacy = {
 	}
 	
 	#Rome
-	dependency = { first = ROM second = PEL subject_type = feudatory }
-	dependency = { first = ROM second = FRE subject_type = feudatory }
-	dependency = { first = ROM second = MRS subject_type = feudatory }
-	dependency = { first = ROM second = NUC subject_type = feudatory }
 	
 	#Samnium - Lucania Alliance
 	alliance = { first = SAM second = LCA }
@@ -72,10 +68,10 @@ diplomacy = {
 	dependency = { first = BPK second = HNY subject_type = vassal_tribe }
 	
 	#Umbria (GP)
-	alliance = { first = UMB second = PIE }
 	
-	#Etruria
+	#Etruria, Tinia's crumbling network
 	alliance = { first = ETR second = FNT }
+	dependency = { first = ETR second = ROM subject_type = feudatory }
 	
 	#Carthage
 	dependency = { first = CAR second = BLD subject_type = feudatory }
@@ -10973,12 +10969,12 @@ country = {
 			
 			
 		}
-		
+		#Conquering Claw
 		PIE = {
 			government = tribal_kingdom
-			primary_culture = umbrian
-			religion = roman_pantheon
-			centralization = 60
+			primary_culture = silverfangculture
+			religion = gaiareligion
+			centralization = 30
 			capital = 106
 		
 			own_control_core = 	{

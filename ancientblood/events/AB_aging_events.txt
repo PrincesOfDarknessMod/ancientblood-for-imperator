@@ -1,0 +1,255 @@
+﻿namespace = AB_aging_events
+
+# Vampire ladder
+
+AB_aging_events.1 = {
+	type = character_event
+	title = "AB_aging_events.1.t"
+	desc = "AB_aging_events.1.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 250
+		has_trait = neonate
+		has_trait = vampire
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 5
+			age > 270
+		}
+		modifier = {
+			factor = 10
+			age > 295
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.1.a"
+		
+		remove_trait = neonate
+		add_trait = ancilla
+	}
+}
+
+AB_aging_events.2 = {
+	type = character_event
+	title = "AB_aging_events.2.t"
+	desc = "AB_aging_events.2.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 500
+		has_trait = ancilla
+		has_trait = vampire
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 5
+			age > 550
+		}
+		modifier = {
+			factor = 10
+			age > 595
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.2.a"
+		
+		remove_trait = ancilla
+		add_trait = ancient
+	}
+}
+
+AB_aging_events.7 = {
+	type = character_event
+	title = "AB_aging_events.7.t"
+	desc = "AB_aging_events.7.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 1000
+		has_trait = ancient
+		has_trait = vampire
+		NOR = {
+			has_trait = generation4
+			has_trait = generation5
+			}		
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 5
+			age > 1050
+		}
+		modifier = {
+			factor = 10
+			age > 1095
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.7.a"
+		
+		remove_trait = ancient
+		add_trait = elder
+	}
+}
+
+AB_aging_events.3 = {
+	type = character_event
+	title = "AB_aging_events.3.t"
+	desc = "AB_aging_events.3.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 1000
+		OR = {
+		has_trait = ancient
+		has_trait = elder
+		}
+		has_trait = vampire
+		OR = {
+			has_trait = generation4
+			has_trait = generation5
+			}
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 5
+			age > 1050
+		}
+		modifier = {
+			factor = 10
+			age > 1095
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.3.a"
+		
+		remove_trait = ancient
+		remove_trait = elder
+		add_trait = methuselah
+	}
+}
+
+# Mage ladder
+
+AB_aging_events.4 = {
+	type = character_event
+	title = "AB_aging_events.4.t"
+	desc = "AB_aging_events.4.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 50
+		has_trait = mage
+		has_trait = apprentice
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 1
+			age > 75
+		}
+		modifier = {
+			factor = 2
+			age > 100
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.4.a"
+		
+		remove_trait = apprentice
+		add_trait = adept
+	}
+}
+
+AB_aging_events.5 = {
+	type = character_event
+	title = "AB_aging_events.5.t"
+	desc = "AB_aging_events.5.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 70
+		has_trait = mage
+		has_trait = adept
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 1
+			age > 90
+		}
+		modifier = {
+			factor = 2
+			age > 125
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.5.a"
+		
+		remove_trait = adept
+		add_trait = master
+	}
+}
+
+AB_aging_events.6 = {
+	type = character_event
+	title = "AB_aging_events.6.t"
+	desc = "AB_aging_events.6.desc"
+	picture = greek_court
+	
+	left_portrait = root
+	
+	trigger = {
+		is_alive = yes
+		age > 200
+		has_trait = mage
+		has_trait = master
+	}
+	
+	weight_multiplier = {
+		modifier = {
+			factor = 1
+			age > 300
+		}
+		modifier = {
+			factor = 2
+			age > 500
+		}
+	}
+		
+	option = {
+		name = "AB_aging_events.6.a"
+		
+		remove_trait = master
+		add_trait = archmage
+	}
+}

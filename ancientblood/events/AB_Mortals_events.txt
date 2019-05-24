@@ -31,7 +31,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = no
 				force_add_trait = mortal
-				add_charisma = 10
+				add_charisma = 5
 			}
 		  }
 				50 = { 
@@ -41,7 +41,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = yes
 				force_add_trait = mortal
-				add_charisma = 10
+				add_charisma = 5
 			}
 		  }
 		}
@@ -59,7 +59,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = no
 				force_add_trait = mortal
-				add_martial = 10
+				add_martial = 5
 			}
 		  }
 				30 = { 
@@ -69,7 +69,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = yes
 				force_add_trait = mortal
-				add_martial = 10
+				add_martial = 5
 			}
 		  }
 		}
@@ -87,7 +87,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = no
 				force_add_trait = mortal
-				add_finesse = 10
+				add_finesse = 5
 			}
 		  }
 				70 = { 
@@ -97,7 +97,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = yes
 				force_add_trait = mortal
-				add_finesse = 10
+				add_finesse = 5
 			}
 		  }
 		}
@@ -115,7 +115,7 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = no
 				force_add_trait = mortal
-				add_zeal = 10
+				add_zeal = 5
 			}
 		  }
 				50 = { 
@@ -125,9 +125,530 @@ AB_Mortals_events.1 = { # called from decision
 				family = scope:family_target.family
 				female = yes
 				force_add_trait = mortal
-				add_zeal = 10
+				add_zeal = 5
 			}
 		  }
 		}
 	}	
+}
+
+
+# Demonic possession
+
+AB_Mortals_events.2 = { # called from character interaction
+	type = country_event
+	title = "AB_Mortals_events.2.t"
+	desc = "AB_Mortals_events.2.desc"
+	picture = celtic_sacrifice
+	left_portrait = scope:target
+	
+	trigger = {
+		has_variable = currently_possessing
+		}
+	
+	immediate = {
+		random_character = {
+			weight = {
+				modifier = {
+					factor = 100
+					has_trait = demon
+				}
+			}
+			save_scope_as = family_target
+		}
+	}
+		
+	option = {
+		name = "AB_Mortals_events.2.a"
+		
+		custom_tooltip = possession1
+		
+		add_military_power = -50
+		add_treasury = -100
+		remove_variable = currently_possessing
+		hidden_effect = {
+		scope:target = {
+		random_list = {
+				80 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = pawn
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }	
+				else = {
+					add_trait = silverlegion
+					set_culture = silverlegionculture }		
+			set_family = scope:family_target.family
+		  }
+		  		20 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = baron
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = { 
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }	
+				else = {
+					add_trait = ironlegion
+					set_culture = ironlegionculture	}						
+			set_family = scope:family_target.family
+		  }
+		  }
+		}
+	}
+	}	
+	option = { 
+		name = "AB_Mortals_events.2.b"
+		
+		custom_tooltip = possession2
+		
+		add_military_power = -100
+		add_religious_power = -100
+		add_treasury = -100
+		remove_variable = currently_possessing
+		hidden_effect = {
+		scope:target = {
+		random_list = {
+				80 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = baron
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }
+				else = {
+					add_trait = crimsomlegion
+					set_culture = crimsomlegionculture	}						
+			set_family = scope:family_target.family
+		  }
+
+		  		20 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = marquis
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion}	
+				else = {
+					add_trait = ebonlegion 
+					set_culture = ebonlegionculture}						
+			set_family = scope:family_target.family
+		  }
+		  }
+		}
+	}
+	}
+	option = {
+		name = "AB_Mortals_events.2.c"
+		
+		custom_tooltip = possession3
+		
+		add_military_power = -200
+		add_religious_power = -200
+		add_treasury = -200
+		remove_variable = currently_possessing
+		hidden_effect = {
+		scope:target = {
+		random_list = {
+				80 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = marquis
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }
+				else = {
+					add_trait = alabasterlegion 
+					set_culture = alabasterlegionculture}						
+			set_family = scope:family_target.family
+		  }
+		  		20 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = duke
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }
+				else = {
+					add_trait = ironlegion 
+					set_culture = ironlegionculture}						
+			set_family = scope:family_target.family
+		  }
+		  }
+		}
+	}
+	}
+	option = {
+		name = "AB_Mortals_events.2.d"
+		
+		custom_tooltip = possession4
+		
+		add_military_power = -500
+		add_religious_power = -500
+		add_treasury = -500
+		remove_variable = currently_possessing
+		hidden_effect = {
+		scope:target =  {
+		random_list = {
+				40 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = duke
+				if = {
+					limit = {
+					has_culture = ironlegionculture }
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }	
+				else = {
+					add_trait = silverlegion
+					set_culture = silverlegionculture}						
+			set_family = scope:family_target.family
+		  }
+		  		20 = { 
+			remove_trait = mortal
+			add_trait = demon
+			add_trait = duke
+			add_trait = victorious
+				if = {
+					limit = {
+					has_culture = ironlegionculture } 
+					add_trait = ironlegion }
+				else_if = {
+					limit = {
+					has_culture = ebonlegionculture }
+					add_trait = ebonlegion }
+				else_if = {
+					limit = {
+					has_culture = crimsomlegionculture }
+					add_trait = crimsomlegion }	
+				else_if = {
+					limit = {
+					has_culture = alabasterlegionculture }
+					add_trait = alabasterlegion }
+				else_if = {
+					limit = {
+					has_culture = silverlegionculture }
+					add_trait = silverlegion }
+				else = {
+					add_trait = crimsomlegion
+					set_culture = crimsomlegionculture	}						
+			set_family = scope:family_target.family
+		  }
+		  }
+		}
+	}
+}
+}
+
+# Werewolves emergency creation
+
+AB_Mortals_events.3 = { # called from decision
+	type = country_event
+	title = "AB_Mortals_events.3.t"
+	desc = "AB_Mortals_events.3.desc"
+	picture = celtic_diplomacy
+	
+	immediate = {
+		random_character = {
+			weight = {
+				modifier = {
+					factor = 100
+					has_trait = mortal
+				}
+			}
+			save_scope_as = family_target
+		}
+	}
+
+	option = {
+		name = "AB_Mortals_events.3.a"
+		
+		custom_tooltip = "scourthecountrysideevent1_effect_tooltip"
+		
+		hidden_effect = {
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = redtalonculture
+				religion = root.current_ruler.religion
+				family = root.current_ruler.family
+				female = no
+				force_add_trait = werewolf
+				force_add_trait = auspiceragabash
+				force_add_trait = redtalon
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = blackfuryculture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = yes
+				force_add_trait = werewolf
+				force_add_trait = auspiceahroun
+				force_add_trait = blackfury
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+		}
+		
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = bonegnawerculture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = werewolf
+				force_add_trait = auspicegalliard
+				force_add_trait = bonegnawer
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = silentstriderculture
+				religion = root.current_ruler.religion
+				family = root.current_ruler.family
+				female = yes
+				force_add_trait = werewolf
+				force_add_trait = auspicetheurge
+				force_add_trait = silentstrider
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+		}
+		random = {
+			chance = 25  
+			create_character = {
+				culture = shadowlordculture
+				religion = root.current_ruler.religion
+				family = root.current_ruler.family
+				female = no
+				force_add_trait = werewolf
+				force_add_trait = auspicephilodox
+				force_add_trait = shadowlord
+				add_charisma = -5
+				add_finesse = -5
+			}
+			}
+		}
+	}	
+	option = { 
+		name = "AB_Mortals_events.3.b"
+		
+		add_religious_power = -50
+		
+		custom_tooltip = "scourthecountrysideevent2_effect_tooltip"
+		
+		hidden_effect = {
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = childrenofgaiaculture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = werewolf
+				force_add_trait = auspicetheurge
+				force_add_trait = childrenofgaia
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = wardersculture
+				religion = root.current_ruler.religion
+				family = root.current_ruler.family
+				female = yes
+				force_add_trait = werewolf
+				force_add_trait = auspicephilodox
+				force_add_trait = warder
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+		}
+		
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = fiannaculture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = werewolf
+				force_add_trait = auspiceahroun
+				force_add_trait = fianna
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = whitehowlerculture
+				religion = root.current_ruler.religion
+				family = root.current_ruler.family
+				female = yes
+				force_add_trait = werewolf
+				force_add_trait = auspiceragabash
+				force_add_trait = whitehowler
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+		}
+		random_list = {
+				50 = { 
+		create_character = {
+				culture = silverfangculture
+				religion = root.current_ruler.religion
+				family = scope:family_target.family
+				female = no
+				force_add_trait = werewolf
+				force_add_trait = auspicephilodox
+				force_add_trait = silverfang
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+				50 = { 
+		create_character = {
+				culture = getoffenrisculture
+				religion = root.current_ruler.religion
+				family = root.current_ruler.family
+				female = yes
+				force_add_trait = werewolf
+				force_add_trait = auspiceahroun
+				force_add_trait = getoffenris
+				add_charisma = -5
+				add_finesse = -5
+			}
+		  }
+		}		
+		}		
+	}
 }
