@@ -1,0 +1,175 @@
+﻿demons_philosophy = {
+	
+	primary = thralls
+	second = light_infantry
+	flank = archers
+	
+	
+	
+	allow = {
+		country_culture_group = demonculture
+	}
+	
+	
+
+	start = {
+		allow_unit_type = thralls
+	}
+	
+	
+	demons_ironlegion_path = {
+		demons_ironlegion_path_1 = {
+			light_infantry_discipline = 0.1
+		}
+		demons_ironlegion_path_2 = {
+			thralls_defensive = 0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ironlegion_path_1"
+			}
+		}
+		demons_ironlegion_path_3 = {
+			archers_defensive = 0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ironlegion_path_2"
+			}
+		}
+		demons_ironlegion_path_4 = {
+			enable_ability = border_forts
+			
+			ai_plan = {
+				after = "military_tradition demons_ironlegion_path_3"
+			}
+		}
+		demons_ironlegion_path_5 = {
+			global_defensive = 0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ironlegion_path_4"
+			}
+		}
+		demons_ironlegion_path_6 = {
+			build_cost = -0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ironlegion_path_5"
+			}
+		}
+		demons_ironlegion_path_7 = {
+			siege_engineers = 0.1
+			
+			ai_plan = {
+				after = "military_tradition demons_ironlegion_path_6"
+			}
+		}
+	
+		bonus = {
+			thralls_discipline = 0.1
+		}
+	}
+	
+	demons_ebonlegion_path = {
+		demons_ebonlegion_path_1 = {
+			light_cavalry_offensive = 0.15
+		}
+		demons_ebonlegion_path_2 = {
+			thralls_offensive = 0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ebonlegion_path_1"
+			}
+		}
+		demons_ebonlegion_path_3 = {
+			land_unit_attrition = -0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ebonlegion_path_2"
+			}
+		}
+		demons_ebonlegion_path_4 = {
+			hostile_attrition = 1
+			
+			ai_plan = {
+				after = "military_tradition demons_ebonlegion_path_3"
+			}
+		}
+		demons_ebonlegion_path_5 = {
+			light_cavalry_cost = -0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_ebonlegion_path_4"
+			}
+		}
+		demons_ebonlegion_path_6 = {
+			global_cohort_recruit_speed = 0.50
+			
+			ai_plan = {
+				after = "military_tradition demons_ebonlegion_path_5"
+			}
+		}
+		demons_ebonlegion_path_7 = {
+			land_morale_modifier = 0.1
+			
+			ai_plan = {
+				after = "military_tradition demons_ebonlegion_path_6"
+			}
+		}
+	
+		bonus = {
+			thralls_morale = 0.1
+		}
+	}
+	
+	demons_alabasterlegion_path = {
+		demons_alabasterlegion_path_1 = {
+			thralls_cost = -0.15
+		}
+		demons_alabasterlegion_path_2 = {
+			archers_offensive = 0.15
+			
+			ai_plan = {
+				after = "military_tradition demons_alabasterlegion_path_1"
+			}
+		}
+		demons_alabasterlegion_path_3 = {
+			heavy_cavalry_discipline = 0.1
+			
+			ai_plan = {
+				after = "military_tradition demons_alabasterlegion_path_2"
+			}
+		}
+		demons_alabasterlegion_path_4 = {
+			enable_ability = road_building
+			
+			ai_plan = {
+				after = "military_tradition demons_alabasterlegion_path_3"
+			}
+		}
+		demons_alabasterlegion_path_5 = {
+			happiness_for_wrong_culture_modifier = 0.1
+			
+			ai_plan = {
+				after = "military_tradition demons_alabasterlegion_path_4"
+			}
+		}
+		demons_alabasterlegion_path_6 = {
+			global_manpower_modifier = 0.1
+			
+			ai_plan = {
+				after = "military_tradition demons_alabasterlegion_path_5"
+			}
+		}
+		demons_alabasterlegion_path_7 = {
+			monthly_general_loyalty = 0.03
+			
+			ai_plan = {
+				after = "military_tradition demons_alabasterlegion_path_6"
+			}
+		}
+	
+		bonus = {
+			build_cost = -0.15
+		}
+	}
+}

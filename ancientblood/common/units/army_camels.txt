@@ -1,0 +1,24 @@
+﻿camels = {
+	army = yes
+
+	is_flank = yes
+	
+	maneuver = 4
+	movement_speed = 3
+	build_cost = 10
+	build_time = 40
+	
+	light_infantry = 1.1
+	heavy_infantry = 0.9
+	heavy_cavalry = 0.8
+	light_cavalry = 1.0
+	chariots = 1.1
+	warelephant = 0.5
+	horse_archers = 1.1
+	archers = 1.1
+	camels = 1.0
+	vampires = 0.7
+	werewolves = 0.6
+	mages = 1.0
+	thralls = 1.1	
+}

@@ -1,0 +1,30 @@
+﻿mages = {
+	army = yes
+
+	assault = yes
+	
+	maneuver = 1
+	movement_speed = 2
+	build_cost = 30
+	build_time = 40
+
+	light_infantry = 2.0
+	heavy_infantry = 1.5
+	heavy_cavalry = 1.2
+	warelephant = 1.5
+	horse_archers = 1.2
+	archers = 1.2
+	chariots = 1.2
+	light_cavalry = 1.5
+	camels = 1.5
+	vampires = 1.5
+	werewolves = 1.5
+	thralls = 1.3
+	
+	setup_fraction = 0.1
+	strength_damage_taken = 0.5	
+	
+	attrition_weight = 1.0
+	
+	morale_damage_taken = 0.9
+}

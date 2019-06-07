@@ -1,0 +1,27 @@
+﻿thralls = {
+	army = yes
+
+	assault = yes
+	
+	maneuver = 1
+	movement_speed = 2
+	build_cost = 2
+	build_time = 20
+
+	light_infantry = 1.0
+	heavy_infantry = 0.8
+	heavy_cavalry = 0.75
+	warelephant = 0.75
+	horse_archers = 0.5
+	archers = 1.0
+	chariots = 1.0
+	light_cavalry = 1.0
+	camels = 1.0
+	vampires = 0.5
+	werewolves = 0.9
+	mages = 0.7
+	
+	attrition_weight = 0.25
+	
+	morale_damage_taken = 0.5
+}

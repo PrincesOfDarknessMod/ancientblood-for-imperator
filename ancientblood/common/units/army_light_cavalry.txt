@@ -1,0 +1,26 @@
+﻿light_cavalry = {
+	army = yes
+
+	is_flank = yes
+	
+	maneuver = 3
+	movement_speed = 4
+	build_cost = 6
+	build_time = 45
+	
+	light_infantry = 1.25
+	heavy_infantry = 0.5
+	heavy_cavalry = 0.8
+	warelephant = 0.5
+	chariots = 1.25
+	light_cavalry = 1.0
+	horse_archers = 1.25
+	archers = 1.25
+	camels = 1.0
+	vampires = 0.7
+	werewolves = 0.6
+	mages = 1.0
+	thralls = 1.1
+	
+	ai_max_percentage = 15
+}

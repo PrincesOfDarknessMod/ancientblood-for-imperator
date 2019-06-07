@@ -1,0 +1,25 @@
+﻿horse_archers = {
+	army = yes
+	is_flank = yes
+	
+	
+	maneuver = 5
+	movement_speed = 4
+	build_cost = 10
+	build_time = 60
+
+	light_infantry = 1.25
+	heavy_infantry = 1.25
+	heavy_cavalry = 0.9
+	warelephant = 0.8
+	horse_archers = 1.0
+	chariots = 1.25
+	archers = 1.25
+	light_cavalry = 0.9
+	camels = 0.9
+	vampires = 1.2
+	werewolves = 1.2
+	mages = 0.7
+	thralls = 0.7	
+}
+

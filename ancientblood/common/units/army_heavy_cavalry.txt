@@ -1,0 +1,25 @@
+﻿heavy_cavalry = {
+	army = yes
+
+	
+	maneuver = 2
+	movement_speed = 3
+	build_cost = 15
+	build_time = 60
+	
+	light_infantry = 1.25
+	heavy_infantry = 0.9
+	heavy_cavalry = 1.0
+	light_cavalry = 1.1
+	camels = 1.1
+	chariots = 1.25
+	warelephant = 0.5
+	horse_archers = 1.0
+	archers = 1.5
+	vampires = 1.0
+	werewolves = 1.1
+	mages = 1.3
+	thralls = 1.5	
+	
+	attrition_weight = 2
+}

@@ -1,0 +1,30 @@
+﻿vampires = {
+	army = yes
+
+	assault = yes
+	
+	maneuver = 1
+	movement_speed = 2
+	build_cost = 20
+	build_time = 85
+
+	light_infantry = 2.0
+	heavy_infantry = 1.2
+	heavy_cavalry = 1.0
+	warelephant = 0.8
+	horse_archers = 0.6
+	archers = 1.0
+	chariots = 1.5
+	light_cavalry = 1.2
+	camels = 1.2
+	werewolves = 0.9
+	thralls = 1.5
+	mages = 1.0
+	
+	setup_fraction = 0.2
+	strength_damage_taken = 0.5
+	
+	attrition_weight = 1.0
+	
+	morale_damage_taken = 0.7
+}

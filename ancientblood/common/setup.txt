@@ -10926,10 +10926,11 @@ country = {
 			
 		}
 		
+		#Stannum, Bane of Iron
 		MRS = {
 			government = tribal_kingdom
-			primary_culture = roman
-			religion = roman_pantheon
+			primary_culture = silverlegionculture
+			religion = infernalreligion
 			centralization = 40
 			capital = 30
 		
@@ -11103,12 +11104,12 @@ country = {
 			}
 			
 		}
-		
+		#Keepers of the Sacred Flame
 		SNI = {
 			government = tribal_kingdom
-			primary_culture = lepontic
-			religion = druidism
-			centralization=50
+			primary_culture = dreamspeakerculture
+			religion = magickreligion
+			centralization=40
 			diplomatic_stance=trading_stance
 			capital = 121
 		

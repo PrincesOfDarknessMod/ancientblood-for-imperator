@@ -1,0 +1,30 @@
+﻿werewolves = {
+	army = yes
+
+	assault = yes
+	
+	maneuver = 1
+	movement_speed = 2
+	build_cost = 15
+	build_time = 80
+
+	light_infantry = 2.0
+	heavy_infantry = 1.5
+	heavy_cavalry = 1.2
+	warelephant = 1.2
+	horse_archers = 1.0
+	archers = 1.2
+	chariots = 1.5
+	light_cavalry = 1.2
+	camels = 1.2
+	vampires = 1.5
+	thralls = 0.7
+	mages = 0.7
+	
+	setup_fraction = 0.3
+	strength_damage_taken = 0.5	
+	
+	attrition_weight = 1.0
+	
+	morale_damage_taken = 0.8
+}
