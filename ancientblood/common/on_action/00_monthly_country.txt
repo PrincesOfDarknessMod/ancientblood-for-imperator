@@ -1,0 +1,29 @@
+﻿monthly_country_pulse = {
+
+	events = {
+		rel_flavor_druidic.10
+		dhe_rome.9
+		dhe_judea.2
+		dhe_judea.3
+		dhe_judea.4
+		dhe_judea.5
+		dhe_judea.7
+		AB_control_events.1
+		AB_control_events.2
+		AB_control_events.3
+		AB_control_events.4
+	}
+	
+	random_events = {
+		595 = 0
+		5 = comet.4
+	}
+	
+	on_actions = {
+		dictatorship_power_held_pulse
+		consul_conspiracy_pulse
+		delay = { days = { 1 15 } }
+		dictator_rise_pulse
+		delay = { days = { 1 15 } }		
+	}
+}

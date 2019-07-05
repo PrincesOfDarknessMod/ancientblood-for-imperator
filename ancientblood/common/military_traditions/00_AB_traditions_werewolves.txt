@@ -24,45 +24,33 @@
 		werewolves_silverfang_path_2 = {
 			light_infantry_defensive = 0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_silverfang_path_1"
-			}
+
 		}
 		werewolves_silverfang_path_3 = {
 			heavy_infantry_cost = -0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_silverfang_path_2"
-			}
+
 		}
 		werewolves_silverfang_path_4 = {
 			manpower_recovery_speed = 0.05
 			
-			ai_plan = {
-				after = "military_tradition werewolves_silverfang_path_3"
-			}
+
 		}
 		werewolves_silverfang_path_5 = {
 			werewolves_discipline = 0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_silverfang_path_4"
-			}
+
 		}
 		werewolves_silverfang_path_6 = {
 			tribute_income_modifier = 0.1
 			subject_loyalty = 10
 			
-			ai_plan = {
-				after = "military_tradition werewolves_silverfang_path_5"
-			}
+
 		}
 		werewolves_silverfang_path_7 = {
 			global_defensive = 0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_silverfang_path_6"
-			}
+
 		}
 	
 		bonus = {
@@ -78,46 +66,33 @@
 		werewolves_blackfury_path_2 = {
 			land_unit_attrition = -0.15 
 			
-			ai_plan = {
-				after = "military_tradition werewolves_blackfury_path_1"
-			}
+
 		}
 		werewolves_blackfury_path_3 = {
 			land_morale_modifier = 0.05
 			ruler_popularity_gain = 0.05
 			
-			ai_plan = {
-				after = "military_tradition werewolves_blackfury_path_2"
-			}
 		}
 		werewolves_blackfury_path_4 = {
 			light_cavalry_offensive = 0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_blackfury_path_3"
-			}
+
 		}
 		werewolves_blackfury_path_5 = {
 			horse_archers_cost = -0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_blackfury_path_4"
-			}
+
 		}
 		werewolves_blackfury_path_6 = {
 			global_cohort_recruit_speed = 0.25
 			happiness_for_wrong_culture_modifier = 0.1
 			
-			ai_plan = {
-				after = "military_tradition werewolves_blackfury_path_5"
-			}
+
 		}
 		werewolves_blackfury_path_7 = {
 			werewolves_cost = -0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_blackfury_path_6"
-			}
+
 		}
 	
 		bonus = {
@@ -133,46 +108,33 @@
 		werewolves_getoffenris_path_2 = {
 			light_infantry_morale = 0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_getoffenris_path_1"
-			}
+
 		}
 		werewolves_getoffenris_path_3 = {
 			light_infantry_forest_combat_bonus = 0.15
 			werewolves_forest_combat_bonus = 0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_getoffenris_path_2"
-			}
+
 		}
 		werewolves_getoffenris_path_4 = {
 			global_cohort_recruit_speed = 0.25
 			war_exhaustion = -0.02
 			
-			ai_plan = {
-				after = "military_tradition werewolves_getoffenris_path_3"
-			}
+
 		}
 		werewolves_getoffenris_path_5 = {
 			monthly_general_loyalty = 0.03
 			
-			ai_plan = {
-				after = "military_tradition werewolves_getoffenris_path_4"
-			}
+
 		}
 		werewolves_getoffenris_path_6 = {
 			light_infantry_cost = -0.15
 			
-			ai_plan = {
-				after = "military_tradition werewolves_getoffenris_path_5"
-			}
+
 		}
 		werewolves_getoffenris_path_7 = {
 			werewolves_offensive = 0.15
-			
-			ai_plan = {
-				after = "military_tradition werewolves_getoffenris_path_6"
-			}
+
 		}
 	
 		bonus = {

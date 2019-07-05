@@ -1,6 +1,29 @@
 ﻿
 on_game_initialized = {
-	events = {
+	effect = {
+		if = {
+			limit = { tag = PRY }
+				
+			random_navy = {
+				add_subunit = mega_galley
+				add_subunit = mega_galley
+				add_subunit = mega_galley
+				add_subunit = octere
+				add_subunit = octere
+				add_subunit = octere
+				add_subunit = octere
+				add_subunit = octere
+			}
+		}
+		if = {
+			limit = { tag = SYR }
+			random_navy = {
+				add_subunit = octere
+				add_subunit = octere
+			}
+		}
+			}
+	events = {		
 		AB_startup_events.1
 		AB_startup_events.2
 		AB_startup_events.3

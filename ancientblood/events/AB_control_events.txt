@@ -1,0 +1,552 @@
+﻿namespace = AB_control_events
+
+# Assigning the correct control country modifier
+
+AB_control_events.1 = { # called from monthly country on action
+	type = country_event
+	title = "AB_control_events.1.t"
+	desc = "AB_control_events.1.desc"
+	picture = throneroom
+	left_portrait = current_ruler
+	
+	trigger = { 
+	NOT = { has_country_modifier = total_control_modifier }
+		current_ruler = {
+			popularity > 75
+						}
+		}
+	
+	option = {
+		name = "AB_control_events.1.a"
+		
+		add_country_modifier = {
+				name = "total_control_modifier"
+				duration = -1
+			}
+		if = { 
+			limit = {
+			has_country_modifier = standard_control_modifier }
+		remove_country_modifier = standard_control_modifier }	
+		
+		if = { 
+			limit = {
+			has_country_modifier = shaky_control_modifier }
+		remove_country_modifier = shaky_control_modifier }
+
+		if = { 
+			limit = {
+			has_country_modifier = collapse_control_modifier }
+		remove_country_modifier = collapse_control_modifier }		
+		}
+}
+
+AB_control_events.2 = { # called from monthly country on action
+	type = country_event
+	title = "AB_control_events.2.t"
+	desc = "AB_control_events.2.desc"
+	picture = senator_conversing
+	left_portrait = current_ruler
+	
+	trigger = { 
+	NOT = { has_country_modifier = standard_control_modifier }
+		current_ruler = {
+			popularity > 50
+			popularity < 75	
+						}
+		}
+	
+	option = {
+		name = "AB_control_events.2.a"
+		
+		add_country_modifier = {
+				name = "standard_control_modifier"
+				duration = -1
+			}
+		if = { 
+			limit = {
+			has_country_modifier = total_control_modifier }
+		remove_country_modifier = total_control_modifier }	
+		
+		if = { 
+			limit = {
+			has_country_modifier = shaky_control_modifier }
+		remove_country_modifier = shaky_control_modifier }
+
+		if = { 
+			limit = {
+			has_country_modifier = collapse_control_modifier }
+		remove_country_modifier = collapse_control_modifier }		
+		}
+}
+
+AB_control_events.3 = { # called from monthly country on action
+	type = country_event
+	title = "AB_control_events.3.t"
+	desc = "AB_control_events.3.desc"
+	picture = dagger_behind_back
+	left_portrait = current_ruler
+	
+	trigger = { 
+	NOT = { has_country_modifier = shaky_control_modifier }
+		current_ruler = {
+			popularity > 25
+			popularity < 50	
+						}
+		}
+	
+	option = {
+		name = "AB_control_events.3.a"
+		
+		add_country_modifier = {
+				name = "shaky_control_modifier"
+				duration = -1
+			}
+		if = { 
+			limit = {
+			has_country_modifier = total_control_modifier }
+		remove_country_modifier = total_control_modifier }	
+		
+		if = { 
+			limit = {
+			has_country_modifier = standard_control_modifier }
+		remove_country_modifier = standard_control_modifier }
+
+		if = { 
+			limit = {
+			has_country_modifier = collapse_control_modifier }
+		remove_country_modifier = collapse_control_modifier }		
+		}
+}
+
+AB_control_events.4 = { # called from monthly country on action
+	type = country_event
+	title = "AB_control_events.4.t"
+	desc = "AB_control_events.4.desc"
+	picture = revolt
+	left_portrait = current_ruler
+	
+	trigger = { 
+	NOT = { has_country_modifier = collapse_control_modifier }
+		current_ruler = {
+			popularity < 25
+						}
+		}
+	
+	option = {
+		name = "AB_control_events.4.a"
+		
+		add_country_modifier = {
+				name = "collapse_control_modifier"
+				duration = -1
+			}
+		if = { 
+			limit = {
+			has_country_modifier = total_control_modifier }
+		remove_country_modifier = total_control_modifier }	
+		
+		if = { 
+			limit = {
+			has_country_modifier = standard_control_modifier }
+		remove_country_modifier = standard_control_modifier }
+
+		if = { 
+			limit = {
+			has_country_modifier = shaky_control_modifier }
+		remove_country_modifier = shaky_control_modifier }		
+		}
+}
+
+
+AB_control_events.5 = { # called from main event pulse
+	type = country_event
+	title = "AB_control_events.5.t"
+	desc = "AB_control_events.5.desc"
+	picture = dagger_behind_back
+	left_portrait = current_ruler
+	right_portrait = scope:rival_target
+	
+	trigger = {
+		current_ruler = {
+		num_of_rivals >= 1 
+		}		
+	}
+				
+	immediate = {
+	current_ruler = {
+		random_rival = {
+			limit = {
+				employer = root
+				is_alive = yes
+				prisoner = no
+				NOR = {
+					has_trait = archduke
+					has_trait = duke
+					has_trait = archmage
+					has_trait = master
+					has_trait = antediluvian
+					has_trait = methuselah	
+					}
+					}
+					save_scope_as = rival_target	
+					}
+				}
+			}	
+	option = {
+		name = "AB_control_events.5.a"
+		scope:rival_target = {
+			death = { death_reason = death_assassinated  } 
+			}
+		root.current_ruler = {	
+		add_popularity = -10	
+			}
+		add_treasury = -100	
+		ai_chance = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_modifier = shaky_control_modifier
+					has_country_modifier = collapse_control_modifier
+					}
+			}
+		}		
+	}
+		
+	option = {
+		name = "AB_control_events.5.b"
+		scope:rival_target = {
+			add_popularity = -20
+			}
+		root.current_ruler = {	
+		add_popularity = 10	
+			}
+		ai_chance = { factor = 70 }			
+		}		
+}	
+
+AB_control_events.6 = { # called from main event pulse
+	type = country_event
+	title = "AB_control_events.6.t"
+	desc = "AB_control_events.6.desc"
+	picture = successors
+	left_portrait = current_ruler
+	right_portrait = scope:rival_time
+	
+	trigger = {
+		current_ruler = {
+			can_get_rivals = yes
+		}
+
+		any_character = {
+			char_can_be_rival_trigger = yes
+			}
+
+	}
+				
+	immediate = {
+
+			random_character = {
+				limit = {
+					char_can_be_rival_trigger = yes
+					prisoner = no
+				}
+				weight = {
+					modifier = {
+						factor = 2
+						NOT = {
+						has_same_culture_group_as = root.current_ruler
+						}
+					}
+					modifier = {
+						factor = 2
+						NOT = {
+						has_religion = root.current_ruler.religion
+						}
+					}
+					title_importance_modifier = yes			
+				}
+				save_scope_as = rival_time
+			}
+		
+	}
+	option = {
+		name = "AB_control_events.6.a"
+
+		scope:rival_time = {
+			add_loyalty  = subtract_loyalty_large
+			if = {
+				limit = {
+					can_get_rivals = yes
+					NOR = {
+						is_rival = root.current_ruler
+						is_friend = root.current_ruler
+					}
+				}
+				add_rival = root.current_ruler
+			}
+		}
+		
+	root.current_ruler = {	
+		add_popularity = 10	
+			}
+		add_treasury = 100		
+	}
+		
+	option = {
+		name = "AB_control_events.6.b"
+		scope:rival_time = {
+			add_popularity = 20
+			add_prominence = 30
+			add_gold = 200
+			}
+		root.current_ruler = {	
+		add_popularity = -20	
+			}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_modifier = shaky_control_modifier
+					has_country_modifier = collapse_control_modifier
+					}
+			}
+		}		
+		}		
+}	
+
+
+AB_control_events.7 = { # called from main event pulse
+	type = country_event
+	title = "AB_control_events.7.t"
+	desc = "AB_control_events.7.desc"
+	picture = hellenic_marketplace
+	left_portrait = current_ruler
+	right_portrait = scope:rival_time2
+	
+	trigger = {
+		current_ruler = {
+			can_get_rivals = yes
+		}
+
+		any_character = {
+			char_can_be_rival_trigger = yes
+			}
+
+	}
+				
+	immediate = {
+
+			random_character = {
+				limit = {
+					char_can_be_rival_trigger = yes
+					prisoner = no
+				}
+				weight = {
+					modifier = {
+						factor = 2
+						NOT = {
+						has_same_culture_group_as = root.current_ruler
+						}
+					}
+					modifier = {
+						factor = 2
+						NOT = {
+						has_religion = root.current_ruler.religion
+						}
+					}
+					title_importance_modifier = yes			
+				}
+				save_scope_as = rival_time2
+			}
+		
+	}
+	option = {
+		name = "AB_control_events.7.a"
+
+		scope:rival_time2 = {
+			add_loyalty  = subtract_loyalty_large
+			if = {
+				limit = {
+					can_get_rivals = yes
+					NOR = {
+						is_rival = root.current_ruler
+						is_friend = root.current_ruler
+					}
+				}
+				add_rival = root.current_ruler
+			}
+		}
+		
+		add_stability = 1	
+	}
+		
+	option = {
+		name = "AB_control_events.7.b"
+		scope:rival_time2 = {
+			add_popularity = -20
+			add_prominence = -30
+			add_gold = -100
+			}
+		root.current_ruler = {	
+		add_popularity = 20	
+			}
+		add_stability = -1	
+		ai_chance = {
+			modifier = {
+				factor = 100
+				OR = {
+					has_country_modifier = shaky_control_modifier
+					has_country_modifier = collapse_control_modifier
+					}
+			}
+		}		
+		}		
+}	
+
+
+AB_control_events.8 = { # called from main event pulse
+	type = country_event
+	title = "AB_control_events.8.t"
+	desc = "AB_control_events.8.desc"
+	picture = senator_conversing
+	left_portrait = current_ruler
+	right_portrait = scope:rival_time3
+	
+	trigger = {
+		current_ruler = {
+			can_get_rivals = yes
+		}
+
+		any_character = {
+			char_can_be_rival_trigger = yes
+			}
+
+	}
+				
+	immediate = {
+
+			random_character = {
+				limit = {
+					char_can_be_rival_trigger = yes
+					prisoner = no
+				}
+				weight = {
+					modifier = {
+						factor = 2
+						NOT = {
+						has_same_culture_group_as = root.current_ruler
+						}
+					}
+					modifier = {
+						factor = 2
+						NOT = {
+						has_religion = root.current_ruler.religion
+						}
+					}
+					title_importance_modifier = yes			
+				}
+				save_scope_as = rival_time3
+			}
+		
+	}
+	option = {
+		name = "AB_control_events.8.a"
+
+		scope:rival_time3 = {
+			add_loyalty  = subtract_loyalty_large
+			if = {
+				limit = {
+					can_get_rivals = yes
+					NOR = {
+						is_rival = root.current_ruler
+						is_friend = root.current_ruler
+					}
+				}
+				add_rival = root.current_ruler
+			}
+		}
+		
+		root.current_ruler = {	
+		add_popularity = 20	
+			}
+	}
+		
+	option = {
+		name = "AB_control_events.8.b"
+		scope:rival_time3 = {
+			add_popularity = 20
+			add_prominence = 30
+			add_gold = 100
+			}
+		root.current_ruler = {	
+		add_corruption = 10	
+		add_gold = 200
+			}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_modifier = shaky_control_modifier
+					has_country_modifier = collapse_control_modifier
+					}
+			}
+		}		
+		}		
+}	
+
+AB_control_events.9 = { # called from main event pulse
+	type = country_event
+	title = "AB_control_events.9.t"
+	desc = "AB_control_events.9.desc"
+	picture = dagger_behind_back
+	left_portrait = current_ruler
+	right_portrait = scope:rival_target2
+	
+	trigger = {
+		current_ruler = {
+		num_of_rivals >= 1 
+		}		
+	}
+				
+	immediate = {
+	current_ruler = {
+		random_rival = {
+			limit = {
+				employer = root
+				is_alive = yes
+				prisoner = no
+					}
+					save_scope_as = rival_target2	
+					}
+				}
+			}	
+	option = {
+		name = "AB_control_events.9.a"
+		
+		root.current_ruler = {	
+		add_popularity = -20	
+		add_prominence = -20
+		remove_rival = scope:rival_target2
+			}
+		ai_chance = {
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_modifier = shaky_control_modifier
+					has_country_modifier = collapse_control_modifier
+					}
+			}
+		}		
+	}
+		
+	option = {
+		name = "AB_control_events.9.b"
+		scope:rival_target2 = {
+			add_popularity = 20
+			add_prominence = 30
+			}
+		root.current_ruler = {	
+		add_popularity = 10	
+			}
+		ai_chance = { factor = 70 }			
+		}		
+}	

@@ -1,0 +1,9 @@
+﻿l_english:
+ total_control_modifier:0 "Total Control"
+ desc_total_control_modifier:0 "The ruler enjoys a very good popularity, ensuring that all works with the sake of the state in mind... openly atleast. There is a high risk of a Power Struggle by backstabbing rivals."
+ standard_control_modifier:0 "Good Control"
+ desc_standard_control_modifier:0 "Although not perfect, the ruler's popularity is good enough to ensure that everything is operating normally. There is a moderate risk of a Power Struggle by scheming rivals."
+ shaky_control_modifier:0 "Shaky Control"
+ desc_shaky_control_modifier:0 "The popularity of the ruler is rapidly crumbling. If steps are not taken quickly enough, the country will devolve into a mess of competing interests. There is a low risk of a Power Struggle, since rivals are quite open in their antagonism."
+ collapse_control_modifier:0 "Control Collapse"
+ desc_collapse_control_modifier:0 "With no popularity at all, the ruler doesn't rule anything anymore. The country is a mess of competing interests approaching civil war. Decivise action must be taken. There is no risk of a Power Struggle, since rivals are too busy planning the state's downfall."

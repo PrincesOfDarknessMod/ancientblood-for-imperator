@@ -1,0 +1,49 @@
+﻿##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+total_control_modifier = {
+	land_morale_modifier = 0.1
+	diplomatic_reputation = 2
+	monthly_corruption = -0.02	
+}
+
+standard_control_modifier = {
+	diplomatic_reputation = 1
+}
+
+
+shaky_control_modifier = {
+	build_cost = 0.25
+	build_time = 0.25
+	recruit_mercenary_cost_modifier = 0.1
+	mercenary_land_maintenance_cost = 0.1	
+	land_morale_modifier = -0.1
+	diplomatic_reputation = -2
+	subject_loyalty = -20	
+	manpower_recovery_speed = -0.1
+}
+
+
+collapse_control_modifier = {
+	build_cost = 0.25
+	build_time = 0.25
+	recruit_mercenary_cost_modifier = 0.2
+	mercenary_land_maintenance_cost = 0.3	
+	land_morale_modifier = -0.3
+	diplomatic_reputation = -2
+	happiness_for_wrong_culture_group_modifier = -0.1	
+	global_monthly_state_loyalty = -0.15
+	subject_loyalty = -30	
+	manpower_recovery_speed = -0.1
+	army_maintenance_cost = 0.05
+	monthly_corruption = 0.01
+}
+
+
+
+
+
+
+
+

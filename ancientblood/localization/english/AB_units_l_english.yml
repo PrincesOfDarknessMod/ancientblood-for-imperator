@@ -12,6 +12,10 @@
  werewolves_noculturegroup:0 "Werewolf Pack"
  thralls_noculturegroup:0 "Demonic Thralls"
  mages_noculturegroup:1 "Mage Cabal"
+ NAVY_NAME_vampireculture:0 "$NUM$$ORDER$ Undead Pirates"
+ NAVY_NAME_mageculture:0 "$NUM$$ORDER$ Nautikon"
+ NAVY_NAME_werewolfculture:0 "$NUM$$ORDER$ Sea Wolves"
+ NAVY_NAME_demonculture:0 "$NUM$$ORDER$ Sirens"
  
  vampires_cost:0 "Vampire Neonates Cost"
  vampires_morale:0 "Vampire Neonates Morale"
