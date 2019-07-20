@@ -1,0 +1,56 @@
+﻿omen_mad_to_the_last = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_war
+	land_morale_modifier = 0.1
+}
+omen_demonic_cults = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_eloquence
+	convert_pop_cost_modifier = -0.05
+}
+omen_take_back_creation = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_vigor
+	war_no_cb_cost_modifier = -0.25
+}
+omen_using_the_mortals = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_wealth
+	global_slaves_output = 0.2
+}
+omen_enthralled_slaves = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_commerce
+	global_slaves_happyness = 0.2
+}
+omen_more_mortals = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_love
+	global_population_growth = 0.2
+}
+omen_the_leash = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_commerce
+	global_unrest = -2
+}
+omen_masters_of_warfare = {
+	trigger = {
+		religion = infernalreligion
+	}
+	icon = omen_war
+	discipline = 0.05
+}

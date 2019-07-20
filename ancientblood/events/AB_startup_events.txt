@@ -157,32 +157,32 @@ AB_startup_events.2 = {
 
 #The Great Culling
 
-AB_startup_events.3 = { 
-	type = country_event
-	hidden = yes
-	picture = elephant_battle
-	
-	trigger = {
-		tag = ETR
-	}
-	
-	immediate = {
-		
-			every_character = {
-				limit = {
-				NOR = { 
-					has_trait = vampire
-					has_trait = demon
-					has_trait = mage
-					has_trait = werewolf
-					has_trait = mortal
-					}
-				}
-				death = {
-						death_reason = death_hunting_accident
-					}
-			}
-		
-		}
-	
-}
+#AB_startup_events.3 = { 
+#	type = country_event
+#	hidden = yes
+#	picture = elephant_battle
+#	
+#	trigger = {
+#		tag = ETR
+#	}
+#	
+#	immediate = {
+#		
+#			every_character = {
+#				limit = {
+#				NOR = { 
+#					has_trait = vampire
+#					has_trait = demon
+#					has_trait = mage
+#					has_trait = werewolf
+#					has_trait = mortal
+#					}
+#				}
+#				death = {
+#						death_reason = death_hunting_accident
+#					}
+#			}
+#		
+#		}
+#	
+#}

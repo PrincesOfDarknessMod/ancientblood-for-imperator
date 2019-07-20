@@ -1,0 +1,56 @@
+﻿omen_praise = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_wealth
+	ruler_popularity_gain = 0.1
+}
+omen_atop_the_pyramids = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_vigor
+	global_slaves_output = 0.2
+}
+omen_guidance_of_set = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_peace
+	happiness_for_same_religion_modifier = 0.1
+}
+omen_priests = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_eloquence
+	monthly_governor_loyalty = 0.05
+}
+omen_egypt = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_peace
+	happiness_for_same_culture_modifier = 0.1
+}
+omen_true_religion = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_wisdom
+	religious_tech_investment = 0.15
+}
+omen_lure_of_the_serpent = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_eloquence
+	convert_pop_cost_modifier = -0.05
+}
+omen_unlimited_fodder = {
+	trigger = {
+		religion = setitereligion
+	}
+	icon = omen_love
+	manpower_recovery_speed = 0.2
+}

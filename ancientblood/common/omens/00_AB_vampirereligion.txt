@@ -1,0 +1,56 @@
+﻿omen_mercy = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_peace
+	monthly_tyranny = -0.05
+}
+omen_under_the_gaze = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_love
+	global_population_growth = 0.2
+}
+omen_mass_embrace = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_vigor
+	manpower_recovery_speed = 0.2
+}
+omen_indoctrination = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_vigor
+	land_morale_modifier = 0.1
+}
+omen_honeyed_words = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_eloquence
+	agressive_expansion_monthly_decay = 0.005
+}
+omen_city_by_night = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_wisdom
+	global_monthly_civilization = 0.1
+}
+omen_ghouls = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_wealth
+	global_slaves_output = 0.2
+}
+omen_blood_tax = {
+	trigger = {
+		religion = vampirereligion
+	}
+	icon = omen_love
+	global_tax_modifier = 0.2
+}

@@ -1,0 +1,56 @@
+﻿omen_esoteric_mysteries = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_wisdom
+	religious_tech_investment = 0.15
+}
+omen_enlightened_people = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_love
+	global_citizen_output = 0.2
+}
+omen_legacy_of_diversity = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_commerce
+	global_unrest = -2
+}
+omen_endless_curiosity = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_wealth
+	happiness_for_wrong_culture_group_modifier = 0.1
+}
+omen_seekers_of_truth = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_commerce
+	global_citizen_happyness = 0.2
+}
+omen_bookworms = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_wisdom
+	research_points_modifier = 0.1
+}
+omen_lunatic_behavior = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_war
+	agressive_expansion_monthly_change = -0.05
+}
+omen_great_patrons = {
+	trigger = {
+		religion = magickreligion
+	}
+	icon = omen_wealth
+	global_commerce_modifier = 0.2
+}

@@ -1,0 +1,56 @@
+﻿omen_fanatic_devotion = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_vigor
+	monthly_general_loyalty = 0.05
+}
+omen_accepted_tyranny = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_eloquence
+	monthly_tyranny = -0.05
+}
+omen_corrupted_land = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_wealth
+	hostile_attrition = 0.1
+}
+omen_the_black_spiral = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_eloquence
+	convert_pop_cost_modifier = -0.05
+}
+omen_endless_horde = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_war
+	manpower_recovery_speed = 0.2
+}
+omen_one_nefarious_purpose = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_wisdom
+	happiness_for_same_religion_modifier = 0.1
+}
+omen_never_tired = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_vigor
+	war_exhaustion = -0.05
+}
+omen_monstruous_resolve = {
+	trigger = {
+		religion = wyrmreligion
+	}
+	icon = omen_war
+	land_morale_modifier = 0.1
+}

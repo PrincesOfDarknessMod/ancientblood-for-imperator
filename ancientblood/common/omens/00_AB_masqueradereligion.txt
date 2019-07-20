@@ -1,0 +1,56 @@
+﻿omen_equality = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_eloquence
+	monthly_governor_loyalty = 0.05
+}
+omen_the_clans = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_vigor
+	happiness_for_same_culture_modifier = 0.1
+}
+omen_one_purpose = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_wisdom
+	global_citizen_output = 0.2
+}
+omen_best_of_us = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_peace
+	monthly_general_loyalty = 0.05
+}
+omen_no_respite = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_vigor
+	war_exhaustion = -0.05
+}
+omen_leader = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_eloquence
+	ruler_popularity_gain = 0.1
+}
+omen_justice = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_wisdom
+	monthly_tyranny = -0.05
+}
+omen_fair_rule = {
+	trigger = {
+		religion = masqueradereligion
+	}
+	icon = omen_eloquence
+	convert_pop_cost_modifier = -0.05
+}

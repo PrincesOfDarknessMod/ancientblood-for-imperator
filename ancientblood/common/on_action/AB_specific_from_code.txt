@@ -26,7 +26,8 @@ on_game_initialized = {
 	events = {		
 		AB_startup_events.1
 		AB_startup_events.2
-		AB_startup_events.3
+		#AB_startup_events.3
+		AB_Mortals_events.4
 	}
 }
 
@@ -43,7 +44,7 @@ yearly_medical_pulse =
 		4 = health.7 # getting better from depression
 		30 = death.2 # old age
 		1 = traits.18
-		#Surnatural ladder
+		#Supernatural ladder
 		10 = AB_aging_events.1
 		10 = AB_aging_events.2
 		10 = AB_aging_events.3

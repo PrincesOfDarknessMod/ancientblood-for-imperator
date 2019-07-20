@@ -1,0 +1,56 @@
+﻿omen_warriors_of_gaia = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_war
+	land_morale_modifier = 0.1
+}
+omen_pure_leaders = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_commerce
+	monthly_corruption = -0.1
+}
+omen_under_gaia = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_peace
+	happiness_for_same_religion_modifier = 0.1
+}
+omen_monsters_hunters = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_eloquence
+	war_no_cb_cost_modifier = -0.25
+}
+omen_protectors_caern = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_war
+	global_defensive = 0.2
+}
+omen_front_lead = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_vigor
+	monthly_general_loyalty = 0.05
+}
+omen_kinfolk_nation = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_commerce
+	global_tribesmen_output = 0.2
+}
+omen_the_tribes = {
+	trigger = {
+		religion = gaiareligion
+	}
+	icon = omen_peace
+	global_monthly_state_loyalty = 0.05
+}
