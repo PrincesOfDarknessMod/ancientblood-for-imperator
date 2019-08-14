@@ -505,7 +505,7 @@ NCharacter = {
 	TOO_DISLOYAL_THRESHOLD = 33
 	
 	MINIMUM_COURT_SIZE = 1
-	MINIMUM_COURT_SIZE_STATE_MULTIPLIER = 1
+	MINIMUM_COURT_SIZE_STATE_MULTIPLIER = 0.2
 	MINIMUM_JOB_ELIGIBLES = 1
 	COURT_SIZE_AGE_FILL = { 16 60 } #when filling the initial court, characters get created using this age range
 	COURT_SIZE_AGE_CHECK = { 14 60 } #characters in this age range is considered suitable for court

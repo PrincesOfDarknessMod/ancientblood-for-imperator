@@ -1,93 +1,93 @@
 #ProvID; Culture; Religion; TradeGoods; Citizens; Freedmen; Slaves; Tribesmen; Civilization; Barbarian; NameRef;AraRef
 1,ventrueculture,,cloth,0,0,0,0,15,4,Roma,Latium
-2,roman,roman_pantheon,wine,7,8,6,0,40,0,Tibur,Latium
-3,roman,roman_pantheon,salt,8,8,3,0,40,0,Lavinium,Latium
-4,roman,roman_pantheon,wood,8,8,5,0,40,0,Circeii,Latium
-5,roman,roman_pantheon,cloth,8,8,6,0,40,0,Fundi,Latium
-6,roman,roman_pantheon,wine,7,7,6,0,40,0,Capua,Campania
-7,samnite,roman_pantheon,wood,3,6,3,2,30,0,Neapolis,Campania
-8,samnite,roman_pantheon,cloth,3,4,3,1,30,0,Saticula,Campania
-9,samnite,roman_pantheon,wine,3,5,3,1,30,0,Pompeii,Campania
-10,samnite,roman_pantheon,olive,4,4,3,0,30,0,Irna,Lucania
-11,lucanian,roman_pantheon,wood,2,3,5,2,40,0,Paestum,Lucania
-12,lucanian,roman_pantheon,fish,1,3,4,3,40,0,Velia,Lucania
-13,lucanian,roman_pantheon,wood,3,4,3,2,40,0,Blanda,Lucania
-14,roman,vampirereligion,hemp,6,6,4,2,40,0,Pyrgi,Etruria
-15,roman,roman_pantheon,iron,5,6,3,1,40,0,Ostia,Latium
-16,roman,roman_pantheon,wine,6,10,4,1,40,0,Veii,Latium
+2,ventrueculture,masqueradereligion,wine,7,8,6,0,40,0,Tibur,Latium
+3,ventrueculture,masqueradereligion,salt,8,8,3,0,40,0,Lavinium,Latium
+4,silverlegionculture,masqueradereligion,wood,8,8,5,0,40,0,Circeii,Latium
+5,silverlegionculture,masqueradereligion,cloth,8,8,6,0,40,0,Fundi,Latium
+6,silverlegionculture,infernalreligion,wine,7,7,6,0,40,0,Capua,Campania
+7,silverlegionculture,infernalreligion,wood,4,6,3,2,30,0,Neapolis,Campania
+8,silverlegionculture,infernalreligion,cloth,3,4,3,1,30,0,Saticula,Campania
+9,nosferatuculture,vampirereligion,wine,3,5,3,1,30,0,Pompeii,Campania
+10,ventrueculture,vampirereligion,olive,4,4,3,0,30,0,Salerna,Lucania
+11,ventrueculture,vampirereligion,wood,2,3,5,2,40,0,Paestum,Lucania
+12,ventrueculture,vampirereligion,fish,1,3,4,3,40,0,Velia,Lucania
+13,ventrueculture,vampirereligion,wood,3,4,3,2,40,0,Blanda,Lucania
+14,ventrueculture,vampirereligion,hemp,6,6,4,2,40,0,Pyrgi,Etruria
+15,ventrueculture,vampirereligion,iron,7,6,3,1,40,0,Ostia,Latium
+16,ventrueculture,vampirereligion,wine,6,10,4,1,40,0,Veii,Latium
 17,ventrueculture,vampirereligion,iron,4,2,3,4,35,0,Tarquini,Etruria
-18,etruscan,roman_pantheon,olive,5,1,4,5,35,0,Nepete,Etruria
-19,roman,roman_pantheon,horses,5,6,2,1,40,0,Carsioli,Latium
-20,roman,roman_pantheon,iron,7,7,3,0,40,0,Cures,Latium
+18,ventrueculture,vampirereligion,olive,5,1,4,5,35,0,Nepete,Etruria
+19,ventrueculture,masqueradereligion,horses,5,6,2,1,40,0,Carsioli,Latium
+20,ventrueculture,vampirereligion,iron,7,7,3,0,40,0,Cures,Latium
 21,ventrueculture,infernalreligion,olive,5,2,3,1,35,0,Visentium,Etruria
 22,ventrueculture,vampirereligion,fish,5,1,3,2,35,0,Volci,Etruria
-23,samnite,roman_pantheon,fur,3,2,5,2,30,0,Nequinum,Etruria
-24,roman,roman_pantheon,horses,3,4,3,1,40,0,Peltuinum,Aternum
-25,roman,roman_pantheon,grain,5,5,4,2,40,0,Norba,Latium
-26,roman,roman_pantheon,olive,7,6,5,2,40,0,Fregellae,Latium
-27,roman,roman_pantheon,fur,4,4,2,0,40,0,Fucens,Aternum
-28,samnite,roman_pantheon,wine,3,2,5,1,30,0,Corfinium,Aternum
-29,samnite,roman_pantheon,salt,6,2,3,8,30,0,Histonium,Aternum
-30,roman,roman_pantheon,wood,5,4,2,1,40,0,Aufidena,Aternum
-31,roman,roman_pantheon,wood,7,7,5,0,40,0,Venafrum,Campania
-32,samnite,roman_pantheon,cattle,2,2,3,2,30,0,Bovianum,Campania
-33,samnite,roman_pantheon,wine,6,2,8,4,30,0,Corneliani,Campania
-34,samnite,roman_pantheon,fur,4,2,3,2,30,0,Iuvanum,Aternum
-35,samnite,roman_pantheon,olive,4,1,3,2,30,0,Buca,Aternum
-36,messapian,roman_pantheon,wine,2,2,3,3,40,0,Teanum Apulum,Apulia
-37,messapian,roman_pantheon,cattle,1,2,5,1,40,0,Luceria,Apulia
-38,messapian,roman_pantheon,wine,3,2,3,4,40,0,Sipious,Apulia
-39,messapian,roman_pantheon,hemp,4,2,5,1,40,0,Canusium,Apulia
-40,samnite,roman_pantheon,hemp,5,2,6,0,30,0,Nola,Campania
-41,samnite,roman_pantheon,fur,4,2,3,2,30,0,Beneventum,Campania
-42,messapian,roman_pantheon,wine,6,0,5,2,40,0,Venusia,Apulia
-43,samnite,roman_pantheon,olive,4,2,4,3,30,0,Compsa,Lucania
-44,messapian,roman_pantheon,vegetables,3,2,4,4,40,0,Tuticum,Apulia
-45,messapian,roman_pantheon,cattle,4,2,3,5,40,0,Ausculum,Apulia
-46,samnite,roman_pantheon,fur,5,2,3,2,30,0,Potentia,Lucania
-47,lucanian,roman_pantheon,wine,3,2,4,8,40,0,Volcei,Lucania
-48,samnite,roman_pantheon,cattle,4,1,3,2,30,0,Terventum,Aternum
-49,samnite,roman_pantheon,olive,4,1,3,2,30,0,Gerumum,Aternum
-50,messapian,roman_pantheon,earthware,3,1,3,3,40,0,Urium,Apulia
-51,bruttian,roman_pantheon,wine,2,2,3,2,40,0,Laus,Calabria
-52,syracusan,roman_pantheon,wine,8,3,4,5,40,0,Thourioi,Calabria
-53,lucanian,roman_pantheon,cattle,2,2,2,1,40,0,Grumentum,Lucania
-54,syracusan,roman_pantheon,grain,5,2,2,2,40,0,Herakleia,Lucania
-55,syracusan,roman_pantheon,vegetables,6,2,3,1,40,0,Metapontion,Tarentum
-56,syracusan,roman_pantheon,fish,7,2,2,2,40,0,Taras,Tarentum
-57,messapian,roman_pantheon,olive,3,2,2,4,40,0,Brundisium,Tarentum
-58,messapian,roman_pantheon,hemp,3,2,3,6,40,0,Barduli,Apulia
-59,lucanian,roman_pantheon,cloth,4,2,4,6,40,0,Consilinum,Lucania
-60,messapian,roman_pantheon,olive,4,2,5,6,40,0,Bantia,Apulia
-61,lucanian,roman_pantheon,hemp,4,2,3,3,40,0,Siris,Lucania
-62,messapian,roman_pantheon,salt,4,2,5,5,40,0,Menturia,Tarentum
-63,messapian,roman_pantheon,fish,4,2,6,6,40,0,Callipolis,Tarentum
-64,messapian,roman_pantheon,earthware,5,3,5,3,40,0,Hydruntum,Tarentum
-65,messapian,roman_pantheon,fish,3,2,5,4,40,0,Lupiae,Tarentum
-66,messapian,roman_pantheon,grain,4,3,5,6,40,0,Barium,Tarentum
-67,messapian,roman_pantheon,olive,4,2,3,5,40,0,Gnatia,Tarentum
-68,messapian,roman_pantheon,vegetables,3,3,5,4,40,0,Turum,Tarentum
-69,messapian,roman_pantheon,fish,4,1,5,4,40,0,Natiolum,Apulia
-70,messapian,roman_pantheon,grain,3,2,5,3,40,0,Silvium,Apulia
-71,lucanian,roman_pantheon,cattle,3,2,3,7,40,0,Stiglianum,Lucania
-72,syracusan,roman_pantheon,glass,8,2,3,4,40,0,Rhegion,Calabria
-73,syracusan,roman_pantheon,fish,7,3,4,4,40,0,Lokroi Epizephyrioi,Calabria
-74,bruttian,roman_pantheon,wood,2,2,3,5,40,0,Stylacium,Calabria
-75,syracusan,roman_pantheon,fish,6,2,4,2,40,0,Hipponion,Calabria
-76,bruttian,roman_pantheon,wood,4,2,3,2,40,0,Tempsa,Calabria
-77,bruttian,roman_pantheon,salt,4,1,3,3,40,0,Consentia,Calabria
-78,syracusan,roman_pantheon,earthware,7,2,6,1,40,0,Kroton,Calabria
-79,bruttian,roman_pantheon,cloth,3,2,2,7,40,0,Petelia,Calabria
-80,syracusan,roman_pantheon,stone,2,2,3,3,40,0,Messana,Siculia
-81,syracusan,roman_pantheon,glass,2,1,3,5,40,0,Tauromenion,Siculia
-82,syracusan,roman_pantheon,grain,1,3,13,0,40,0,Katane,Siculia
-83,syracusan,roman_pantheon,wine,2,4,3,2,40,0,Leontinoi,Siculia
-84,syracusan,roman_pantheon,fish,3,3,13,0,40,0,Syrakousai,Siculia
-85,syracusan,roman_pantheon,wood,5,3,2,0,40,0,Gelas,Siculia
-86,syracusan,roman_pantheon,stone,2,3,3,0,40,0,Akragas,Sicania
-87,siculian,roman_pantheon,cattle,1,5,4,3,40,0,Akrai,Siculia
-88,siculian,roman_pantheon,wood,2,5,3,4,40,0,Murgantia,Siculia
-89,siculian,roman_pantheon,grain,1,4,3,3,35,0,Enna,Sicania
+23,lasombraculture,vampirereligion,fur,3,2,5,2,30,0,Narnia,Etruria
+24,roman,masqueradereligion,horses,3,4,3,1,40,0,Peltuinum,Aternum
+25,silverlegionculture,masqueradereligion,grain,5,5,4,2,40,0,Norba,Latium
+26,silverlegionculture,masqueradereligion,olive,7,6,5,2,40,0,Fregellae,Latium
+27,roman,masqueradereligion,fur,4,4,2,0,40,0,Fucens,Aternum
+28,daedelanculture,rationalityreligion,wine,3,2,5,1,30,0,Corfinium,Aternum
+29,bonegnawerculture,gaiareligion,salt,6,2,3,8,30,0,Histonium,Aternum
+30,silverlegionculture,infernalreligion,wood,5,4,2,1,40,0,Aufidena,Aternum
+31,silverlegionculture,infernalreligion,wood,7,7,5,0,40,0,Venafrum,Campania
+32,ventrueculture,vampirereligion,cattle,2,2,3,2,30,0,Bovianum,Campania
+33,ventrueculture,vampirereligion,wine,6,2,8,4,30,0,Corneliani,Campania
+34,daedelanculture,rationalityreligion,fur,4,2,3,2,30,0,Iuvanum,Aternum
+35,bonegnawerculture,gaiareligion,olive,4,1,3,2,30,0,Buca,Aternum
+36,silverlegionculture,infernalreligion,wine,2,2,3,3,40,0,Teanum Apulum,Apulia
+37,silverlegionculture,infernalreligion,cattle,3,4,5,1,40,0,Luceria,Apulia
+38,lasombraculture,vampirereligion,wine,3,2,3,4,40,0,Sipontum,Apulia
+39,silverlegionculture,infernalreligion,hemp,4,2,5,1,40,0,Canusium,Apulia
+40,silverlegionculture,infernalreligion,hemp,5,2,6,0,30,0,Nola,Campania
+41,ventrueculture,vampirereligion,fur,4,2,3,2,30,0,Beneventum,Campania
+42,ventrueculture,vampirereligion,wine,6,0,5,2,40,0,Venusia,Apulia
+43,ventrueculture,vampirereligion,olive,4,2,4,3,30,0,Compsa,Lucania
+44,ventrueculture,vampirereligion,vegetables,3,2,4,4,40,0,Tuticum,Apulia
+45,ventrueculture,vampirereligion,cattle,4,2,3,5,40,0,Ausculum,Apulia
+46,ventrueculture,vampirereligion,fur,5,2,3,2,30,0,Potentia,Lucania
+47,ventrueculture,vampirereligion,wine,3,2,4,8,40,0,Acerronia,Lucania
+48,bonegnawerculture,gaiareligion,cattle,4,1,3,2,30,0,Terventum,Aternum
+49,bonegnawerculture,gaiareligion,olive,4,1,3,2,30,0,Gerumum,Aternum
+50,silverlegionculture,infernalreligion,earthware,3,1,3,3,40,0,Urium,Apulia
+51,ventrueculture,vampirereligion,wine,2,2,3,2,40,0,Laus,Calabria
+52,verbenaculture,magickreligion,wine,8,3,4,5,40,0,Thurii,Calabria
+53,ventrueculture,vampirereligion,cattle,2,2,2,1,40,0,Grumentum,Lucania
+54,verbenaculture,magickreligion,grain,5,2,2,2,40,0,Heraclea,Lucania
+55,verbenaculture,magickreligion,vegetables,6,2,3,1,40,0,Metapontum,Tarentum
+56,ventrueculture,vampirereligion,fish,7,2,2,2,40,0,Tarentum,Tarentum
+57,silverlegionculture,infernalreligion,olive,3,2,2,4,40,0,Brundisium,Tarentum
+58,ebonlegionculture,infernalreligion,hemp,3,2,3,6,40,0,Barduli,Apulia
+59,ventrueculture,vampirereligion,cloth,4,2,4,6,40,0,Consilinum,Lucania
+60,ventrueculture,vampirereligion,olive,4,2,5,6,40,0,Bantia,Apulia
+61,ventrueculture,vampirereligion,hemp,4,2,3,3,40,0,Siris,Lucania
+62,silverlegionculture,infernalreligion,salt,4,2,5,5,40,0,Menturia,Tarentum
+63,silverlegionculture,infernalreligion,fish,4,2,6,6,40,0,Callipolis,Tarentum
+64,silverlegionculture,infernalreligion,earthware,5,3,5,3,40,0,Hydruntum,Tarentum
+65,silverlegionculture,infernalreligion,fish,3,2,5,4,40,0,Lupiae,Tarentum
+66,ebonlegionculture,infernalreligion,grain,4,3,5,6,40,0,Barium,Tarentum
+67,ebonlegionculture,infernalreligion,olive,4,2,3,5,40,0,Gnatia,Tarentum
+68,ebonlegionculture,infernalreligion,vegetables,3,3,5,4,40,0,Turum,Tarentum
+69,ebonlegionculture,infernalreligion,fish,4,1,5,4,40,0,Natiolum,Apulia
+70,ventrueculture,vampirereligion,grain,3,2,5,3,40,0,Silvium,Apulia
+71,ventrueculture,vampirereligion,cattle,3,2,3,7,40,0,Stiglianum,Lucania
+72,malkavianculture,vampirereligion,glass,8,2,3,4,40,0,Rhegion,Calabria
+73,verbenaculture,magickreligion,fish,7,3,4,4,40,0,Locri,Calabria
+74,ventrueculture,vampirereligion,wood,2,2,3,5,40,0,Stylacium,Calabria
+75,verbenaculture,magickreligion,fish,6,2,4,2,40,0,Hipponium,Calabria
+76,ventrueculture,vampirereligion,wood,4,2,3,2,40,0,Tempsa,Calabria
+77,ventrueculture,vampirereligion,salt,4,1,3,3,40,0,Consentia,Calabria
+78,verbenaculture,magickreligion,earthware,7,2,6,1,40,0,Croton,Calabria
+79,ventrueculture,vampirereligion,cloth,3,2,2,7,40,0,Petelia,Calabria
+80,ishtarriculture,vampirereligion,stone,4,2,3,3,40,0,Messana,Siculia
+81,ishtarriculture,vampirereligion,glass,4,2,3,5,40,0,Tauromenium,Siculia
+82,ishtarriculture,vampirereligion,grain,3,4,15,0,40,0,Catana,Siculia
+83,malkavianculture,vampirereligion,wine,4,4,3,2,40,0,Leontini,Siculia
+84,malkavianculture,vampirereligion,fish,4,4,13,0,40,0,Syracuse,Siculia
+85,malkavianculture,vampirereligion,wood,6,4,2,0,40,0,Gela,Siculia
+86,lasombraculture,vampirereligion,stone,3,4,3,0,40,0,Acragas,Sicania
+87,malkavianculture,vampirereligion,cattle,2,6,4,3,40,0,Acrae,Siculia
+88,lasombraculture,vampirereligion,wood,2,5,3,4,40,0,Murgantia,Siculia
+89,lasombraculture,vampirereligion,grain,1,4,3,3,35,0,Henna,Sicania
 90,carthaginian,carthaginian_pantheon,grain,5,0,4,5,40,0,Hippana,Sicania
 91,carthaginian,carthaginian_pantheon,salt,4,0,3,2,40,0,Herakleia Minoa,Sicania
 92,carthaginian,carthaginian_pantheon,grain,4,0,3,1,40,0,Egesta,Sicania
@@ -96,32 +96,32 @@
 95,carthaginian,carthaginian_pantheon,stone,6,0,5,4,40,0,Eryx,Sicania
 96,carthaginian,carthaginian_pantheon,wine,4,0,3,2,40,0,Ziz,Sicania
 97,carthaginian,carthaginian_pantheon,stone,1,0,1,1,40,0,Qapara,Sicania
-98,siculian,roman_pantheon,wine,4,4,3,4,35,0,Cephaleodium,Sicania
-99,siculian,roman_pantheon,base_metals,2,6,5,3,40,0,Tyndaris,Siculia
-100,siculian,roman_pantheon,glass,2,5,5,2,40,0,Calacte,Siculia
-101,syracusan,roman_pantheon,wine,1,5,3,2,40,0,Kamarina,Siculia
+98,lasombraculture,vampirereligion,wine,4,4,3,4,35,0,Cephaleodium,Sicania
+99,lasombraculture,vampirereligion,base_metals,3,7,5,3,40,0,Tyndaris,Siculia
+100,lasombraculture,vampirereligion,glass,2,5,5,2,40,0,Calacte,Siculia
+101,malkavianculture,vampirereligion,wine,1,6,4,2,40,0,Camarina,Siculia
 102,silverlegionculture,infernalreligion,cattle,2,4,2,1,35,0,Tuder,Etruria
-103,umbrian,roman_pantheon,leather,4,4,12,3,30,0,Plestia,Etruria
-104,umbrian,roman_pantheon,wood,3,4,6,2,30,0,Amiternum,Picenum
-105,samnite,roman_pantheon,wood,4,4,6,0,30,0,Trebula,Picenum
-106,samnite,roman_pantheon,grain,3,2,5,4,30,0,Aternum,Aternum
-107,samnite,roman_pantheon,wine,5,2,2,5,30,0,Interamnia,Picenum
-108,samnite,roman_pantheon,olive,4,2,3,3,30,0,Matrinum,Picenum
-109,samnite,roman_pantheon,vegetables,6,1,4,4,30,0,Asculum,Picenum
-110,umbrian,roman_pantheon,wood,2,2,5,4,30,0,Septempeda,Picenum
-111,samnite,roman_pantheon,olive,4,2,5,5,30,0,Picenum,Picenum
+103,lasombraculture,vampirereligion,leather,4,4,12,3,30,0,Plestia,Etruria
+104,lasombraculture,vampirereligion,wood,3,4,6,2,30,0,Amiternum,Picenum
+105,lasombraculture,vampirereligion,wood,4,4,6,0,30,0,Trebula,Picenum
+106,silverfangculture,gaiareligion,grain,3,2,5,4,30,0,Aternum,Aternum
+107,lasombraculture,vampirereligion,wine,5,2,2,5,30,0,Interamnia,Picenum
+108,silverfangculture,gaiareligion,olive,4,2,3,3,30,0,Matrinum,Picenum
+109,silverfangculture,gaiareligion,vegetables,6,1,4,4,30,0,Asculum,Picenum
+110,lasombraculture,vampirereligion,wood,2,2,5,4,30,0,Septempeda,Picenum
+111,silverfangculture,gaiareligion,olive,4,2,5,5,30,0,Picenum,Picenum
 112,ventrueculture,vampirereligion,wine,5,2,1,2,35,0,Telamon,Etruria
 113,ventrueculture,vampirereligion,honey,3,2,3,3,35,0,Aurinia,Etruria
 114,ventrueculture,vampirereligion,wine,4,2,11,3,35,0,Vetulonia,Tuscia
 115,ventrueculture,vampirereligion,earthware,4,2,1,4,35,0,Rusellae,Tuscia
 116,silverlegionculture,infernalreligion,cattle,3,2,2,4,35,0,Clusium,Tuscia
-117,syracusan,roman_pantheon,dye,5,2,3,2,40,0,Ankon,Picenum
-118,umbrian,roman_pantheon,horses,3,2,4,2,30,0,Cingulum,Picenum
-119,umbrian,roman_pantheon,cattle,5,2,3,4,30,0,Sentinum,Picenum
+117,malkavianculture,vampirereligion,dye,5,2,3,2,40,0,Ancona,Picenum
+118,lasombraculture,vampirereligion,horses,3,2,4,2,30,0,Cingulum,Picenum
+119,lasombraculture,vampirereligion,cattle,5,2,3,4,30,0,Sentinum,Picenum
 120,silverlegionculture,infernalreligion,olive,4,2,2,4,30,0,Perusia,Tuscia
-121,lepontic,druidism,fish,2,1,3,9,20,0,Sena,Ariminum
-122,umbrian,druidism,wood,4,2,5,5,30,0,Urbinum,Ariminum
-123,umbrian,roman_pantheon,cattle,2,3,3,8,30,0,Iguvium,Ariminum
+121,dreamspeakerculture,magickreligion,fish,2,1,3,9,20,0,Sena Gallica,Ariminum
+122,lasombraculture,magickreligion,wood,4,2,5,5,30,0,Urbinum,Ariminum
+123,lasombraculture,vampirereligion,cattle,2,3,3,8,30,0,Iguvium,Ariminum
 124,silverlegionculture,infernalreligion,fur,4,2,4,4,35,0,Cortona,Tuscia
 125,ventrueculture,infernalreligion,marble,5,2,2,6,35,0,Ad Novas,Tuscia
 126,ventrueculture,vampirereligion,base_metals,6,2,1,7,35,0,Populonia,Tuscia
@@ -130,8 +130,8 @@
 129,ventrueculture,infernalreligion,marble,2,2,3,5,35,0,Volaterrae,Tuscia
 130,silverlegionculture,infernalreligion,grain,2,2,5,4,35,0,Sena Iulia,Tuscia
 131,silverlegionculture,infernalreligion,olive,2,2,4,6,30,0,Arretium,Ariminum
-132,umbrian,druidism,wood,4,1,3,3,30,0,Sarsina,Ariminum
-133,lepontic,druidism,wine,1,2,5,7,20,0,Arimna,Ariminum
+132,lasombraculture,magickreligion,wood,4,1,3,3,30,0,Sarsina,Ariminum
+133,dreamspeakerculture,magickreligion,wine,1,2,5,7,20,0,Ariminum,Ariminum
 134,silverlegionculture,infernalreligion,olive,5,2,5,4,35,0,Florentia,Pisae
 135,silverlegionculture,infernalreligion,marble,2,2,2,4,35,0,Valvata,Pisae
 136,euthanatosculture,magickreligion,salt,2,2,3,3,35,0,Pisae,Pisae
@@ -140,13 +140,13 @@
 139,etruscan,roman_pantheon,iron,4,2,2,4,35,0,Pistorim,Pisae
 140,umbrian,roman_pantheon,honey,6,2,2,7,30,0,Visal,Ariminum
 141,etruscan,roman_pantheon,salt,4,2,3,4,35,0,Portus Veneris,Pisae
-142,lepontic,druidism,fish,2,1,4,6,20,0,Ravna,Ariminum
+142,dreamspeakerculture,magickreligion,fish,2,1,4,6,20,0,Ravenna,Ariminum
 143,lepontic,druidism,salt,2,2,5,5,20,0,Brundulum,Ferraria
 144,lepontic,druidism,salt,3,2,5,4,20,0,Spina,Aemilla
 145,lepontic,druidism,salt,3,2,5,5,20,0,Hadriani,Ferraria
 146,lepontic,druidism,fur,2,2,4,6,20,0,Bononia,Aemilla
-147,lepontic,druidism,wine,1,3,3,5,20,0,Faventia,Ariminum
-148,lepontic,druidism,stone,2,2,4,7,20,0,Ficline,Ariminum
+147,dreamspeakerculture,magickreligion,wine,1,3,3,5,20,0,Faventia,Ariminum
+148,dreamspeakerculture,magickreligion,stone,2,2,4,7,20,0,Popilii,Ariminum
 149,lepontic,druidism,olive,4,2,5,7,20,0,Mutina,Aemilla
 150,lepontic,druidism,wine,5,2,2,9,20,0,Vicus Aventia,Aemilla
 151,lepontic,druidism,olive,4,2,4,5,20,0,Regium Lepidum,Aemilla
@@ -211,19 +211,19 @@
 210,bithynian,roman_pantheon,olive,0,1,0,2,40,0,Dadybra,Heracleotis
 211,bithynian,roman_pantheon,olive,5,7,4,2,40,0,Ziporea,Paphlagonia Inferior
 212,bithynian,roman_pantheon,olive,3,2,3,3,40,0,Parthenia,Paphlagonia Inferior
-213,bithynian,anatolian_religion,wood,6,3,2,2,40,0,Sora,Heracleotis
-214,paphlagonian,anatolian_religion,earthware,2,3,2,6,40,0,Kaisareia,Heracleotis
+213,bithynian,anatolian_religion,wood,7,3,2,2,40,0,Sora,Heracleotis
+214,paphlagonian,anatolian_religion,earthware,2,3,2,7,40,0,Kaisareia,Heracleotis
 215,paphlagonian,roman_pantheon,grain,1,2,2,3,40,0,Krateia,Heracleotis
-216,paphlagonian,anatolian_religion,wood,0,3,3,6,40,0,Zeita,Heracleotis
+216,paphlagonian,anatolian_religion,wood,0,3,3,7,40,0,Zeita,Heracleotis
 217,paphlagonian,anatolian_religion,cattle,1,2,1,3,25,0,Antoniopolis,Paphlagonia Superior
 218,paphlagonian,anatolian_religion,grain,2,1,2,2,25,0,Anadynata,Paphlagonia Superior
 219,bithynian,roman_pantheon,earthware,4,4,4,1,40,0,Bithynion,Bithynia Superior
-220,paphlagonian,anatolian_religion,cattle,1,2,2,6,40,0,Carus Vicus,Heracleotis
-221,phrygian,anatolian_religion,vegetables,3,6,4,1,40,0,Artiknos,Bithynia Superior
+220,paphlagonian,anatolian_religion,cattle,1,2,2,7,40,0,Carus Vicus,Heracleotis
+221,phrygian,anatolian_religion,vegetables,3,7,4,1,40,0,Artiknos,Bithynia Superior
 222,paphlagonian,anatolian_religion,vegetables,1,1,2,1,25,0,Bloukion,Galatia Trocmi
-223,paphlagonian,anatolian_religion,vegetables,4,7,8,1,40,0,Legna,Bithynia Superior
-224,phrygian,anatolian_religion,vegetables,2,3,7,1,40,0,Gordioukome,Bithynia Superior
-225,phrygian,anatolian_religion,grain,2,6,8,1,40,0,Lagania,Bithynia Superior
+223,paphlagonian,anatolian_religion,vegetables,4,8,9,1,40,0,Legna,Bithynia Superior
+224,phrygian,anatolian_religion,vegetables,2,3,8,1,40,0,Gordioukome,Bithynia Superior
+225,phrygian,anatolian_religion,grain,2,7,9,1,40,0,Lagania,Bithynia Superior
 226,phrygian,anatolian_religion,horses,0,2,1,2,40,0,Mnizos,Galatia
 227,phrygian,anatolian_religion,wood,2,2,3,1,40,0,Trokna,Phrygia Epictetus
 228,phrygian,anatolian_religion,vegetables,0,2,2,2,40,0,Androna,Galatia
@@ -298,14 +298,14 @@
 297,athenian,roman_pantheon,fish,2,1,0,3,40,0,Imbros,Rhodope
 298,lydian,roman_pantheon,olive,2,2,5,1,40,0,Aigai,Lydia
 299,phrygian,roman_pantheon,wine,3,3,4,1,40,0,Maiboza,Lydia
-300,phrygian,anatolian_religion,vegetables,2,5,2,4,40,0,Maionia,Lydia
+300,phrygian,anatolian_religion,vegetables,2,6,2,5,40,0,Maionia,Lydia
 301,phrygian,anatolian_religion,wine,1,3,3,1,40,0,Silandos,Lydia
 302,phrygian,anatolian_religion,leather,2,3,3,0,40,0,Kadoi,Phrygia Epictetus
 303,phrygian,anatolian_religion,wine,1,3,2,1,40,0,Synaos,Mysia Abrettene
-304,phrygian,anatolian_religion,cattle,2,7,4,1,40,0,Hyssa,Mysia Abrettene
-305,phrygian,anatolian_religion,honey,2,2,6,1,40,0,Porotta,Lydia
+304,phrygian,anatolian_religion,cattle,2,8,4,1,40,0,Hyssa,Mysia Abrettene
+305,phrygian,anatolian_religion,honey,2,2,7,1,40,0,Porotta,Lydia
 306,phrygian,anatolian_religion,wine,2,2,2,1,40,0,Ariandos,Mysia Abrettene
-307,phrygian,anatolian_religion,precious_metals,7,6,3,1,40,0,Bagis,Lydia
+307,phrygian,anatolian_religion,precious_metals,8,7,3,1,40,0,Bagis,Lydia
 308,phrygian,roman_pantheon,leather,4,2,4,1,40,0,Blaundos,Lydia
 309,phrygian,roman_pantheon,iron,1,2,3,1,40,0,Akmonia,Phrygia
 310,aegean,roman_pantheon,fish,3,3,3,0,40,0,Leros,Caria Litoralis
@@ -319,13 +319,13 @@
 318,phrygian,anatolian_religion,wood,0,2,3,1,40,0,Meiros,Phrygia Epictetus
 319,phrygian,anatolian_religion,cattle,1,2,2,2,40,0,Aizonai,Phrygia Epictetus
 320,mysian,anatolian_religion,vegetables,1,3,4,1,40,0,Hadrianeia,Mysia Abrettene
-321,mysian,anatolian_religion,olive,2,2,6,1,40,0,Hadrianoi,Mysia Abrettene
-322,phrygian,anatolian_religion,leather,2,7,4,1,40,0,Lamounia,Bithynia Superior
+321,mysian,anatolian_religion,olive,2,2,7,1,40,0,Hadrianoi,Mysia Abrettene
+322,phrygian,anatolian_religion,leather,2,8,4,1,40,0,Lamounia,Bithynia Superior
 323,mysian,anatolian_religion,cattle,2,3,5,1,40,0,Sarkotyle,Bithynia Superior
 324,mysian,anatolian_religion,wood,2,4,4,1,40,0,Otroia,Bithynia Superior
 325,bithynian,roman_pantheon,grain,2,3,3,1,40,0,Kabia,Bithynia Superior
 326,bithynian,roman_pantheon,vegetables,3,2,3,1,40,0,Modra,Bithynia Superior
-327,phrygian,anatolian_religion,wood,2,10,3,1,40,0,Oka,Bithynia Superior
+327,phrygian,anatolian_religion,wood,2,12,3,1,40,0,Oka,Bithynia Superior
 328,phrygian,anatolian_religion,cattle,1,3,3,1,40,0,Orkistos,Phrygia Epictetus
 329,bithynian,roman_pantheon,cattle,3,3,2,1,40,0,Milia,Bithynia Superior
 330,cypriot,roman_pantheon,olive,2,2,5,0,40,0,Karpasion,Cyprus
@@ -417,7 +417,7 @@
 416,athenian,roman_pantheon,precious_metals,6,8,7,0,55,0,Athenai,Hellas
 417,athenian,roman_pantheon,olive,5,5,2,0,40,0,Megara,Hellas
 418,achaean,roman_pantheon,earthware,3,0,3,0,40,0,Korinthos,Achaea
-419,epirote,roman_pantheon,fish,1,12,2,2,40,0,Torone,Epirus
+419,epirote,roman_pantheon,fish,1,14,2,2,40,0,Torone,Epirus
 420,macedonian,roman_pantheon,fish,2,2,2,0,40,0,Peparethos,Thessaly
 421,epirote,roman_pantheon,wine,1,8,2,0,40,0,Phoinike,Epirus
 422,epirote,roman_pantheon,earthware,1,1,1,0,40,0,Apollonia,Illyria Graeca
@@ -462,7 +462,7 @@
 461,aetolian,roman_pantheon,olive,1,2,2,0,40,0,Kephalonia,Epirus
 462,aetolian,roman_pantheon,marble,2,2,3,0,40,0,Stratos,Aetolia
 463,aetolian,roman_pantheon,olive,2,2,0,0,40,0,Thyrreion,Epirus
-464,epirote,roman_pantheon,olive,3,17,4,0,40,0,Nikopolis,Epirus
+464,epirote,roman_pantheon,olive,3,19,4,0,40,0,Nikopolis,Epirus
 465,epirote,roman_pantheon,marble,3,15,3,0,40,0,Ambrakia,Epirus
 466,aetolian,roman_pantheon,vegetables,3,2,3,0,40,0,Oichalia,Aetolia
 467,epirote,roman_pantheon,fish,2,2,1,0,40,0,Orikos,Epirus
@@ -501,7 +501,7 @@
 500,egyptian,egyptian_pantheon,papyrus,20,1,27,0,40,0,Memphis,Memphis
 501,egyptian,egyptian_pantheon,cloth,7,5,20,0,40,0,Heliopolis,Memphis
 502,egyptian,egyptian_pantheon,cloth,5,5,10,0,40,0,Heroopolis,Eastern Delta
-503,egyptian,egyptian_pantheon,earthware,15,5,20,0,40,0,Boubastos,Eastern Delta
+503,egyptian,egyptian_pantheon,earthware,15,5,20,0,40,0,Boubastos,Memphis
 504,egyptian,egyptian_pantheon,papyrus,15,10,25,0,40,0,Leontopolis,Central Delta
 505,egyptian,egyptian_pantheon,cloth,6,0,2,1,40,0,Klysma,Sinai
 506,egyptian,egyptian_pantheon,leather,5,0,2,0,40,0,Cleopatris,Sinai
@@ -536,12 +536,12 @@
 535,egyptian,egyptian_pantheon,cattle,2,2,3,3,40,0,Ostrakine,Eastern Delta
 536,egyptian,egyptian_pantheon,stone,7,12,10,0,40,0,Babylon,Memphis
 537,egyptian,egyptian_pantheon,cloth,5,3,5,0,40,0,Panarachthis,Memphis
-538,egyptian,egyptian_pantheon,dates,5,3,5,0,40,0,Aphroditopolis,Memphis
+538,egyptian,egyptian_pantheon,dates,5,3,5,0,40,0,Aphroditopolis,Heptanomis
 539,egyptian,egyptian_pantheon,marble,7,22,10,0,40,0,Krokodeilopolis,Heptanomis
 540,macedonian,roman_pantheon,grain,6,20,5,0,40,0,Dionysias,Heptanomis
 541,egyptian,egyptian_pantheon,papyrus,7,17,10,0,40,0,Karanis,Heptanomis
 542,egyptian,egyptian_pantheon,grain,5,5,10,0,40,0,Ankyropolis,Heptanomis
-543,egyptian,egyptian_pantheon,wine,10,5,15,0,40,0,Nilopolis,Memphis
+543,egyptian,egyptian_pantheon,wine,10,5,15,0,40,0,Nilopolis,Heptanomis
 544,egyptian,egyptian_pantheon,papyrus,10,5,10,0,40,0,Herakleopolis,Heptanomis
 545,egyptian,egyptian_pantheon,papyrus,2,2,5,3,40,0,Oxyrhynchus,Heptanomis
 546,egyptian,egyptian_pantheon,stone,3,1,3,0,40,0,Kynopolis,Heptanomis
@@ -650,9 +650,9 @@
 649,egyptian,egyptian_pantheon,stone,0,1,3,2,30,0,Lykabettus-Porphyrites,Myos Hormos
 650,egyptian,egyptian_pantheon,fish,0,0,1,2,30,0,Drepanon,Myos Hormos
 651,meroitic,egyptian_pantheon,dates,1,2,1,1,30,0,Sumita,Atbaras
-652,,,,0,0,0,0,0,0,Sinus Heroopoliticus,
-653,,,,0,0,0,0,0,0,Sinus Arabicus,
-654,,,,0,0,0,0,0,0,Sinus Arabicus,
+652,,,,0,0,0,0,0,0,Sinus Heroopoliticus,Sinus Arabicus
+653,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+654,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
 655,macedonian,egyptian_pantheon,cattle,2,3,5,5,40,0,Serapieion,Eastern Delta
 656,phoenician,carthaginian_pantheon,fish,0,2,3,3,40,0,Rinokoloura,Eastern Delta
 657,phoenician,carthaginian_pantheon,fish,2,1,1,1,40,0,Bitylion,Philistia
@@ -819,7 +819,7 @@
 818,aramaic,carthaginian_pantheon,grain,7,2,5,0,40,0,Edessa,Osroene
 819,aramaic,carthaginian_pantheon,glass,10,2,8,0,40,0,Karrai,Osroene
 820,aramaic,carthaginian_pantheon,cattle,0,3,6,0,40,0,Sahlala,Osroene
-821,aramaic,mesopotamian_religion,vegetables,15,2,8,0,40,0,Resaina,Osroene
+821,aramaic,mesopotamian_religion,vegetables,17,2,9,0,40,0,Resaina,Osroene
 822,assyrian,mesopotamian_religion,vegetables,0,2,2,2,40,0,Nabada,Mesopotamia Superior
 823,assyrian,mesopotamian_religion,wild_game,0,2,2,2,40,0,Shadikanni,Mesopotamia Superior
 824,assyrian,mesopotamian_religion,wild_game,0,2,0,0,40,0,Qatnu,Aramaea
@@ -936,12 +936,12 @@
 935,babylonian,mesopotamian_religion,steppe_horses,0,2,4,0,40,0,Girsu,Sumer
 936,babylonian,mesopotamian_religion,grain,0,1,2,0,40,0,Medain,Sumer
 937,babylonian,mesopotamian_religion,base_metals,8,5,8,0,40,0,Uruk,Sumer
-938,babylonian,mesopotamian_religion,spices,0,1,2,0,40,0,Nina,Sumer
+938,babylonian,mesopotamian_religion,spices,0,1,2,0,40,0,Nina,Characene
 939,babylonian,mesopotamian_religion,vegetables,7,3,7,0,40,0,Larsa,Sumer
 940,macedonian,roman_pantheon,cloth,8,4,6,0,40,0,Alexandreia Sousiane,Characene
 941,babylonian,zoroaster,dates,5,3,5,0,40,0,Forat,Characene
 942,babylonian,zoroaster,dates,0,4,8,2,40,0,Apologos,Characene
-943,elamite,zoroaster,grain,0,2,3,3,40,0,Seleukeia Hedyphonte,Characene
+943,elamite,zoroaster,grain,0,2,3,3,40,0,Seleukeia Hedyphonte,Mardiene
 944,makan,zoroaster,fish,0,1,1,2,40,0,Akkaz,Characene
 945,elamite,zoroaster,leather,10,8,15,3,40,0,Taryana,Susiana
 946,elamite,zoroaster,honey,2,3,4,3,40,0,Sousa,Susiana
@@ -965,7 +965,7 @@
 964,babylonian,zoroaster,earthware,0,1,2,0,40,0,Teredon,Characene
 965,babylonian,zoroaster,dates,0,1,1,2,40,0,Apphana,Characene
 966,elamite,zoroaster,grain,1,1,1,0,40,0,Ram Hurmizd,Mardiene
-967,elamite,zoroaster,grain,1,4,3,2,40,0,Rostag Kavag,Susiana
+967,elamite,zoroaster,grain,1,4,3,2,40,0,Rostag Kavad,Susiana
 968,babylonian,mesopotamian_religion,dates,5,4,7,0,40,0,Eridu,Sumer
 969,elamite,zoroaster,dates,0,1,2,2,40,0,Darak,Characene
 970,elamite,mesopotamian_religion,vegetables,1,1,1,2,40,0,Madhar,Susiana
@@ -979,11 +979,11 @@
 978,armenian,armenian_religion,fish,0,1,1,2,40,0,Taraichiya,Tarawn
 979,babylonian,mesopotamian_religion,wild_game,0,1,4,1,40,0,Mandali,Chaldaea
 980,elamite,mesopotamian_religion,wild_game,0,1,2,1,40,0,Dashti,Susiana
-981,assyrian,zoroaster,leather,6,4,5,3,40,0,Hulwan,Garamea
+981,assyrian,zoroaster,leather,6,4,5,3,40,0,Kelonai,Garamea
 982,assyrian,zoroaster,leather,1,1,4,3,40,0,Yazdigird,Garamea
 983,assyrian,zoroaster,stone,0,1,1,3,40,0,Paikuli,Garamea
 984,assyrian,zoroaster,wild_game,4,3,5,2,40,0,Hazza,Adiabene
-985,assyrian,zoroaster,stone,0,2,3,2,40,0,Qizqapan,Adiabene
+985,assyrian,zoroaster,stone,0,2,3,2,40,0,Ishkewt,Adiabene
 986,assyrian,zoroaster,cattle,0,1,2,1,40,0,Grai Darki,Niniveh
 987,armenian,armenian_religion,grain,1,1,1,2,40,0,Zoaranda,Vaspurakan
 988,armenian,armenian_religion,horses,0,1,1,3,40,0,Thospia,Vaspurakan
@@ -1471,33 +1471,33 @@
 1470,carthaginian,egyptian_pantheon,stone,1,1,1,0,40,0,Yermena,Zeugitana
 1471,carthaginian,carthaginian_pantheon,fish,1,1,1,0,40,0,Mliet,Siculia
 1472,siculian,roman_pantheon,earthware,0,0,0,1,40,0,Liparae,Siculia
-1473,,,,0,0,0,0,0,0,Sinus Arabicus,
-1474,,,,0,0,0,0,0,0,Sinus Arabicus,
-1475,,,,0,0,0,0,0,0,Sinus Arabicus,
-1476,,,,0,0,0,0,0,0,Sinus Arabicus,
-1477,,,,0,0,0,0,0,0,Sinus Arabicus,
-1478,,,,0,0,0,0,0,0,Sinus Arabicus,
-1479,,,,0,0,0,0,0,0,Sinus Arabicus,
-1480,,,,0,0,0,0,0,0,Sinus Arabicus,
-1481,,,,0,0,0,0,0,0,Sinus Arabicus,
-1482,,,,0,0,0,0,0,0,Sinus Arabicus,
-1483,,,,0,0,0,0,0,0,Sinus Arabicus,
-1484,,,,0,0,0,0,0,0,Sinus Arabicus,
-1485,,,,0,0,0,0,0,0,Sinus Arabicus,
-1486,,,,0,0,0,0,0,0,Sinus Arabicus,
-1487,,,,0,0,0,0,0,0,Sinus Arabicus,
-1488,,,,0,0,0,0,0,0,Sinus Arabicus,
-1489,,,,0,0,0,0,0,0,Fretum Diodorus,
-1490,,,,0,0,0,0,0,0,Sinus Arabicus,
-1491,,,,0,0,0,0,0,0,Sinus Arabicus,
-1492,,,,0,0,0,0,0,0,Sinus Arabicus,
-1493,,,,0,0,0,0,0,0,Sinus Arabicus,
-1494,,,,0,0,0,0,0,0,Sinus Arabicus,
-1495,,,,0,0,0,0,0,0,Sinus Arabicus,
-1496,,,,0,0,0,0,0,0,Sinus Arabicus,
-1497,,,,0,0,0,0,0,0,Sinus Arabicus,
-1498,,,,0,0,0,0,0,0,Sinus Arabicus,
-1499,,,,0,0,0,0,0,0,Sinus Arabicus,
+1473,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1474,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1475,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1476,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1477,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1478,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1479,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1480,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1481,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1482,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1483,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1484,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1485,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1486,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1487,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1488,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1489,,,,0,0,0,0,0,0,Fretum Diodorus,Sinus Adenensis
+1490,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1491,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1492,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1493,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1494,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1495,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1496,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1497,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1498,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
+1499,,,,0,0,0,0,0,0,Sinus Arabicus,Sinus Arabicus
 1500,armenian,zoroaster,cattle,1,1,1,0,40,0,Chauon,Parsatunik
 1501,armenian,armenian_religion,steppe_horses,0,1,1,1,40,0,Naxouana,Syunik
 1502,armenian,zoroaster,grain,0,0,1,3,40,0,Tasuk,Parskahayk
@@ -1535,12 +1535,12 @@
 1534,armenian,armenian_religion,leather,1,1,1,0,40,0,Bastam,Parsatunik
 1535,armenian,armenian_religion,stone,0,1,1,3,40,0,Qiz Chakhlu,Soducene
 1536,armenian,armenian_religion,wood,0,1,3,3,40,0,Khezerlu Qal'eh,Soducene
-1537,armenian,armenian_religion,leather,0,1,2,16,40,0,Nuarsak,Soducene
+1537,armenian,armenian_religion,leather,0,1,2,17,40,0,Nuarsak,Soducene
 1538,armenian,zoroaster,wood,1,1,2,1,40,0,Sanora,Syunik
 1539,armenian,zoroaster,grain,1,1,1,0,40,0,Gavur Qal'eh,Parsatunik
 1540,armenian,armenian_religion,wood,0,0,1,2,40,0,Parakan,Syunik
 1541,armenian,zoroaster,grain,0,1,2,2,40,0,Oghlu Qal'eh,Soducene
-1542,armenian,zoroaster,horses,0,16,1,2,40,0,Arxata,Syunik
+1542,armenian,zoroaster,horses,0,17,1,2,40,0,Arxata,Syunik
 1543,armenian,zoroaster,vegetables,0,1,1,2,40,0,Siah Qal'eh,Soducene
 1544,armenian,zoroaster,leather,0,1,2,2,40,0,Catispi,Soducene
 1545,armenian,armenian_religion,cattle,0,1,2,2,40,0,Barun Qal'eh,Soducene
@@ -1570,8 +1570,8 @@
 1569,armenian,armenian_religion,grain,0,1,1,1,40,0,Paracata,Syracene
 1570,armenian,armenian_religion,steppe_horses,3,5,4,3,40,0,Armaouira,Syracene
 1571,armenian,zoroaster,grain,1,3,2,1,40,0,Artaxata,Ayrarat
-1572,armenian,armenian_religion,horses,0,1,1,16,40,0,Doubios,Ayrarat
-1573,armenian,armenian_religion,stone,0,1,1,29,40,0,Gorneae,Ayrarat
+1572,armenian,armenian_religion,horses,0,1,1,17,40,0,Doubios,Ayrarat
+1573,armenian,armenian_religion,stone,0,1,1,31,40,0,Gorneae,Ayrarat
 1574,median,zoroaster,cattle,1,1,1,0,35,0,Kelishin Pass,Media
 1575,armenian,armenian_religion,vegetables,0,1,1,2,40,0,Erebuni,Ayrarat
 1576,armenian,armenian_religion,horses,10,5,5,3,40,0,Kainepolis,Syracene
@@ -1649,7 +1649,7 @@
 1648,albanian,zoroaster,fish,0,0,0,3,10,0,Ghizil-Agaj,Paytankert
 1649,albanian,zoroaster,cattle,0,0,0,3,10,0,Masalas,Paytankert
 1650,armenian,armenian_religion,vegetables,0,1,1,1,40,0,Sisakan Inferior,Artshak
-1651,albanian,caucasian_religion,steppe_horses,0,0,0,17,10,0,Shahargah,Arran
+1651,albanian,caucasian_religion,steppe_horses,0,0,0,18,10,0,Shahargah,Arran
 1652,albanian,zoroaster,steppe_horses,0,0,0,3,10,0,Talish,Paytankert
 1653,aegean,roman_pantheon,fish,4,2,1,1,40,0,Kalymnos,Caria Litoralis
 1654,albanian,zoroaster,cattle,0,1,1,2,10,0,Mochi,Paytankert
@@ -1710,13 +1710,13 @@
 1709,nabatean,arabian_pantheon,marble,0,0,0,2,35,0,Naqb Jedid,Sinai
 1710,nabatean,arabian_pantheon,marble,0,0,0,1,35,0,Sina Boreios,Sinai
 1711,colchian,caucasian_religion,wine,1,0,2,1,40,0,Telephis,Colchis
-1712,roman,roman_pantheon,wine,2,3,2,6,40,0,Antinum,Aternum
-1713,samnite,roman_pantheon,glass,5,5,1,2,30,0,Nuceria,Campania
+1712,silverlegionculture,infernalreligion,wine,2,3,2,6,40,0,Antinum,Aternum
+1713,nosferatuculture,vampirereligion,glass,5,5,1,2,30,0,Nuceria,Campania
 1714,colchian,caucasian_religion,grain,1,1,2,1,40,0,Onogouris,Colchis
 1715,colchian,caucasian_religion,base_metals,1,1,3,1,40,0,Archaiopolis,Colchis
-1716,samnite,roman_pantheon,wine,4,4,2,3,30,0,Abellinum,Campania
+1716,ventrueculture,vampirereligion,wine,4,4,2,3,30,0,Abellinum,Campania
 1717,colchian,caucasian_religion,earthware,4,1,3,1,40,0,Chaladidi,Colchis
-1718,samnite,roman_pantheon,olive,3,4,3,4,30,0,Aeclanum,Campania
+1718,ventrueculture,vampirereligion,olive,3,4,3,4,30,0,Aeclanum,Campania
 1719,arverni,druidism,wine,0,2,0,3,20,0,Avitacum,Arvernia
 1720,greco_pontic,roman_pantheon,cloth,5,1,2,0,40,0,Phasis,Colchis
 1721,lemovician,druidism,wine,0,0,0,3,20,0,Fines,Lemovicia
@@ -1864,7 +1864,7 @@
 1863,armenian,zoroaster,cattle,1,2,1,1,40,0,Nastai,Comagene
 1864,armenian,carthaginian_pantheon,earthware,3,2,2,1,40,0,Nisos,Comagene
 1865,cappadocian,zoroaster,wood,0,1,0,3,25,0,Miasena,Cappadocia Melitene
-1866,cappadocian,zoroaster,wood,0,15,1,16,25,0,Korne,Sophene
+1866,cappadocian,zoroaster,wood,0,16,1,17,25,0,Korne,Sophene
 1867,armenian,carthaginian_pantheon,stone,2,3,2,1,40,0,Germanikeia,Comagene
 1868,aramaic,carthaginian_pantheon,wood,2,1,1,1,40,0,Tyba,Comagene
 1869,aramaic,carthaginian_pantheon,olive,2,1,2,1,40,0,Rhabaine,Comagene
@@ -1909,7 +1909,7 @@
 1908,pamphylian,anatolian_religion,honey,3,2,2,0,40,0,Kolybrassos,Pamphylia
 1909,cappadocian,anatolian_religion,vegetables,0,2,3,5,25,0,Sibora,Cappadocia Saravene
 1910,pamphylian,roman_pantheon,dye,6,3,4,0,40,0,Side,Pamphylia
-1911,pamphylian,anatolian_religion,stone,7,3,7,1,40,0,Etenna,Pisidia
+1911,pamphylian,anatolian_religion,stone,8,3,8,1,40,0,Etenna,Pisidia
 1912,cappadocian,anatolian_religion,iron,0,1,1,4,25,0,Archalla,Cappadocia
 1913,cappadocian,anatolian_religion,cattle,1,2,2,7,25,0,Sacoena,Cappadocia
 1914,lycaonian,anatolian_religion,wine,1,2,3,2,40,0,Salarama,Lycaonia
@@ -1930,7 +1930,7 @@
 1929,cappadocian,anatolian_religion,leather,0,1,1,4,25,0,Arane,Cappadocia Melitene
 1930,phrygian,anatolian_religion,wood,0,2,3,3,40,0,Apollonia Paroreia,Phrygia Parorea
 1931,isaurian,anatolian_religion,wine,2,2,4,3,40,0,Adada,Pisidia
-1932,cappadocian,zoroaster,iron,1,5,3,12,25,0,Euaissa,Cappadocia Saravene
+1932,cappadocian,zoroaster,iron,1,6,3,14,25,0,Euaissa,Cappadocia Saravene
 1933,phrygian,anatolian_religion,wood,0,1,2,3,40,0,Sidera,Pisidia
 1934,lycaonian,anatolian_religion,cloth,1,2,2,3,40,0,Ikonion,Lycaonia
 1935,carian,anatolian_religion,cattle,0,1,2,1,40,0,Baris Pisidia,Milyas
@@ -2498,494 +2498,494 @@
 2497,haedui,druidism,cloth,0,1,0,4,15,0,Nasium,Leucia
 2498,haedui,druidism,stone,0,1,0,3,10,0,Sauriciacum,Treveria Salutaris
 2499,haedui,druidism,grain,0,1,0,4,15,0,Scarponna,Leucia
-2500,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2501,,,,0,0,0,0,0,0,Fretum Siculum,
-2502,,,,0,0,0,0,0,0,Sinus Paestanus,
-2503,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2504,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2505,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2506,,,,0,0,0,0,0,0,Mare Tyrrenum,
+2500,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2501,,,,0,0,0,0,0,0,Fretum Siculum,Mare Ionium
+2502,,,,0,0,0,0,0,0,Sinus Paestanus,Mare Tyrrenum
+2503,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2504,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2505,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2506,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
 2507,,,,0,0,0,0,0,0,Sinus Venetus,
-2508,,,,0,0,0,0,0,0,Mare Adriaticum,
-2509,,,,0,0,0,0,0,0,Mare Adriaticum,
-2510,,,,0,0,0,0,0,0,Mare Ionium,
-2511,,,,0,0,0,0,0,0,Mare Ionium,
+2508,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2509,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2510,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2511,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
 2512,,,,0,0,0,0,0,0,Sinus Liburnicus,
-2513,,,,0,0,0,0,0,0,Mare Ionium,
-2514,,,,0,0,0,0,0,0,Mare Ionium,
+2513,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2514,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
 2515,,,,0,0,0,0,0,0,Sinus Venetus,
-2516,,,,0,0,0,0,0,0,Canalis Melitensium,
-2517,,,,0,0,0,0,0,0,Canalis Sicilum,
-2518,,,,0,0,0,0,0,0,Mare Ionium,
-2519,,,,0,0,0,0,0,0,Canalis Melitensium,
-2520,,,,0,0,0,0,0,0,Canalis Sicilum,
-2521,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2522,,,,0,0,0,0,0,0,Sinus Tarentinus,
-2523,,,,0,0,0,0,0,0,Mare Ibericum,
-2524,,,,0,0,0,0,0,0,Mare Balearicum,
-2525,,,,0,0,0,0,0,0,Mare Ibericum,
+2516,,,,0,0,0,0,0,0,Canalis Melitensium,Mare Libycum
+2517,,,,0,0,0,0,0,0,Canalis Sicilum,Canalis Sicium
+2518,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2519,,,,0,0,0,0,0,0,Canalis Melitensium,Mare Libycum
+2520,,,,0,0,0,0,0,0,Canalis Sicilum,Canalis Sicium
+2521,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2522,,,,0,0,0,0,0,0,Sinus Tarentinus,Mare Ionium
+2523,,,,0,0,0,0,0,0,Mare Ibericum,Mare Balearicum
+2524,,,,0,0,0,0,0,0,Mare Balearicum,Mare Balearicum
+2525,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
 2526,,,,0,0,0,0,0,0,Sinus Liburnicus,
-2527,,,,0,0,0,0,0,0,Mare Adriaticum,
-2528,,,,0,0,0,0,0,0,Mare Adriaticum,
-2529,,,,0,0,0,0,0,0,Mare Adriaticum,
-2530,,,,0,0,0,0,0,0,Sinus Sipontinus,
-2531,,,,0,0,0,0,0,0,Mare Adriaticum,
-2532,,,,0,0,0,0,0,0,Mare Adriaticum,
-2533,,,,0,0,0,0,0,0,Fretum Hydruntinus,
-2534,,,,0,0,0,0,0,0,Mare Adriaticum,
-2535,,,,0,0,0,0,0,0,Mare Adriaticum,
-2536,,,,0,0,0,0,0,0,Mare Adriaticum,
-2537,,,,0,0,0,0,0,0,Mare Adriaticum,
-2538,,,,0,0,0,0,0,0,Mare Adriaticum,
-2539,,,,0,0,0,0,0,0,Mare Adriaticum,
-2540,,,,0,0,0,0,0,0,Mare Adriaticum,
-2541,,,,0,0,0,0,0,0,Mare Adriaticum,
-2542,,,,0,0,0,0,0,0,Mare Adriaticum,
+2527,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2528,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2529,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2530,,,,0,0,0,0,0,0,Sinus Sipontinus,Mare Adriaticum
+2531,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2532,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2533,,,,0,0,0,0,0,0,Fretum Hydruntinus,Mare Ionium
+2534,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2535,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2536,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2537,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2538,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2539,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2540,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2541,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2542,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
 2543,harpii,shamanism,horses,0,0,0,2,5,0,Uccrynyika,Hypania Minoris
-2544,,,,0,0,0,0,0,0,Mare Adriaticum,
-2545,,,,0,0,0,0,0,0,Mare Adriaticum,
-2546,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2547,,,,0,0,0,0,0,0,Mare Ligusticum,
-2548,,,,0,0,0,0,0,0,Sinus Genuensis,
-2549,,,,0,0,0,0,0,0,Mare Ligusticum,
-2550,,,,0,0,0,0,0,0,Mare Sardonium,
-2551,,,,0,0,0,0,0,0,Sinus Gallicus,
-2552,,,,0,0,0,0,0,0,Sinus Gallicus,
-2553,,,,0,0,0,0,0,0,Mare Internum,
-2554,,,,0,0,0,0,0,0,Mare Ibericum,
-2555,,,,0,0,0,0,0,0,Mare Ibericum,
-2556,,,,0,0,0,0,0,0,Mare Ibericum,
-2557,,,,0,0,0,0,0,0,Mare Ibericum,
-2558,,,,0,0,0,0,0,0,Mare Ibericum,
-2559,,,,0,0,0,0,0,0,Mare Ibericum,
-2560,,,,0,0,0,0,0,0,Mare Ibericum,
-2561,,,,0,0,0,0,0,0,Mare Ibericum,
-2562,,,,0,0,0,0,0,0,Mare Internum,
-2563,,,,0,0,0,0,0,0,Sinus Hipponensis,
-2564,,,,0,0,0,0,0,0,Sinus Uticensis,
-2565,,,,0,0,0,0,0,0,Canalis Sicilum,
-2566,,,,0,0,0,0,0,0,Sinus Neapolitanus,
-2567,,,,0,0,0,0,0,0,Mare Libycum,
-2568,,,,0,0,0,0,0,0,Syrtis Minor,
-2569,,,,0,0,0,0,0,0,Mare Libycum,
-2570,,,,0,0,0,0,0,0,Mare Libycum,
-2571,,,,0,0,0,0,0,0,Syrtis Maior,
-2572,,,,0,0,0,0,0,0,Syrtis Maior,
-2573,,,,0,0,0,0,0,0,Syrtis Maior,
-2574,,,,0,0,0,0,0,0,Mare Aegyptum,
-2575,,,,0,0,0,0,0,0,Mare Aegyptum,
-2576,,,,0,0,0,0,0,0,Mare Aegyptum,
-2577,,,,0,0,0,0,0,0,Mare Aegyptum,
-2578,,,,0,0,0,0,0,0,Delta Nili,
-2579,,,,0,0,0,0,0,0,Delta Nili,
-2580,,,,0,0,0,0,0,0,Mare Phoenicium,
-2581,,,,0,0,0,0,0,0,Mare Phoenicium,
-2582,,,,0,0,0,0,0,0,Mare Phoenicium,
-2583,,,,0,0,0,0,0,0,Mare Phoenicium,
-2584,,,,0,0,0,0,0,0,Mare Phoenicium,
-2585,,,,0,0,0,0,0,0,Canalis Cyprus,
-2586,,,,0,0,0,0,0,0,Canalis Cyprus,
-2587,,,,0,0,0,0,0,0,Mare Lycium,
-2588,,,,0,0,0,0,0,0,Mare Lycium,
-2589,,,,0,0,0,0,0,0,Mare Lycium,
-2590,,,,0,0,0,0,0,0,Mare Icarium,
-2591,,,,0,0,0,0,0,0,Mare Lycium,
-2592,,,,0,0,0,0,0,0,Mare Carpathium,
-2593,,,,0,0,0,0,0,0,Mare Icarium,
-2594,,,,0,0,0,0,0,0,Mare Icarium,
-2595,,,,0,0,0,0,0,0,Mare Icarium,
-2596,,,,0,0,0,0,0,0,Mare Aegyptum,
-2597,,,,0,0,0,0,0,0,Mare Aegyptum,
-2598,,,,0,0,0,0,0,0,Mare Creticum,
-2599,,,,0,0,0,0,0,0,Mare Creticum,
-2600,,,,0,0,0,0,0,0,Mare Aegyptum,
-2601,,,,0,0,0,0,0,0,Mare Aegyptum,
-2602,,,,0,0,0,0,0,0,Mare Creticum,
-2603,,,,0,0,0,0,0,0,Sinus Argolicus,
-2604,,,,0,0,0,0,0,0,Sinus Saronicus,
-2605,,,,0,0,0,0,0,0,Fretum Carystus,
-2606,,,,0,0,0,0,0,0,Mare Creticum,
-2607,,,,0,0,0,0,0,0,Mare Myrtoum,
-2608,,,,0,0,0,0,0,0,Mare Aegaeum,
-2609,,,,0,0,0,0,0,0,Mare Aegaeum,
-2610,,,,0,0,0,0,0,0,Mare Ionium,
-2611,,,,0,0,0,0,0,0,Mare Ionium,
+2544,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2545,,,,0,0,0,0,0,0,Mare Adriaticum,Mare Adriaticum
+2546,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2547,,,,0,0,0,0,0,0,Mare Ligusticum,Mare Ligusticum
+2548,,,,0,0,0,0,0,0,Sinus Genuensis,Mare Ligusticum
+2549,,,,0,0,0,0,0,0,Mare Ligusticum,Mare Ligusticum
+2550,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2551,,,,0,0,0,0,0,0,Sinus Gallicus,Sinus Gallicus
+2552,,,,0,0,0,0,0,0,Sinus Gallicus,Sinus Gallicus
+2553,,,,0,0,0,0,0,0,Mare Internum,Mare Balearicum
+2554,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2555,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2556,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2557,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2558,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2559,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2560,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2561,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2562,,,,0,0,0,0,0,0,Mare Internum,Mare Sardonium
+2563,,,,0,0,0,0,0,0,Sinus Hipponensis,Mare Sardonium
+2564,,,,0,0,0,0,0,0,Sinus Uticensis,Canalis Sicium
+2565,,,,0,0,0,0,0,0,Canalis Sicilum,Canalis Sicium
+2566,,,,0,0,0,0,0,0,Sinus Neapolitanus,Mare Libycum
+2567,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2568,,,,0,0,0,0,0,0,Syrtis Minor,Mare Libycum
+2569,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2570,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2571,,,,0,0,0,0,0,0,Syrtis Maior,Mare Libycum
+2572,,,,0,0,0,0,0,0,Syrtis Maior,Mare Libycum
+2573,,,,0,0,0,0,0,0,Syrtis Maior,Mare Libycum
+2574,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2575,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2576,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2577,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2578,,,,0,0,0,0,0,0,Delta Nili,Mare Aegyptum
+2579,,,,0,0,0,0,0,0,Delta Nili,Mare Aegyptum
+2580,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2581,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2582,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2583,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2584,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2585,,,,0,0,0,0,0,0,Canalis Cyprus,Mare Lycium
+2586,,,,0,0,0,0,0,0,Canalis Cyprus,Mare Lycium
+2587,,,,0,0,0,0,0,0,Mare Lycium,Mare Lycium
+2588,,,,0,0,0,0,0,0,Mare Lycium,Mare Lycium
+2589,,,,0,0,0,0,0,0,Mare Lycium,Mare Lycium
+2590,,,,0,0,0,0,0,0,Mare Icarium,Mare Aegaeum
+2591,,,,0,0,0,0,0,0,Mare Lycium,Mare Lycium
+2592,,,,0,0,0,0,0,0,Mare Carpathium,Mare Aegaeum
+2593,,,,0,0,0,0,0,0,Mare Icarium,Mare Aegaeum
+2594,,,,0,0,0,0,0,0,Mare Icarium,Mare Aegaeum
+2595,,,,0,0,0,0,0,0,Mare Icarium,Mare Aegaeum
+2596,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2597,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2598,,,,0,0,0,0,0,0,Mare Creticum,Mare Creticum
+2599,,,,0,0,0,0,0,0,Mare Creticum,Mare Creticum
+2600,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2601,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2602,,,,0,0,0,0,0,0,Mare Creticum,Mare Creticum
+2603,,,,0,0,0,0,0,0,Sinus Argolicus,Mare Aegaeum
+2604,,,,0,0,0,0,0,0,Sinus Saronicus,Mare Aegaeum
+2605,,,,0,0,0,0,0,0,Fretum Carystus,Mare Aegaeum
+2606,,,,0,0,0,0,0,0,Mare Creticum,Mare Creticum
+2607,,,,0,0,0,0,0,0,Mare Myrtoum,Mare Aegaeum
+2608,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2609,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2610,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2611,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
 2612,,,,0,0,0,0,0,0,Sinus Corinthius,
-2613,,,,0,0,0,0,0,0,Mare Ionium,
-2614,,,,0,0,0,0,0,0,Fretum Artemisium,
-2615,,,,0,0,0,0,0,0,Sinus Thermaeus,
-2616,,,,0,0,0,0,0,0,Mare Thracicum,
-2617,,,,0,0,0,0,0,0,Mare Aegaeum,
-2618,,,,0,0,0,0,0,0,Hellespontus,
-2619,,,,0,0,0,0,0,0,Mare Aegaeum,
-2620,,,,0,0,0,0,0,0,Mare Aegaeum,
-2621,,,,0,0,0,0,0,0,Mare Aegaeum,
-2622,,,,0,0,0,0,0,0,Mare Aegaeum,
-2623,,,,0,0,0,0,0,0,Propontis,
-2624,,,,0,0,0,0,0,0,Canalis Sicilum,
-2625,,,,0,0,0,0,0,0,Canalis Sicilum,
-2626,,,,0,0,0,0,0,0,Mare Libycum,
-2627,,,,0,0,0,0,0,0,Mare Libycum,
-2628,,,,0,0,0,0,0,0,Mare Libycum,
-2629,,,,0,0,0,0,0,0,Mare Libycum,
-2630,,,,0,0,0,0,0,0,Canalis Melitensium,
-2631,,,,0,0,0,0,0,0,Mare Libycum,
-2632,,,,0,0,0,0,0,0,Mare Libycum,
-2633,,,,0,0,0,0,0,0,Mare Libycum,
-2634,,,,0,0,0,0,0,0,Mare Libycum,
-2635,,,,0,0,0,0,0,0,Mare Libycum,
-2636,,,,0,0,0,0,0,0,Mare Libycum,
-2637,,,,0,0,0,0,0,0,Mare Libycum,
-2638,,,,0,0,0,0,0,0,Mare Ionium,
-2639,,,,0,0,0,0,0,0,Mare Ionium,
-2640,,,,0,0,0,0,0,0,Mare Libycum,
-2641,,,,0,0,0,0,0,0,Mare Libycum,
-2642,,,,0,0,0,0,0,0,Mare Libycum,
-2643,,,,0,0,0,0,0,0,Syrtis Maior,
-2644,,,,0,0,0,0,0,0,Syrtis Maior,
-2645,,,,0,0,0,0,0,0,Mare Libycum,
-2646,,,,0,0,0,0,0,0,Mare Libycum,
-2647,,,,0,0,0,0,0,0,Mare Ionium,
-2648,,,,0,0,0,0,0,0,Mare Ionium,
-2649,,,,0,0,0,0,0,0,Mare Ionium,
-2650,,,,0,0,0,0,0,0,Mare Ionium,
-2651,,,,0,0,0,0,0,0,Mare Ionium,
-2652,,,,0,0,0,0,0,0,Mare Ionium,
-2653,,,,0,0,0,0,0,0,Mare Libycum,
-2654,,,,0,0,0,0,0,0,Mare Libycum,
-2655,,,,0,0,0,0,0,0,Mare Ionium,
-2656,,,,0,0,0,0,0,0,Mare Aegyptum,
-2657,,,,0,0,0,0,0,0,Mare Ionium,
-2658,,,,0,0,0,0,0,0,Mare Aegyptum,
-2659,,,,0,0,0,0,0,0,Mare Aegyptum,
-2660,,,,0,0,0,0,0,0,Mare Aegyptum,
-2661,,,,0,0,0,0,0,0,Mare Aegyptum,
-2662,,,,0,0,0,0,0,0,Mare Aegyptum,
-2663,,,,0,0,0,0,0,0,Mare Aegyptum,
-2664,,,,0,0,0,0,0,0,Mare Aegyptum,
-2665,,,,0,0,0,0,0,0,Mare Aegyptum,
-2666,,,,0,0,0,0,0,0,Mare Aegyptum,
-2667,,,,0,0,0,0,0,0,Mare Aegyptum,
-2668,,,,0,0,0,0,0,0,Mare Aegyptum,
-2669,,,,0,0,0,0,0,0,Mare Phoenicium,
-2670,,,,0,0,0,0,0,0,Mare Aegyptum,
-2671,,,,0,0,0,0,0,0,Mare Phoenicium,
-2672,,,,0,0,0,0,0,0,Mare Phoenicium,
-2673,,,,0,0,0,0,0,0,Mare Aegyptum,
-2674,,,,0,0,0,0,0,0,Mare Internum,
-2675,,,,0,0,0,0,0,0,Mare Aegyptum,
-2676,,,,0,0,0,0,0,0,Mare Aegyptum,
-2677,,,,0,0,0,0,0,0,Mare Phoenicium,
-2678,,,,0,0,0,0,0,0,Mare Lycium,
-2679,,,,0,0,0,0,0,0,Mare Phoenicium,
-2680,,,,0,0,0,0,0,0,Canalis Cyprus,
-2681,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2682,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2683,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2684,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2685,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2686,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2687,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2688,,,,0,0,0,0,0,0,Mare Sardonium,
-2689,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2690,,,,0,0,0,0,0,0,Mare Sardonium,
-2691,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2692,,,,0,0,0,0,0,0,Mare Sardonium,
-2693,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2694,,,,0,0,0,0,0,0,Mare Ligusticum,
-2695,,,,0,0,0,0,0,0,Mare Ligusticum,
-2696,,,,0,0,0,0,0,0,Mare Ligusticum,
-2697,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2698,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2699,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2700,,,,0,0,0,0,0,0,Mare Tyrrenum,
-2701,,,,0,0,0,0,0,0,Mare Internum,
-2702,,,,0,0,0,0,0,0,Mare Internum,
-2703,,,,0,0,0,0,0,0,Mare Sardonium,
-2704,,,,0,0,0,0,0,0,Mare Sardonium,
-2705,,,,0,0,0,0,0,0,Mare Internum,
-2706,,,,0,0,0,0,0,0,Mare Sardonium,
-2707,,,,0,0,0,0,0,0,Sinus Gallicus,
-2708,,,,0,0,0,0,0,0,Mare Sardonium,
-2709,,,,0,0,0,0,0,0,Mare Sardonium,
-2710,,,,0,0,0,0,0,0,Mare Sardonium,
-2711,,,,0,0,0,0,0,0,Mare Sardonium,
-2712,,,,0,0,0,0,0,0,Mare Sardonium,
-2713,,,,0,0,0,0,0,0,Mare Sardonium,
-2714,,,,0,0,0,0,0,0,Mare Sardonium,
-2715,,,,0,0,0,0,0,0,Mare Balearicum,
-2716,,,,0,0,0,0,0,0,Mare Ibericum,
-2717,,,,0,0,0,0,0,0,Mare Sardonium,
-2718,,,,0,0,0,0,0,0,Mare Ibericum,
-2719,,,,0,0,0,0,0,0,Mare Balearicum,
-2720,,,,0,0,0,0,0,0,Mare Sardonium,
-2721,,,,0,0,0,0,0,0,Mare Balearicum,
-2722,,,,0,0,0,0,0,0,Mare Balearicum,
-2723,,,,0,0,0,0,0,0,Mare Ibericum,
-2724,,,,0,0,0,0,0,0,Mare Ibericum,
-2725,,,,0,0,0,0,0,0,Mare Ibericum,
-2726,,,,0,0,0,0,0,0,Mare Ibericum,
-2727,,,,0,0,0,0,0,0,Mare Ibericum,
-2728,,,,0,0,0,0,0,0,Mare Ibericum,
-2729,,,,0,0,0,0,0,0,Mare Ibericum,
-2730,,,,0,0,0,0,0,0,Fretum Gaditanum,
-2731,,,,0,0,0,0,0,0,Pontus Euxinus,
-2732,,,,0,0,0,0,0,0,Pontus Euxinus,
-2733,,,,0,0,0,0,0,0,Pontus Euxinus,
-2734,,,,0,0,0,0,0,0,Pontus Euxinus,
-2735,,,,0,0,0,0,0,0,Pontus Euxinus,
-2736,,,,0,0,0,0,0,0,Pontus Euxinus,
-2737,,,,0,0,0,0,0,0,Pontus Euxinus,
-2738,,,,0,0,0,0,0,0,Pontus Euxinus,
-2739,,,,0,0,0,0,0,0,Pontus Euxinus,
-2740,,,,0,0,0,0,0,0,Pontus Euxinus,
-2741,,,,0,0,0,0,0,0,Pontus Euxinus,
-2742,,,,0,0,0,0,0,0,Pontus Euxinus,
-2743,,,,0,0,0,0,0,0,Pontus Euxinus,
-2744,,,,0,0,0,0,0,0,Pontus Euxinus,
-2745,,,,0,0,0,0,0,0,Pontus Euxinus,
-2746,,,,0,0,0,0,0,0,Pontus Euxinus,
-2747,,,,0,0,0,0,0,0,Pontus Euxinus,
-2748,,,,0,0,0,0,0,0,Bosporus Cimmerius,
-2749,,,,0,0,0,0,0,0,Palus Maeotis,
-2750,,,,0,0,0,0,0,0,Palus Maeotis,
-2751,,,,0,0,0,0,0,0,Palus Maeotis,
-2752,,,,0,0,0,0,0,0,Palus Maeotis,
-2753,,,,0,0,0,0,0,0,Palus Maeotis,
-2754,,,,0,0,0,0,0,0,Pontus Euxinus,
-2755,,,,0,0,0,0,0,0,Pontus Euxinus,
-2756,,,,0,0,0,0,0,0,Pontus Euxinus,
-2757,,,,0,0,0,0,0,0,Pontus Euxinus,
-2758,,,,0,0,0,0,0,0,Pontus Euxinus,
-2759,,,,0,0,0,0,0,0,Pontus Euxinus,
-2760,,,,0,0,0,0,0,0,Pontus Euxinus,
-2761,,,,0,0,0,0,0,0,Pontus Euxinus,
-2762,,,,0,0,0,0,0,0,Pontus Euxinus,
-2763,,,,0,0,0,0,0,0,Pontus Euxinus,
-2764,,,,0,0,0,0,0,0,Pontus Euxinus,
-2765,,,,0,0,0,0,0,0,Pontus Euxinus,
-2766,,,,0,0,0,0,0,0,Pontus Euxinus,
-2767,,,,0,0,0,0,0,0,Pontus Euxinus,
-2768,,,,0,0,0,0,0,0,Pontus Euxinus,
-2769,,,,0,0,0,0,0,0,Pontus Euxinus,
-2770,,,,0,0,0,0,0,0,Pontus Euxinus,
-2771,,,,0,0,0,0,0,0,Pontus Euxinus,
-2772,,,,0,0,0,0,0,0,Pontus Euxinus,
-2773,,,,0,0,0,0,0,0,Pontus Euxinus,
-2774,,,,0,0,0,0,0,0,Pontus Euxinus,
-2775,,,,0,0,0,0,0,0,Pontus Euxinus,
-2776,,,,0,0,0,0,0,0,Pontus Euxinus,
-2777,,,,0,0,0,0,0,0,Pontus Euxinus,
-2778,,,,0,0,0,0,0,0,Pontus Euxinus,
-2779,,,,0,0,0,0,0,0,Pontus Euxinus,
-2780,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-2781,,,,0,0,0,0,0,0,Sinus Adenensis,
-2782,,,,0,0,0,0,0,0,Sinus Adenensis,
-2783,,,,0,0,0,0,0,0,Sinus Adenensis,
-2784,,,,0,0,0,0,0,0,Sinus Adenensis,
-2785,,,,0,0,0,0,0,0,Sinus Adenensis,
-2786,,,,0,0,0,0,0,0,Sinus Adenensis,
-2787,,,,0,0,0,0,0,0,Sinus Adenensis,
-2788,,,,0,0,0,0,0,0,Mare Erythraeum,
-2789,,,,0,0,0,0,0,0,Sinus Adenensis,
-2790,,,,0,0,0,0,0,0,Mare Erythraeum,
-2791,,,,0,0,0,0,0,0,Mare Erythraeum,
-2792,,,,0,0,0,0,0,0,Mare Erythraeum,
-2793,,,,0,0,0,0,0,0,Mare Erythraeum,
-2794,,,,0,0,0,0,0,0,Mare Erythraeum,
-2795,,,,0,0,0,0,0,0,Mare Erythraeum,
-2796,,,,0,0,0,0,0,0,Mare Erythraeum,
-2797,,,,0,0,0,0,0,0,Mare Erythraeum,
-2798,,,,0,0,0,0,0,0,Mare Erythraeum,
-2799,,,,0,0,0,0,0,0,Sinus Sachalites,
-2800,,,,0,0,0,0,0,0,Mare Erythraeum,
-2801,,,,0,0,0,0,0,0,Mare Erythraeum,
-2802,,,,0,0,0,0,0,0,Mare Erythraeum,
-2803,,,,0,0,0,0,0,0,Mare Erythraeum,
-2804,,,,0,0,0,0,0,0,Mare Erythraeum,
-2805,,,,0,0,0,0,0,0,Mare Erythraeum,
-2806,,,,0,0,0,0,0,0,Mare Erythraeum,
-2807,,,,0,0,0,0,0,0,Mare Erythraeum,
-2808,,,,0,0,0,0,0,0,Fretum Persarum,
-2809,,,,0,0,0,0,0,0,Sinus Persicus,
-2810,,,,0,0,0,0,0,0,Sinus Persicus,
-2811,,,,0,0,0,0,0,0,Sinus Persicus,
-2812,,,,0,0,0,0,0,0,Sinus Persicus,
-2813,,,,0,0,0,0,0,0,Sinus Persicus,
-2814,,,,0,0,0,0,0,0,Sinus Persicus,
-2815,,,,0,0,0,0,0,0,Sinus Persicus,
-2816,,,,0,0,0,0,0,0,Sinus Persicus,
-2817,,,,0,0,0,0,0,0,Sinus Persicus,
-2818,,,,0,0,0,0,0,0,Sinus Persicus,
-2819,,,,0,0,0,0,0,0,Sinus Persicus,
-2820,,,,0,0,0,0,0,0,Sinus Persicus,
-2821,,,,0,0,0,0,0,0,Sinus Persicus,
-2822,,,,0,0,0,0,0,0,Sinus Persicus,
-2823,,,,0,0,0,0,0,0,Mare Erythraeum,
-2824,,,,0,0,0,0,0,0,Mare Erythraeum,
-2825,,,,0,0,0,0,0,0,Mare Erythraeum,
-2826,,,,0,0,0,0,0,0,Mare Erythraeum,
-2827,,,,0,0,0,0,0,0,Mare Erythraeum,
-2828,,,,0,0,0,0,0,0,Mare Erythraeum,
-2829,,,,0,0,0,0,0,0,Mare Erythraeum,
-2830,,,,0,0,0,0,0,0,Mare Erythraeum,
-2831,,,,0,0,0,0,0,0,Mare Erythraeum,
-2832,,,,0,0,0,0,0,0,Mare Erythraeum,
-2833,,,,0,0,0,0,0,0,Mare Erythraeum,
-2834,,,,0,0,0,0,0,0,Mare Erythraeum,
-2835,,,,0,0,0,0,0,0,Mare Erythraeum,
-2836,,,,0,0,0,0,0,0,Mare Erythraeum,
-2837,,,,0,0,0,0,0,0,Mare Erythraeum,
-2838,,,,0,0,0,0,0,0,Mare Erythraeum,
-2839,,,,0,0,0,0,0,0,Mare Erythraeum,
-2840,,,,0,0,0,0,0,0,Mare Erythraeum,
-2841,,,,0,0,0,0,0,0,Mare Erythraeum,
-2842,,,,0,0,0,0,0,0,Mare Erythraeum,
-2843,,,,0,0,0,0,0,0,Mare Erythraeum,
-2844,,,,0,0,0,0,0,0,Mare Erythraeum,
-2845,,,,0,0,0,0,0,0,Mare Erythraeum,
-2846,,,,0,0,0,0,0,0,Mare Erythraeum,
-2847,,,,0,0,0,0,0,0,Mare Erythraeum,
-2848,,,,0,0,0,0,0,0,Mare Erythraeum,
-2849,,,,0,0,0,0,0,0,Mare Erythraeum,
-2850,,,,0,0,0,0,0,0,Mare Erythraeum,
-2851,,,,0,0,0,0,0,0,Mare Erythraeum,
-2852,,,,0,0,0,0,0,0,Mare Erythraeum,
-2853,,,,0,0,0,0,0,0,Mare Erythraeum,
+2613,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2614,,,,0,0,0,0,0,0,Fretum Artemisium,Mare Aegaeum
+2615,,,,0,0,0,0,0,0,Sinus Thermaeus,Mare Aegaeum
+2616,,,,0,0,0,0,0,0,Mare Thracicum,Mare Aegaeum
+2617,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2618,,,,0,0,0,0,0,0,Hellespontus,Helespontine
+2619,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2620,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2621,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2622,,,,0,0,0,0,0,0,Mare Aegaeum,Mare Aegaeum
+2623,,,,0,0,0,0,0,0,Propontis,Helespontine
+2624,,,,0,0,0,0,0,0,Canalis Sicilum,Canalis Sicium
+2625,,,,0,0,0,0,0,0,Canalis Sicilum,Canalis Sicium
+2626,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2627,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2628,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2629,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2630,,,,0,0,0,0,0,0,Canalis Melitensium,Mare Libycum
+2631,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2632,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2633,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2634,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2635,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2636,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2637,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2638,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2639,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2640,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2641,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2642,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2643,,,,0,0,0,0,0,0,Syrtis Maior,Mare Libycum
+2644,,,,0,0,0,0,0,0,Syrtis Maior,Mare Libycum
+2645,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2646,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2647,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2648,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2649,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2650,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2651,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2652,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2653,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2654,,,,0,0,0,0,0,0,Mare Libycum,Mare Libycum
+2655,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2656,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2657,,,,0,0,0,0,0,0,Mare Ionium,Mare Ionium
+2658,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2659,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2660,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2661,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2662,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2663,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2664,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2665,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2666,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2667,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2668,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2669,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2670,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2671,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2672,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2673,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2674,,,,0,0,0,0,0,0,Mare Internum,Mare Aegyptum
+2675,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2676,,,,0,0,0,0,0,0,Mare Aegyptum,Mare Aegyptum
+2677,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2678,,,,0,0,0,0,0,0,Mare Lycium,Mare Lycium
+2679,,,,0,0,0,0,0,0,Mare Phoenicium,Mare Phoenicium
+2680,,,,0,0,0,0,0,0,Canalis Cyprus,Mare Lycium
+2681,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2682,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2683,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2684,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2685,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2686,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2687,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2688,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2689,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2690,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2691,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2692,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2693,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2694,,,,0,0,0,0,0,0,Mare Ligusticum,Mare Ligusticum
+2695,,,,0,0,0,0,0,0,Mare Ligusticum,Mare Ligusticum
+2696,,,,0,0,0,0,0,0,Mare Ligusticum,Mare Ligusticum
+2697,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2698,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2699,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2700,,,,0,0,0,0,0,0,Mare Tyrrenum,Mare Tyrrenum
+2701,,,,0,0,0,0,0,0,Mare Internum,Mare Sardonium
+2702,,,,0,0,0,0,0,0,Mare Internum,Mare Sardonium
+2703,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2704,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2705,,,,0,0,0,0,0,0,Mare Internum,Mare Sardonium
+2706,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2707,,,,0,0,0,0,0,0,Sinus Gallicus,Sinus Gallicus
+2708,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2709,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2710,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2711,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2712,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2713,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2714,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2715,,,,0,0,0,0,0,0,Mare Balearicum,Mare Balearicum
+2716,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2717,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2718,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2719,,,,0,0,0,0,0,0,Mare Balearicum,Mare Balearicum
+2720,,,,0,0,0,0,0,0,Mare Sardonium,Mare Sardonium
+2721,,,,0,0,0,0,0,0,Mare Balearicum,Mare Balearicum
+2722,,,,0,0,0,0,0,0,Mare Balearicum,Mare Balearicum
+2723,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2724,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2725,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2726,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2727,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2728,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2729,,,,0,0,0,0,0,0,Mare Ibericum,Mare Ibericum
+2730,,,,0,0,0,0,0,0,Fretum Gaditanum,Rhenus
+2731,,,,0,0,0,0,0,0,Pontus Euxinus,Rhenus
+2732,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2733,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2734,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2735,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2736,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2737,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2738,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2739,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2740,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2741,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2742,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2743,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2744,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2745,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2746,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2747,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2748,,,,0,0,0,0,0,0,Bosporus Cimmerius,Palus Maeotis
+2749,,,,0,0,0,0,0,0,Palus Maeotis,Palus Maeotis
+2750,,,,0,0,0,0,0,0,Palus Maeotis,Palus Maeotis
+2751,,,,0,0,0,0,0,0,Palus Maeotis,Palus Maeotis
+2752,,,,0,0,0,0,0,0,Palus Maeotis,Palus Maeotis
+2753,,,,0,0,0,0,0,0,Palus Maeotis,Palus Maeotis
+2754,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2755,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2756,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2757,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2758,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2759,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2760,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2761,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2762,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2763,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2764,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2765,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2766,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2767,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2768,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2769,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2770,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2771,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2772,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2773,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2774,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2775,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2776,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2777,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2778,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2779,,,,0,0,0,0,0,0,Pontus Euxinus,Pontus Euxinus
+2780,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+2781,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2782,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2783,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2784,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2785,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2786,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2787,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2788,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2789,,,,0,0,0,0,0,0,Sinus Adenensis,Sinus Adenensis
+2790,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2791,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2792,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2793,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2794,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2795,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2796,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2797,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2798,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2799,,,,0,0,0,0,0,0,Sinus Sachalites,Mare Erythraeum
+2800,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2801,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2802,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2803,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2804,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2805,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2806,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2807,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2808,,,,0,0,0,0,0,0,Fretum Persarum,Sinus Persicus
+2809,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2810,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2811,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2812,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2813,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2814,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2815,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2816,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2817,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2818,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2819,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2820,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2821,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2822,,,,0,0,0,0,0,0,Sinus Persicus,Sinus Persicus
+2823,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2824,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2825,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2826,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2827,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2828,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2829,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2830,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2831,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2832,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2833,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2834,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2835,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2836,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2837,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2838,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2839,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2840,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2841,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2842,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2843,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2844,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2845,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2846,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2847,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2848,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2849,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2850,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2851,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2852,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2853,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
 2854,,,,0,0,0,0,0,0,Rann of Kutch,
 2855,,,,0,0,0,0,0,0,Rann of Kutch,
 2856,,,,0,0,0,0,0,0,Gulf of Kutch,
-2857,,,,0,0,0,0,0,0,Mare Erythraeum,
-2858,,,,0,0,0,0,0,0,Mare Erythraeum,
-2859,,,,0,0,0,0,0,0,Mare Erythraeum,
+2857,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2858,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2859,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
 2860,,,,0,0,0,0,0,0,Gulf of Minnagara,
-2861,,,,0,0,0,0,0,0,Mare Erythraeum,
-2862,,,,0,0,0,0,0,0,Mare Erythraeum,
-2863,,,,0,0,0,0,0,0,Mare Erythraeum,
-2864,,,,0,0,0,0,0,0,Mare Erythraeum,
-2865,,,,0,0,0,0,0,0,Mare Erythraeum,
-2866,,,,0,0,0,0,0,0,Mare Erythraeum,
-2867,,,,0,0,0,0,0,0,Mare Erythraeum,
-2868,,,,0,0,0,0,0,0,Mare Erythraeum,
-2869,,,,0,0,0,0,0,0,Mare Erythraeum,
-2870,,,,0,0,0,0,0,0,Mare Erythraeum,
-2871,,,,0,0,0,0,0,0,Mare Erythraeum,
-2872,,,,0,0,0,0,0,0,Mare Erythraeum,
-2873,,,,0,0,0,0,0,0,Mare Erythraeum,
-2874,,,,0,0,0,0,0,0,Mare Erythraeum,
-2875,,,,0,0,0,0,0,0,Mare Erythraeum,
-2876,,,,0,0,0,0,0,0,Mare Erythraeum,
-2877,,,,0,0,0,0,0,0,Mare Erythraeum,
-2878,,,,0,0,0,0,0,0,Mare Erythraeum,
-2879,,,,0,0,0,0,0,0,Mare Erythraeum,
-2880,,,,0,0,0,0,0,0,Mare Erythraeum,
-2881,,,,0,0,0,0,0,0,Mare Erythraeum,
-2882,,,,0,0,0,0,0,0,Mare Erythraeum,
-2883,,,,0,0,0,0,0,0,Mare Erythraeum,
-2884,,,,0,0,0,0,0,0,Mare Erythraeum,
-2885,,,,0,0,0,0,0,0,Mare Erythraeum,
-2886,,,,0,0,0,0,0,0,Mare Erythraeum,
-2887,,,,0,0,0,0,0,0,Mare Erythraeum,
-2888,,,,0,0,0,0,0,0,Mare Erythraeum,
-2889,,,,0,0,0,0,0,0,Mare Erythraeum,
-2890,,,,0,0,0,0,0,0,Mare Erythraeum,
-2891,,,,0,0,0,0,0,0,Mare Erythraeum,
-2892,,,,0,0,0,0,0,0,Mare Erythraeum,
-2893,,,,0,0,0,0,0,0,Mare Erythraeum,
-2894,,,,0,0,0,0,0,0,Mare Erythraeum,
-2895,,,,0,0,0,0,0,0,Mare Erythraeum,
-2896,,,,0,0,0,0,0,0,Mare Erythraeum,
-2897,,,,0,0,0,0,0,0,Mare Erythraeum,
-2898,,,,0,0,0,0,0,0,Mare Erythraeum,
-2899,,,,0,0,0,0,0,0,Mare Erythraeum,
-2900,,,,0,0,0,0,0,0,Mare Erythraeum,
-2901,,,,0,0,0,0,0,0,Mare Erythraeum,
-2902,,,,0,0,0,0,0,0,Mare Erythraeum,
-2903,,,,0,0,0,0,0,0,Mare Erythraeum,
-2904,,,,0,0,0,0,0,0,Mare Erythraeum,
-2905,,,,0,0,0,0,0,0,Mare Erythraeum,
-2906,,,,0,0,0,0,0,0,Mare Erythraeum,
-2907,,,,0,0,0,0,0,0,Mare Erythraeum,
-2908,,,,0,0,0,0,0,0,Mare Erythraeum,
-2909,,,,0,0,0,0,0,0,Mare Erythraeum,
-2910,,,,0,0,0,0,0,0,Mare Erythraeum,
-2911,,,,0,0,0,0,0,0,Mare Erythraeum,
-2912,,,,0,0,0,0,0,0,Mare Erythraeum,
-2913,,,,0,0,0,0,0,0,Mare Erythraeum,
-2914,,,,0,0,0,0,0,0,Mare Erythraeum,
-2915,,,,0,0,0,0,0,0,Mare Erythraeum,
-2916,,,,0,0,0,0,0,0,Mare Erythraeum,
-2917,,,,0,0,0,0,0,0,Mare Erythraeum,
-2918,,,,0,0,0,0,0,0,Mare Erythraeum,
-2919,,,,0,0,0,0,0,0,Mare Erythraeum,
-2920,,,,0,0,0,0,0,0,Mare Erythraeum,
-2921,,,,0,0,0,0,0,0,Mare Erythraeum,
-2922,,,,0,0,0,0,0,0,Mare Erythraeum,
-2923,,,,0,0,0,0,0,0,Mare Erythraeum,
-2924,,,,0,0,0,0,0,0,Mare Erythraeum,
-2925,,,,0,0,0,0,0,0,Mare Erythraeum,
-2926,,,,0,0,0,0,0,0,Mare Erythraeum,
-2927,,,,0,0,0,0,0,0,Mare Erythraeum,
-2928,,,,0,0,0,0,0,0,Mare Erythraeum,
-2929,,,,0,0,0,0,0,0,Mare Erythraeum,
-2930,,,,0,0,0,0,0,0,Mare Erythraeum,
-2931,,,,0,0,0,0,0,0,Mare Erythraeum,
-2932,,,,0,0,0,0,0,0,Mare Erythraeum,
-2933,,,,0,0,0,0,0,0,Mare Erythraeum,
-2934,,,,0,0,0,0,0,0,Mare Erythraeum,
-2935,,,,0,0,0,0,0,0,Mare Erythraeum,
-2936,,,,0,0,0,0,0,0,Mare Erythraeum,
-2937,,,,0,0,0,0,0,0,Mare Erythraeum,
-2938,,,,0,0,0,0,0,0,Mare Erythraeum,
-2939,,,,0,0,0,0,0,0,Mare Erythraeum,
-2940,,,,0,0,0,0,0,0,Mare Erythraeum,
-2941,,,,0,0,0,0,0,0,Mare Erythraeum,
-2942,,,,0,0,0,0,0,0,Mare Erythraeum,
-2943,,,,0,0,0,0,0,0,Mare Erythraeum,
-2944,,,,0,0,0,0,0,0,Mare Erythraeum,
-2945,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2946,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2947,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2948,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2949,,,,0,0,0,0,0,0,Mare Erythraeum,
-2950,,,,0,0,0,0,0,0,Mare Erythraeum,
-2951,,,,0,0,0,0,0,0,Mare Erythraeum,
-2952,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2953,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2954,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2955,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2956,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2957,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2958,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2959,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2960,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2961,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2962,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2963,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2964,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2965,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2966,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2967,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2968,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2969,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2970,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2971,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2972,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2973,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2974,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2975,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2976,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2977,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2978,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2979,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2980,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2981,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2982,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2983,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2984,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2985,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2986,,,,0,0,0,0,0,0,Sinus Gangeticus,
-2987,,,,0,0,0,0,0,0,Sinus Gangeticus,
+2861,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2862,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2863,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2864,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2865,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2866,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2867,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2868,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2869,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2870,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2871,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2872,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2873,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2874,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2875,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2876,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2877,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2878,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2879,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2880,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2881,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2882,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2883,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2884,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2885,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2886,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2887,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2888,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2889,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2890,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2891,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2892,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2893,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2894,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2895,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2896,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2897,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2898,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2899,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2900,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2901,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2902,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2903,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2904,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2905,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2906,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2907,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2908,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2909,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2910,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2911,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2912,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2913,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2914,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2915,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2916,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2917,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2918,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2919,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2920,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2921,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2922,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2923,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2924,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2925,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2926,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2927,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2928,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2929,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2930,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2931,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2932,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2933,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2934,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2935,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2936,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2937,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2938,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2939,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2940,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2941,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2942,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2943,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2944,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2945,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2946,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2947,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2948,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2949,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2950,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2951,,,,0,0,0,0,0,0,Mare Erythraeum,Mare Erythraeum
+2952,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2953,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2954,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2955,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2956,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2957,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2958,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2959,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2960,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2961,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2962,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2963,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2964,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2965,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2966,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2967,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2968,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2969,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2970,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2971,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2972,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2973,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2974,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2975,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2976,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2977,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2978,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2979,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2980,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2981,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2982,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2983,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2984,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2985,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2986,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
+2987,,,,0,0,0,0,0,0,Sinus Gangeticus,Mare Gangeticus
 2988,,,,0,0,0,0,0,0,Mare Hyrcanium,
 2989,,,,0,0,0,0,0,0,Mare Hyrcanium,
 2990,,,,0,0,0,0,0,0,Mare Hyrcanium,
@@ -3259,9 +3259,9 @@
 3258,carthaginian,carthaginian_pantheon,grain,2,0,3,3,40,0,Ubon,Carthago
 3259,carthaginian,carthaginian_pantheon,base_metals,4,1,2,4,40,0,Uzali Sar,Carthago
 3260,carthaginian,carthaginian_pantheon,grain,3,2,1,3,40,0,Matar,Carthago
-3261,carthaginian,carthaginian_pantheon,wood,2,3,2,2,40,0,Rucuma,Carthago
-3262,carthaginian,carthaginian_pantheon,base_metals,7,1,3,2,40,0,Rucuma,Thabracania
-3263,carthaginian,carthaginian_pantheon,wine,5,1,1,0,40,0,Thizika,Carthago
+3261,carthaginian,carthaginian_pantheon,wood,2,3,2,2,40,0,Thizika,Carthago
+3262,carthaginian,carthaginian_pantheon,base_metals,7,1,3,2,40,0,Kinna,Thabracania
+3263,carthaginian,carthaginian_pantheon,wine,5,1,1,0,40,0,Rucuma,Carthago
 3264,carthaginian,carthaginian_pantheon,olive,5,2,5,2,40,0,Vaga,Thabracania
 3265,carthaginian,carthaginian_pantheon,wood,2,1,3,2,40,0,Thimida Bure,Thabracania
 3266,carthaginian,carthaginian_pantheon,base_metals,7,1,3,4,40,0,Ureu,Carthago
@@ -3378,7 +3378,7 @@
 3377,egyptian,egyptian_pantheon,leather,1,2,0,0,40,0,Apis,Libya
 3378,egyptian,egyptian_pantheon,cattle,2,1,2,0,40,0,Paraitonion,Libya
 3379,egyptian,egyptian_pantheon,salt,1,1,0,0,40,0,Kallias Akron,Libya
-3380,egyptian,egyptian_pantheon,fish,2,1,0,0,40,0,Leuke Akte,Libya
+3380,egyptian,egyptian_pantheon,fish,2,1,0,0,40,0,Leuke Akte Kyrenaiki,Libya
 3381,cadusian,zoroaster,dye,3,2,3,1,35,0,Alam,Choarene
 3382,amardian,zoroaster,wine,4,2,3,6,40,0,Baaka,Choarene
 3383,cadusian,zoroaster,leather,2,2,4,2,35,0,Shaapa,Amardioi
@@ -3479,10 +3479,10 @@
 3478,egyptian,egyptian_pantheon,salt,0,1,1,0,40,0,Derras,Libya
 3479,thamudi,arabian_pantheon,wine,1,1,1,0,10,0,Abha,Taifa
 3480,thamudi,arabian_pantheon,wine,1,1,1,0,10,0,Migayah,Taifa
-3481,carthaginian,carthaginian_pantheon,salt,35,3,1,2,35,0,Sulki,Sardinia Australis
+3481,carthaginian,carthaginian_pantheon,salt,40,3,1,2,35,0,Sulki,Sardinia Australis
 3482,nuragic,carthaginian_pantheon,iron,1,4,2,1,15,0,Hydata Neapolitana,Sardinia Australis
-3483,carthaginian,carthaginian_pantheon,fish,21,1,2,2,35,0,Nora,Sardinia Australis
-3484,carthaginian,carthaginian_pantheon,wine,21,3,1,2,35,0,Karali,Sardinia Australis
+3483,carthaginian,carthaginian_pantheon,fish,24,1,2,2,35,0,Nora,Sardinia Australis
+3484,carthaginian,carthaginian_pantheon,wine,24,3,1,2,35,0,Karali,Sardinia Australis
 3485,carthaginian,carthaginian_pantheon,base_metals,1,3,1,2,35,0,Metalla,Sardinia Australis
 3486,nuragic,carthaginian_pantheon,fish,3,2,2,1,15,0,Ferraria,Sardinia Australis
 3487,nuragic,carthaginian_pantheon,fish,2,1,1,2,35,0,Porticenses,Sardinia Australis
@@ -3697,9 +3697,9 @@
 3696,treverian,druidism,stone,0,1,0,4,10,0,Cruciniacum,Mediomatricia
 3697,treverian,druidism,cattle,0,1,1,4,10,0,Rouphiniana,Mediomatricia
 3698,treverian,druidism,cattle,0,1,0,4,10,0,Altaia,Mediomatricia
-3699,treverian,druidism,horses,1,3,2,4,10,0,Aquae Mattiacorum,Mediomatricia
+3699,treverian,druidism,horses,1,3,2,4,10,0,Aquae Mattiacorum,Sicambria
 3700,treverian,druidism,wood,0,1,0,4,10,0,Taunensium,Vangionia
-3701,treverian,druidism,leather,1,3,0,6,10,0,Mogontiacum,Vangionia
+3701,treverian,druidism,leather,1,3,0,6,10,0,Mogontiacum,Mediomatricia
 3702,treverian,druidism,wood,0,1,0,4,10,0,Auderiensium,Vangionia
 3703,treverian,druidism,stone,0,1,0,4,10,0,Remia,Treveria Salutaris
 3704,belgae,druidism,wood,0,1,0,4,15,0,Nervia Prima,Nervia
@@ -3718,14 +3718,14 @@
 3717,belgae,druidism,hemp,0,2,0,5,15,0,Novaesium,Eburonia
 3718,belgae,druidism,hemp,0,1,0,4,15,0,Aquae Granni,Eburonia
 3719,belgae,druidism,fur,0,1,1,4,15,0,Belsonancum,Nervia
-3720,belgae,druidism,vegetables,1,3,0,4,15,0,Bonna,Treveria
+3720,belgae,druidism,vegetables,1,3,0,4,15,0,Bonna,Eburonia
 3721,treverian,druidism,stone,0,2,0,3,15,0,Confluentes,Treveria
 3722,treverian,druidism,stone,0,1,0,4,15,0,Vosolvia,Treveria
 3723,treverian,druidism,base_metals,1,1,0,4,10,0,Bingium,Mediomatricia
 3724,treverian,druidism,wood,1,1,0,4,15,0,Belginum,Treveria
 3725,treverian,druidism,wood,0,1,0,4,10,0,Dumnissus,Mediomatricia
 3726,treverian,druidism,base_metals,0,1,0,4,15,0,Beda,Treveria
-3727,belgae,druidism,woad,0,1,0,4,15,0,Marcomagus,Treveria
+3727,belgae,druidism,woad,0,1,0,4,15,0,Marcomagus,Eburonia
 3728,treverian,druidism,earthware,0,1,0,3,15,0,Icorigum,Treveria
 3729,treverian,druidism,wood,0,1,0,3,15,0,Minerica,Treveria
 3730,treverian,druidism,vegetables,0,1,0,3,15,0,Ausava,Treveria
@@ -3824,7 +3824,7 @@
 3823,treverian,druidism,woad,0,0,1,4,5,0,Melocavus,Chattia
 3824,istvaeonic,germanic_religion,fish,0,0,0,3,5,0,Mattium,Chamavia
 3825,istvaeonic,germanic_religion,stone,0,1,0,4,5,0,Pheugarum,Chamavia
-3826,istvaeonic,germanic_religion,fur,1,1,0,3,5,0,Amisia,Sicambria
+3826,istvaeonic,germanic_religion,fur,1,1,0,3,5,0,Amisia,Bructeria
 3827,suebian,germanic_religion,hemp,0,0,1,1,5,0,Tulisurgium,Bructeria
 3828,suebian,germanic_religion,hemp,1,1,2,0,5,0,Tuliphurdum,Bructeria
 3829,saxonian,germanic_religion,horses,0,0,1,1,5,0,Ascalingium,Chaucia
@@ -4587,17 +4587,17 @@
 4586,,,,0,0,0,0,0,0,Mare Hyrcanium,
 4587,,,,0,0,0,0,0,0,Mare Hyrcanium,
 4588,,,,0,0,0,0,0,0,Mare Hyrcanium,
-4589,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4590,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4591,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4592,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4593,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4594,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4595,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4596,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4597,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4598,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4599,,,,0,0,0,0,0,0,Oceanus Atlanticus,
+4589,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4590,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4591,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4592,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4593,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4594,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4595,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4596,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4597,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4598,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4599,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
 4600,nabatean,arabian_pantheon,horses,0,0,1,2,15,0,Ostama,Arabia Relicta
 4601,nabatean,arabian_pantheon,leather,1,1,1,0,15,0,Baclanaza,Arabia Relicta
 4602,nabatean,arabian_pantheon,salt,0,2,1,1,15,0,Leuke Kome,Arabia Relicta
@@ -4612,7 +4612,7 @@
 4611,nabatean,arabian_pantheon,glass,1,0,1,2,15,0,Madiama,Arabia Relicta
 4612,nabatean,arabian_pantheon,horses,0,2,1,1,15,0,Relicta,Arabia Relicta
 4613,nabatean,arabian_pantheon,camel,0,1,1,0,15,0,Aybara,Arabia Relicta
-4614,,,,0,0,0,0,0,0,Oceanus Atlanticus,
+4614,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
 4615,qedarite,arabian_pantheon,dates,3,3,3,3,5,0,Dedan,Dedan
 4616,qedarite,arabian_pantheon,incense,1,2,2,2,25,0,Ausara,Iathrippa
 4617,hebrew,judaism,incense,0,0,1,2,25,0,Mochoura,Iathrippa
@@ -4720,34 +4720,34 @@
 4719,hebrew,judaism,leather,0,2,1,1,25,0,Coloera,Iathrippa
 4720,hebrew,judaism,camel,2,2,2,0,25,0,Eroe,Iathrippa
 4721,qedarite,arabian_pantheon,dates,2,3,1,1,5,0,Durnatha,Dedan
-4722,,,,0,0,0,0,0,0,Oceanus Atlanticus,
+4722,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
 4723,,,,0,0,0,0,0,0,Sinus Messenium,
 4724,,,,0,0,0,0,0,0,Sinus Laconicus,
-4725,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4726,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4727,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4728,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4729,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4730,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4731,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4732,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4733,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4734,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4735,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4736,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4737,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4738,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4739,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4740,,,,0,0,0,0,0,0,Mare Cantabricum,
-4741,,,,0,0,0,0,0,0,Mare Cantabricum,
-4742,,,,0,0,0,0,0,0,Mare Cantabricum,
-4743,,,,0,0,0,0,0,0,Mare Cantabricum,
-4744,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4745,,,,0,0,0,0,0,0,Mare Cantabricum,
-4746,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4747,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-4748,,,,0,0,0,0,0,0,Mare Cantabricum,
-4749,,,,0,0,0,0,0,0,Mare Cantabricum,
+4725,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4726,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4727,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4728,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4729,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4730,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4731,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4732,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4733,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4734,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4735,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4736,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4737,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4738,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4739,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4740,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+4741,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+4742,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+4743,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+4744,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4745,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+4746,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4747,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+4748,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+4749,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
 4750,gothonic,germanic_religion,amber,0,0,0,3,5,0,Rugia,Rugia
 4751,gothonic,germanic_religion,vegetables,0,0,0,3,5,0,Rhugium,Rugia
 4752,gothonic,germanic_religion,fish,0,0,0,4,5,0,Viadrus,Rugia
@@ -4781,11 +4781,11 @@
 4780,uxian,zoroaster,marble,5,3,3,4,40,0,Arragan,Mardiene
 4781,pasargadi,zoroaster,glass,5,7,5,4,40,0,Vehshapur,Taorene
 4782,uxian,zoroaster,earthware,4,4,3,5,40,0,Suravan,Mardiene
-4783,,,,0,0,0,0,0,0,Mare Cantabricum,
+4783,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
 4784,pasargadi,zoroaster,fish,3,2,4,1,40,0,Arrakia,Mardiene
 4785,uxian,zoroaster,cattle,1,3,2,4,40,0,Millonia,Mardiene
 4786,pasargadi,zoroaster,elephants,2,4,2,1,40,0,Borazjan,Mardiene
-4787,pasargadi,zoroaster,salt,2,1,3,2,40,0,Bushahr,Mardiene
+4787,pasargadi,zoroaster,salt,2,1,3,2,40,0,Antiocheia Persidos,Mardiene
 4788,pasargadi,zoroaster,camel,1,3,1,0,40,0,Hieratis,Taorene
 4789,pasargadi,zoroaster,hemp,2,0,0,2,40,0,Gogana,Taorene
 4790,pasargadi,zoroaster,fish,1,3,1,1,40,0,Siraf,Taorene
@@ -4950,9 +4950,9 @@
 4949,uxian,zoroaster,glass,4,1,3,2,40,0,Kaupirrish,Persepolis
 4950,uxian,zoroaster,fur,2,4,1,4,40,0,Persides,Persepolis
 4951,uxian,zoroaster,glass,1,4,2,4,40,0,Pasargadae,Persepolis
-4952,,,,0,0,0,0,0,0,Mare Cantabricum,
+4952,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
 4953,uxian,zoroaster,wine,3,3,2,5,40,0,Croatis,Persepolis
-4954,,,,0,0,0,0,0,0,Mare Cantabricum,
+4954,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
 4955,utian,zoroaster,vegetables,3,2,1,4,30,0,Oarakta,Utia
 4956,pasargadi,zoroaster,cattle,2,1,1,2,40,0,Kishar,Utia
 4957,utian,zoroaster,fish,1,2,1,4,30,0,Lengeh,Utia
@@ -4998,11 +4998,11 @@
 4997,amardian,zoroaster,grain,6,8,5,6,40,0,Sariya,Hyrcania
 4998,amardian,zoroaster,vegetables,2,3,2,1,40,0,Shirga,Hyrcania
 4999,amardian,zoroaster,steppe_horses,3,4,5,4,40,0,Tehran,Choarene
-5000,syracusan,roman_pantheon,,0,0,0,0,55,0,,
+5000,syracusan,roman_pantheon,,0,0,0,0,55,0,Aetna Volcano,
 5001,syracusan,roman_pantheon,,0,0,0,0,55,0,,
 5002,bruttian,roman_pantheon,,0,0,0,0,0,0,,
 5003,bruttian,roman_pantheon,,0,0,0,0,0,0,,
-5004,lucanian,roman_pantheon,,0,0,0,0,5,0,,
+5004,ventrueculture,roman_pantheon,,0,0,0,0,5,0,,
 5005,samnite,roman_pantheon,,0,0,0,0,0,0,,
 5006,samnite,roman_pantheon,,0,0,0,0,0,0,,
 5007,samnite,roman_pantheon,,0,0,0,0,0,0,,
@@ -5145,8 +5145,8 @@
 5144,irminonic,germanic_religion,,0,0,0,0,0,0,,
 5145,irminonic,germanic_religion,,0,0,0,0,0,0,Bohaemeian Forest,
 5146,boian,germanic_religion,,0,0,0,0,0,0,,
-5147,siculian,roman_pantheon,,0,0,0,0,3,0,,
-5148,syracusan,roman_pantheon,,0,0,0,0,55,0,,
+5147,siculian,vampirereligion,,0,0,0,0,3,0,,
+5148,syracusan,vampirereligion,,0,0,0,0,55,0,,
 5149,siculian,roman_pantheon,,0,0,0,0,5,0,,
 5150,siculian,roman_pantheon,,0,0,0,0,5,0,,
 5151,massaesylian,berber_religion,,0,0,0,0,5,0,Atlas,
@@ -5168,7 +5168,7 @@
 5167,cilician,roman_pantheon,,0,0,0,0,50,0,,
 5168,cilician,roman_pantheon,,0,0,0,0,50,0,,
 5169,lycaonian,roman_pantheon,,0,0,0,0,0,0,,
-5170,paphlagonian,anatolian_religion,,0,0,0,0,0,0,,
+5170,paphlagonian,anatolian_religion,,0,0,0,0,0,0,Argaeus Mons Volcano,
 5171,paphlagonian,anatolian_religion,,0,0,0,0,0,0,,
 5172,paphlagonian,anatolian_religion,,0,0,0,0,0,0,,
 5173,paphlagonian,anatolian_religion,,0,0,0,0,0,0,,
@@ -5206,11 +5206,11 @@
 5205,ibero,caucasian_religion,,0,0,0,0,0,0,,
 5206,ibero,caucasian_religion,,0,0,0,0,0,0,,
 5207,ibero,caucasian_religion,,0,0,0,0,0,0,,
-5208,ibero,caucasian_religion,,0,0,0,0,0,0,Ararat,
+5208,ibero,caucasian_religion,,0,0,0,0,0,0,Aragats Volcano,
 5209,albanian,caucasian_religion,,0,0,0,0,0,0,,
-5210,armenian,armenian_religion,,0,0,0,0,0,0,,
+5210,armenian,armenian_religion,,0,0,0,0,0,0,Bamni Volcano,
 5211,armenian,armenian_religion,,0,0,0,0,0,0,,
-5212,armenian,armenian_religion,,0,0,0,0,0,0,,
+5212,armenian,armenian_religion,,0,0,0,0,0,0,Ararat Volcano,
 5213,armenian,armenian_religion,,0,0,0,0,0,0,,
 5214,armenian,armenian_religion,,0,0,0,0,0,0,,
 5215,median,zoroaster,,0,0,0,0,0,0,,
@@ -5668,202 +5668,202 @@
 5667,tocharian,eastern_animism,,0,0,0,0,0,0,Taklamakan,North Tarim Basin
 5668,saka,eastern_animism,,0,0,0,0,0,0,Taklamakan,South Tarim Basin
 5669,saka,eastern_animism,,0,0,0,0,0,0,Taklamakan,South Tarim Basin
-5670,,,,0,0,0,0,0,0,Mare Cantabricum,
-5671,,,,0,0,0,0,0,0,Mare Cantabricum,
-5672,,,,0,0,0,0,0,0,Mare Cantabricum,
-5673,,,,0,0,0,0,0,0,Mare Cantabricum,
-5674,,,,0,0,0,0,0,0,Mare Cantabricum,
-5675,,,,0,0,0,0,0,0,Mare Cantabricum,
-5676,,,,0,0,0,0,0,0,Mare Cantabricum,
-5677,,,,0,0,0,0,0,0,Mare Cantabricum,
-5678,,,,0,0,0,0,0,0,Mare Cantabricum,
-5679,,,,0,0,0,0,0,0,Mare Cantabricum,
-5680,,,,0,0,0,0,0,0,Mare Cantabricum,
-5681,,,,0,0,0,0,0,0,Mare Cantabricum,
-5682,,,,0,0,0,0,0,0,Mare Cantabricum,
-5683,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5684,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5685,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5686,,,,0,0,0,0,0,0,Mare Verginium,
-5687,,,,0,0,0,0,0,0,Mare Verginium,
-5688,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5689,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5690,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5691,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5692,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5693,,,,0,0,0,0,0,0,Mare Britannicum,
-5694,,,,0,0,0,0,0,0,Mare Britannicum,
-5695,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5696,,,,0,0,0,0,0,0,Mare Verginium,
-5697,,,,0,0,0,0,0,0,Mare Britannicum,
-5698,,,,0,0,0,0,0,0,Mare Britannicum,
-5699,,,,0,0,0,0,0,0,Mare Britannicum,
-5700,,,,0,0,0,0,0,0,Mare Britannicum,
-5701,,,,0,0,0,0,0,0,Mare Verginium,
-5702,,,,0,0,0,0,0,0,Mare Verginium,
-5703,,,,0,0,0,0,0,0,Mare Britannicum,
-5704,,,,0,0,0,0,0,0,Mare Britannicum,
-5705,,,,0,0,0,0,0,0,Mare Britannicum,
-5706,,,,0,0,0,0,0,0,Mare Britannicum,
-5707,,,,0,0,0,0,0,0,Mare Britannicum,
-5708,,,,0,0,0,0,0,0,Mare Britannicum,
-5709,,,,0,0,0,0,0,0,Mare Britannicum,
+5670,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5671,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5672,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5673,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5674,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5675,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5676,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5677,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5678,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5679,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5680,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5681,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5682,,,,0,0,0,0,0,0,Mare Cantabricum,Mare Catabricum
+5683,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5684,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5685,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5686,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5687,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5688,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5689,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5690,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5691,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5692,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5693,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5694,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5695,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5696,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5697,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5698,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5699,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5700,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5701,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5702,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5703,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5704,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5705,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5706,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5707,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5708,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5709,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
 5710,,,,0,0,0,0,0,0,Fretum Gallicum,
-5711,,,,0,0,0,0,0,0,Mare Britannicum,
-5712,,,,0,0,0,0,0,0,Mare Verginium,
-5713,,,,0,0,0,0,0,0,Mare Verginium,
-5714,,,,0,0,0,0,0,0,Mare Verginium,
-5715,,,,0,0,0,0,0,0,Mare Verginium,
-5716,,,,0,0,0,0,0,0,Mare Verginium,
-5717,,,,0,0,0,0,0,0,Mare Verginium,
-5718,,,,0,0,0,0,0,0,Mare Verginium,
-5719,,,,0,0,0,0,0,0,Mare Verginium,
-5720,,,,0,0,0,0,0,0,Mare Verginium,
-5721,,,,0,0,0,0,0,0,Mare Verginium,
-5722,,,,0,0,0,0,0,0,Mare Verginium,
-5723,,,,0,0,0,0,0,0,Mare Verginium,
-5724,,,,0,0,0,0,0,0,Mare Verginium,
-5725,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5726,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5727,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5728,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5729,,,,0,0,0,0,0,0,Mare Hibernicum,
-5730,,,,0,0,0,0,0,0,Mare Hibernicum,
-5731,,,,0,0,0,0,0,0,Mare Hibernicum,
-5732,,,,0,0,0,0,0,0,Mare Hibernicum,
-5733,,,,0,0,0,0,0,0,Mare Hibernicum,
-5734,,,,0,0,0,0,0,0,Mare Hibernicum,
-5735,,,,0,0,0,0,0,0,Mare Hibernicum,
-5736,,,,0,0,0,0,0,0,Mare Hibernicum,
-5737,,,,0,0,0,0,0,0,Mare Hibernicum,
-5738,,,,0,0,0,0,0,0,Mare Hibernicum,
-5739,,,,0,0,0,0,0,0,Mare Hibernicum,
-5740,,,,0,0,0,0,0,0,Mare Hibernicum,
-5741,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5742,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5743,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5744,,,,0,0,0,0,0,0,Mare Hibernicum,
-5745,,,,0,0,0,0,0,0,Mare Verginium,
-5746,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5747,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5748,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5749,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5750,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5751,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5752,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5753,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5754,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5755,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5756,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5757,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5758,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5759,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5760,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5761,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5762,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5763,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5764,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5765,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5766,,,,0,0,0,0,0,0,Oceanus Atlanticus,
-5767,,,,0,0,0,0,0,0,Orcades,
-5768,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5769,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5770,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5771,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5772,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5773,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5774,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5775,,,,0,0,0,0,0,0,Mare Germanicum,
-5776,,,,0,0,0,0,0,0,Mare Germanicum,
-5777,,,,0,0,0,0,0,0,Mare Germanicum,
-5778,,,,0,0,0,0,0,0,Mare Germanicum,
-5779,,,,0,0,0,0,0,0,Mare Germanicum,
-5780,,,,0,0,0,0,0,0,Mare Germanicum,
-5781,,,,0,0,0,0,0,0,Mare Germanicum,
+5711,,,,0,0,0,0,0,0,Mare Britannicum,Mare Britannicum
+5712,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5713,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5714,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5715,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5716,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5717,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5718,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5719,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5720,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5721,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5722,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5723,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5724,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5725,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5726,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5727,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5728,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5729,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5730,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5731,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5732,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5733,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5734,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5735,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5736,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5737,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5738,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5739,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5740,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5741,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5742,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5743,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5744,,,,0,0,0,0,0,0,Mare Hibernicum,Mare Hibernicum
+5745,,,,0,0,0,0,0,0,Mare Verginium,Mare Verginium
+5746,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5747,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5748,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5749,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5750,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5751,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5752,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5753,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5754,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5755,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5756,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5757,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5758,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5759,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5760,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5761,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5762,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5763,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5764,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5765,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5766,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
+5767,,,,0,0,0,0,0,0,Orcades,Mare Septentrionalis
+5768,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5769,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5770,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5771,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5772,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5773,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5774,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5775,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5776,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5777,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5778,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5779,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5780,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5781,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
 5782,,,,0,0,0,0,0,0,Lacus Flevo,
-5783,,,,0,0,0,0,0,0,Mare Germanicum,
-5784,,,,0,0,0,0,0,0,Mare Germanicum,
-5785,,,,0,0,0,0,0,0,Mare Germanicum,
-5786,,,,0,0,0,0,0,0,Mare Germanicum,
-5787,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5788,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5789,,,,0,0,0,0,0,0,Mare Germanicum,
-5790,,,,0,0,0,0,0,0,Mare Germanicum,
-5791,,,,0,0,0,0,0,0,Mare Germanicum,
-5792,,,,0,0,0,0,0,0,Mare Germanicum,
-5793,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5794,,,,0,0,0,0,0,0,Mare Germanicum,
-5795,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5796,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5797,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5798,,,,0,0,0,0,0,0,Mare Germanicum,
-5799,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5800,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5801,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5802,,,,0,0,0,0,0,0,Mare Germanicum,
-5803,,,,0,0,0,0,0,0,Mare Germanicum,
-5804,,,,0,0,0,0,0,0,Mare Germanicum,
-5805,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5806,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5807,,,,0,0,0,0,0,0,Mare Germanicum,
-5808,,,,0,0,0,0,0,0,Mare Germanicum,
-5809,,,,0,0,0,0,0,0,Mare Germanicum,
-5810,,,,0,0,0,0,0,0,Mare Germanicum,
-5811,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5812,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5813,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5814,,,,0,0,0,0,0,0,Mare Germanicum,
-5815,,,,0,0,0,0,0,0,Mare Germanicum,
-5816,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5817,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5818,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5819,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5820,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5821,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5822,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5823,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5824,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5825,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5826,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5827,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5828,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5829,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5830,,,,0,0,0,0,0,0,Mare Septentrionalis,
-5831,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5832,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5833,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5834,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5835,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5836,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5837,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5838,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5839,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5840,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5841,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5842,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5843,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5844,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5845,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5846,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5847,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5848,,,,0,0,0,0,0,0,Eowia,
-5849,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5850,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5851,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5852,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5853,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5854,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5855,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5856,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5857,,,,0,0,0,0,0,0,Gothlandia,
-5858,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5859,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5860,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5861,,,,0,0,0,0,0,0,Gothlandia,
-5862,,,,0,0,0,0,0,0,Gothlandia,
-5863,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5864,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
-5865,,,,0,0,0,0,0,0,Mare Myrtoum,
+5783,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5784,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5785,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5786,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5787,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5788,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5789,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5790,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5791,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5792,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5793,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5794,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5795,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5796,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5797,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5798,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5799,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5800,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5801,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5802,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5803,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5804,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5805,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5806,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5807,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5808,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5809,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5810,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5811,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5812,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5813,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5814,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5815,,,,0,0,0,0,0,0,Mare Germanicum,Mare Germanicum
+5816,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5817,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5818,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5819,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5820,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5821,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5822,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5823,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5824,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5825,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5826,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5827,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5828,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5829,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5830,,,,0,0,0,0,0,0,Mare Septentrionalis,Mare Septentrionalis
+5831,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5832,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5833,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5834,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5835,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5836,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5837,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5838,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5839,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5840,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5841,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5842,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5843,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5844,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5845,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5846,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5847,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5848,,,,0,0,0,0,0,0,Eowia,Oceanus Sarmaticus
+5849,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5850,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5851,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5852,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5853,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5854,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5855,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5856,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5857,,,,0,0,0,0,0,0,Gothlandia,Oceanus Sarmaticus
+5858,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5859,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5860,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5861,,,,0,0,0,0,0,0,Gothlandia,Oceanus Sarmaticus
+5862,,,,0,0,0,0,0,0,Gothlandia,Oceanus Sarmaticus
+5863,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5864,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
+5865,,,,0,0,0,0,0,0,Mare Myrtoum,Mare Aegaeum
 5866,scythian,indo_iranian_religion,earthware,3,2,2,4,10,0,Zabender,Sarmatia Hyrcania
 5867,scythian,indo_iranian_religion,stone,1,0,0,0,10,0,Suthrander,Sarmatia Hyrcania
 5868,scythian,indo_iranian_religion,fur,0,1,0,1,10,0,Lotin,Sarmatia Hyrcania
@@ -5981,14 +5981,14 @@
 5980,brigantic,druidism,,0,0,0,0,0,0,,
 5981,sarmatian,indo_iranian_religion,,0,0,0,0,0,0,,
 5982,,,,0,0,0,0,0,0,,
-5983,,,,0,0,0,0,0,0,"  "Lacus Sabatinus,
+5983,,,,0,0,0,0,0,0,,
 5984,socossian,berber_religion,,0,0,0,0,3,0,High Atlas,
 5985,socossian,berber_religion,,0,0,0,0,3,0,Inner Mauritania,
 5986,socossian,berber_religion,,0,0,0,0,5,0,Middle Atlas,
 5987,socossian,berber_religion,,0,0,0,0,3,0,Maurian Plateau,
 5988,massaesylian,berber_religion,,0,0,0,0,0,0,,
 5989,massaesylian,berber_religion,,0,0,0,0,0,0,Thenteos,
-5990,garamantic,berber_religion,,0,0,0,0,0,0,PROV5990,
+5990,garamantic,berber_religion,,0,0,0,0,0,0,,
 5991,garamantic,berber_religion,,0,0,0,0,0,0,Gholaia,
 5992,garamantic,berber_religion,,0,0,0,0,0,0,Aguila,
 5993,garamantic,berber_religion,,0,0,0,0,0,0,Cyrenaica,
@@ -6374,7 +6374,7 @@
 6373,,,,0,0,0,0,0,0,,
 6374,,,,0,0,0,0,0,0,,
 6375,,,,0,0,0,0,0,0,,
-6376,,,,0,0,0,0,0,0,,
+6376,,,,0,0,0,0,0,0,Canal of the Pharaohs,The Nile
 6377,,,,0,0,0,0,0,0,,
 6378,,,,0,0,0,0,0,0,,
 6379,,,,0,0,0,0,0,0,,
@@ -6418,7 +6418,7 @@
 6417,,,,0,0,0,0,0,0,,
 6418,,,,0,0,0,0,0,0,,
 6419,,,,0,0,0,0,0,0,,
-6420,,,,0,0,0,0,0,0,,
+6420,,,,0,0,0,0,0,0,Eulepa,Cappadocia
 6421,,,,0,0,0,0,0,0,,
 6422,,,,0,0,0,0,0,0,,
 6423,,,,0,0,0,0,0,0,,
@@ -6429,9 +6429,9 @@
 6428,,,,0,0,0,0,0,0,,
 6429,,,,0,0,0,0,0,0,,
 6430,,,,0,0,0,0,0,0,,
-6431,,,,0,0,0,0,0,0,,
+6431,,,,0,0,0,0,0,0,Palaipaphos,Cyprus
 6432,,,,0,0,0,0,0,0,,
-6433,,,,0,0,0,0,0,0,,
+6433,,,,0,0,0,0,0,0,Chythroi,Cyprus
 6434,,,,0,0,0,0,0,0,,
 6435,,,,0,0,0,0,0,0,,
 6436,,,,0,0,0,0,0,0,,
@@ -6467,7 +6467,7 @@
 6466,,,,0,0,0,0,0,0,,
 6467,,,,0,0,0,0,0,0,,
 6468,,,,0,0,0,0,0,0,,
-6469,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
+6469,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
 6470,socossian,berber_religion,base_metals,0,0,0,3,5,0,Rob'a,Tadla
 6471,socossian,berber_religion,wood,0,0,0,2,5,0,Mousa,Tadla
 6472,socossian,berber_religion,leather,0,0,0,3,5,0,Amer,Tadla
@@ -6475,7 +6475,7 @@
 6474,socossian,berber_religion,spices,0,0,0,2,5,0,Meskine,Tadla
 6475,socossian,berber_religion,fish,0,1,0,4,5,0,Anfa,Rutubis
 6476,socossian,berber_religion,wild_game,0,0,0,3,5,0,Khedis,Mauretania
-6477,socossian,berber_religion,cattle,0,0,0,18,5,0,Frej,Rutubis
+6477,socossian,berber_religion,cattle,0,0,0,19,5,0,Frej,Rutubis
 6478,carthaginian,carthaginian_pantheon,fish,0,1,1,2,5,0,Amar,Rutubis
 6479,socossian,berber_religion,hemp,0,0,0,3,5,0,Bouzerrara,Rutubis
 6480,socossian,berber_religion,grain,0,0,0,3,5,0,Amrane,Rutubis
@@ -6504,7 +6504,7 @@
 6503,median,zoroaster,cattle,0,0,0,3,35,0,Bayazeh,Arcticene
 6504,median,zoroaster,steppe_horses,0,0,0,2,35,0,Rabat,Arcticene
 6505,median,zoroaster,precious_metals,0,0,0,4,35,0,Bazyab,Arcticene
-6506,,,,0,0,0,0,0,0,Oceanus Atlanticus,
+6506,,,,0,0,0,0,0,0,Oceanus Atlanticus,Oceanus Atlanticus
 6507,median,zoroaster,honey,0,0,2,5,40,0,Naein,Paraetacene
 6508,median,zoroaster,grain,1,2,3,1,40,0,Aqda,Media Felix
 6509,median,zoroaster,vegetables,2,2,2,1,40,0,Badroud,Paraetacene
@@ -6517,7 +6517,7 @@
 6516,gedrosian,zoroaster,dye,0,1,0,1,25,0,Troesus,Rudiana
 6517,gedrosian,zoroaster,camel,0,0,1,2,25,0,Canasida,Gedrosia
 6518,pactyan,zoroaster,precious_metals,2,5,2,3,25,0,Prophthasia,Aria
-6519,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
+6519,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
 6520,gedrosian,zoroaster,fish,0,0,1,2,25,0,Mephas,Gedrosia
 6521,gedrosian,zoroaster,incense,0,1,1,0,25,0,Badara,Gedrosia
 6522,gedrosian,zoroaster,dye,0,0,1,2,25,0,Mosarna,Gedrosia
@@ -6650,7 +6650,7 @@
 6649,bactrian,zoroaster,vegetables,2,1,2,1,40,0,Battak,Candara
 6650,bactrian,zoroaster,stone,3,3,1,2,40,0,Cabolita,Candara
 6651,bactrian,zoroaster,gems,2,2,2,1,40,0,Kalak,Candara
-6652,bactrian,roman_pantheon,fur,0,1,1,14,40,0,Comia,Margiana
+6652,bactrian,roman_pantheon,fur,0,1,1,15,40,0,Comia,Margiana
 6653,bactrian,zoroaster,woad,0,0,0,2,40,0,Comiana,Margiana
 6654,bactrian,zoroaster,grain,2,3,2,3,40,0,Khilif,Oxiana
 6655,bactrian,zoroaster,cattle,3,3,2,3,40,0,Kumsar,Bactria
@@ -6686,19 +6686,19 @@
 6685,bactrian,zoroaster,horses,1,1,2,3,40,0,Alan,Margiana
 6686,bactrian,zoroaster,hemp,2,1,3,3,40,0,Alexandreia Tarmita,Oxiana
 6687,sogdian,zoroaster,vegetables,4,3,3,3,35,0,Gazaba,Cyropolis
-6688,macedonian,roman_pantheon,earthware,3,14,2,3,35,0,Alexandreia Oxou,Oxiana
+6688,macedonian,roman_pantheon,earthware,3,15,2,3,35,0,Alexandreia Oxou,Oxiana
 6689,sogdian,zoroaster,vegetables,0,1,3,0,40,0,Khatta,Oxiana
 6690,sogdian,zoroaster,hemp,4,5,4,3,35,0,Sangin,Oxiana
-6691,bactrian,zoroaster,grain,2,3,4,3,40,0,Aruktau,Oxiana
-6692,bactrian,zoroaster,horses,2,2,2,3,40,0,Kulm,Candara
+6691,bactrian,zoroaster,grain,2,3,4,3,40,0,Oxeiana,Oxiana
+6692,bactrian,zoroaster,horses,2,2,2,3,40,0,Khulm,Candara
 6693,bactrian,zoroaster,horses,1,2,3,2,40,0,Aornos,Candara
 6694,macedonian,roman_pantheon,gems,13,7,6,2,40,0,Oskobara,Oxiana
-6695,sogdian,zoroaster,glass,2,3,3,4,35,0,Cholbisana,Oxiana
+6695,sogdian,zoroaster,glass,2,3,3,4,35,0,Cholbisina,Oxiana
 6696,sogdian,zoroaster,vegetables,2,2,3,2,35,0,Kokul,Oxiana
 6697,sogdian,zoroaster,fur,4,3,4,4,35,0,Khaytabad,Oxiana
 6698,sogdian,zoroaster,hemp,2,2,1,2,35,0,Ikroni,Cyropolis
 6699,sogdian,zoroaster,hemp,2,2,2,0,35,0,Marouka,Cyropolis
-6700,sogdian,zoroaster,gems,2,2,1,1,35,0,Chorienes,Cyropolis
+6700,sogdian,zoroaster,gems,2,2,1,1,35,0,Petra Chorienou,Cyropolis
 6701,sogdian,zoroaster,leather,3,1,1,1,35,0,Dushan,Cyropolis
 6702,sogdian,zoroaster,earthware,0,1,2,1,35,0,Shakria,Cyropolis
 6703,sogdian,zoroaster,vegetables,6,8,4,2,35,0,Cyropolis,Cyropolis
@@ -6717,7 +6717,7 @@
 6716,sogdian,indo_iranian_religion,fur,1,2,2,2,35,0,Nautaka,Sogdiana
 6717,sogdian,indo_iranian_religion,camel,1,2,2,4,35,0,Tudakul,Sogdiana
 6718,kharesmian,indo_iranian_religion,leather,2,4,3,3,10,0,Kogon,Upper Khwarezm
-6719,sogdian,zoroaster,leather,3,3,2,1,35,0,Sisimethres,Sogdiana
+6719,sogdian,zoroaster,leather,3,3,2,1,35,0,Petra Sisimithrou,Sogdiana
 6720,sogdian,eastern_animism,cattle,1,2,1,0,35,0,Bascata,Shule
 6721,sogdian,zoroaster,leather,3,5,4,3,40,0,Drepsiana,Cyropolis
 6722,sogdian,zoroaster,cattle,1,2,1,0,40,0,Imarash,Cyropolis
@@ -7219,7 +7219,7 @@
 7218,shauraseni,hindu,elephants,2,2,6,3,40,0,Yamaprastha,Pancala
 7219,shauraseni,hindu,vegetables,0,3,4,5,40,0,Suktivati,West Cedi
 7220,sindhi,hindu,fish,0,2,1,9,30,0,Saraswata,Abhiria
-7221,socossian,berber_religion,vegetables,0,1,0,18,5,0,Mizab,Rutubis
+7221,socossian,berber_religion,vegetables,0,1,0,19,5,0,Mizab,Rutubis
 7222,parthian,zoroaster,wild_game,0,1,2,0,25,0,Cotace,Tapuria
 7223,parthian,zoroaster,precious_metals,0,2,1,2,25,0,Badghis,Tapuria
 7224,pactyan,zoroaster,wild_game,0,0,0,4,25,0,Bitaxa,Aria
@@ -7461,7 +7461,7 @@
 7460,shauraseni,hindu,stone,1,4,3,6,40,0,Mauranipur,Shurasena
 7461,shauraseni,hindu,hemp,0,1,3,9,40,0,Tehri,Dasarna
 7462,shauraseni,hindu,wood,0,1,1,9,40,0,Chanderi,Dasarna
-7463,shauraseni,hindu,elephants,1,4,5,5,40,0,Suktimati,Dasarna
+7463,shauraseni,hindu,elephants,1,4,5,5,40,0,Dudahi,Dasarna
 7464,avanti,hindu,wood,0,1,1,10,40,0,Bina,Dasarna
 7465,shauraseni,hindu,hemp,3,2,2,2,40,0,Shivpuri,Shurasena
 7466,avanti,hindu,wild_game,0,2,3,3,40,0,Bhand Deva,Madhyamika
@@ -7539,11 +7539,11 @@
 7538,aksumite,arabian_pantheon,horses,0,0,0,1,20,0,Agawe,Tana
 7539,aksumite,arabian_pantheon,wild_game,1,3,1,1,20,0,D'bark,Tana
 7540,aksumite,arabian_pantheon,fur,2,0,1,1,20,0,Shire,Tana
-7541,puntic,egyptian_pantheon,,0,0,0,0,10,0,Puntic Highland,Punt
-7542,aksumite,arabian_pantheon,,0,0,0,0,30,0,Puntic Highland,Punt
-7543,aksumite,arabian_pantheon,,0,0,0,0,20,0,Puntic Highland,Tana
-7544,aksumite,arabian_pantheon,,0,0,0,0,20,0,Puntic Highland,Tana
-7545,aksumite,arabian_pantheon,,0,0,0,0,0,0,Puntic Highland,Tana
+7541,puntic,egyptian_pantheon,,0,0,0,0,10,0,Jijiga,Punt
+7542,aksumite,arabian_pantheon,,0,0,0,0,30,0,Harla,Punt
+7543,aksumite,arabian_pantheon,,0,0,0,0,20,0,Dire Dawa,Tana
+7544,aksumite,arabian_pantheon,,0,0,0,0,20,0,Karmille,Tana
+7545,aksumite,arabian_pantheon,,0,0,0,0,0,0,Awash,Tana
 7546,puntic,arabian_pantheon,,0,0,0,0,10,0,Punt Desert,Punt
 7547,puntic,arabian_pantheon,,0,0,0,0,10,0,Punt Desert,Punt
 7548,puntic,arabian_pantheon,,0,0,0,0,10,0,Punt Desert,Aksum
@@ -7643,7 +7643,7 @@
 7642,bastarnae,germanic_religion,,0,0,0,0,0,0,Sylvana,
 7643,bastarnae,germanic_religion,,0,0,0,0,0,0,Fennia,
 7644,sarmatian,indo_iranian_religion,,0,0,0,0,0,0,Pontic Steppe,
-7645,,,,0,0,0,0,0,0,Oceanus Sarmaticus,
+7645,,,,0,0,0,0,0,0,Oceanus Sarmaticus,Oceanus Sarmaticus
 7646,nabatean,arabian_pantheon,,0,0,0,0,0,0,,
 7647,nabatean,arabian_pantheon,,0,0,0,0,0,0,,
 7648,qedarite,arabian_pantheon,,0,0,0,0,0,0,,
@@ -7664,3 +7664,76 @@
 7663,,,,0,0,0,0,0,0,PROV7663,
 7664,,,,0,0,0,0,0,0,PROV7664,
 7665,,,,0,0,0,0,0,0,Lacus Ligustinus,
+7666,,,,0,0,0,0,0,0,Canal of the Pharaohs,The Nile
+7667,,,,0,0,0,0,0,0,Canal of the Pharaohs,The Nile
+7668,,,,0,0,0,0,0,0,Bilbeis,Memphis
+7669,,,,0,0,0,0,0,0,Nile, the Pelusiac,The Nile
+7670,,,,0,0,0,0,0,0,Nile, the Pelusiac,The Nile
+7671,,,,0,0,0,0,0,0,Nile, the Pelusiac,The Nile
+7672,,,,0,0,0,0,0,0,Nile, the Pelusiac,The Nile
+7673,,,,0,0,0,0,0,0,Nile, the Pelusiac,The Nile
+7674,,,,0,0,0,0,0,0,Nile, the Bolbitine,The Nile
+7675,,,,0,0,0,0,0,0,Nile, the Phatnitic,The Nile
+7676,,,,0,0,0,0,0,0,Nile, the Phatnitic,The Nile
+7677,,,,0,0,0,0,0,0,Nile, the Phatnitic,The Nile
+7678,,,,0,0,0,0,0,0,Nile, the Phatnitic,The Nile
+7679,,,,0,0,0,0,0,0,Nile, the Phatnitic,The Nile
+7680,,,,0,0,0,0,0,0,Nile, the Bolbitine,The Nile
+7681,,,,0,0,0,0,0,0,Nile, the Bolbitine,The Nile
+7682,,,,0,0,0,0,0,0,Nile, the Bolbitine,The Nile
+7683,,,,0,0,0,0,0,0,Nile, the Bolbitine,The Nile
+7684,,,,0,0,0,0,0,0,Canal of the Pharaohs,The Nile
+7685,,,,0,0,0,0,0,0,Canal of the Pharaohs,The Nile
+7686,,,,0,0,0,0,0,0,Canal of the Pharaohs,The Nile
+7687,,,,0,0,0,0,0,0,Nile,The Nile
+7688,,,,0,0,0,0,0,0,Thenessos,Eastern Delta
+7689,,,,0,0,0,0,0,0,Hermopolis,Central Delta
+7690,,,,0,0,0,0,0,0,Tamiathis,Central Delta
+7691,,,,0,0,0,0,0,0,Perseos Skope,Western Delta
+7692,,,,0,0,0,0,0,0,Indus,Indus
+7693,,,,0,0,0,0,0,0,Indus,Indus
+7694,,,,0,0,0,0,0,0,Indus,Indus
+7695,,,,0,0,0,0,0,0,Indus,Indus
+7696,,,,0,0,0,0,0,0,Indus,Indus
+7697,,,,0,0,0,0,0,0,Indus,Indus
+7698,,,,0,0,0,0,0,0,Indus,Indus
+7699,,,,0,0,0,0,0,0,Indus,Indus
+7700,,,,0,0,0,0,0,0,Indus,Indus
+7701,,,,0,0,0,0,0,0,Ganges,Ganges
+7702,,,,0,0,0,0,0,0,Ganges,Ganges
+7703,,,,0,0,0,0,0,0,Ganges,Ganges
+7704,,,,0,0,0,0,0,0,Ganges,Ganges
+7705,,,,0,0,0,0,0,0,Ganges,Ganges
+7706,,,,0,0,0,0,0,0,Ganges,Ganges
+7707,,,,0,0,0,0,0,0,Ganges,Ganges
+7708,,,,0,0,0,0,0,0,Ganges,Ganges
+7709,,,,0,0,0,0,0,0,Echedoros,Echedoros
+7710,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7711,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7712,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7713,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7714,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7715,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7716,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7717,,,,0,0,0,0,0,0,Euphrates,Mesopotamian Rivers
+7718,,,,0,0,0,0,0,0,Euphrates,Mesopotamian Rivers
+7719,,,,0,0,0,0,0,0,Euphrates,Mesopotamian Rivers
+7720,,,,0,0,0,0,0,0,Euphrates,Mesopotamian Rivers
+7721,,,,0,0,0,0,0,0,Euphrates,Mesopotamian Rivers
+7722,,,,0,0,0,0,0,0,Tigris,Mesopotamian Rivers
+7723,,,,0,0,0,0,0,0,Durum,Sumer
+7724,,,,0,0,0,0,0,0,Rhenus,Rhenus
+7725,,,,0,0,0,0,0,0,Rhenus,Rhenus
+7726,,,,0,0,0,0,0,0,Rhenus,Rhenus
+7727,,,,0,0,0,0,0,0,Rhenus,Rhenus
+7728,,,,0,0,0,0,0,0,Rhenus,Rhenus
+7729,,,,0,0,0,0,0,0,Rhenus,Rhenus
+7730,,,,0,0,0,0,0,0,Rhenus,
+7731,,,,0,0,0,0,0,0,Rhenus,
+7732,,,,0,0,0,0,0,0,Vicus Augustanus,Vangionia
+7733,,,,0,0,0,0,0,0,Vesuvius Volcano,
+7734,,,,0,0,0,0,0,0,Methana Volcano,
+7735,,,,0,0,0,0,0,0,Argaios Mons Volcano,
+7736,,,,0,0,0,0,0,0,Ausara Volcano,
+7737,,,,0,0,0,0,0,0,Qarqar Volcano,
+7738,,,,0,0,0,0,0,0,Remagus,Treveria

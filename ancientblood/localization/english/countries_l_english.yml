@@ -6,7 +6,13 @@
  SNI_ADJ:0 "Sacred"
  MRS:0 "Silver Exiles"
  MRS_ADJ:0 "Silver"
- 
+ FRE:1 "Seventh Hill"
+ FRE_ADJ:0 "Seventh"
+ APU:0 "Ebon Legion"
+ APU_ADJ:0 "Ebon"
+ MSP:1 "Silver Legion"
+ MSP_ADJ:1 "Silver"
+  
  ######COUNTRIES######:0 ""
  REB:0 "Rebels"
  REB_ADJ:0 "Rebel"
@@ -671,10 +677,7 @@
  UMB:0 "Umbria"
 
  SAB:0 "Sabinia"
- APU:0 "Apulia"
- MSP:1 "Messapia"
  NEP:0 "Neapolis"
- FRE:1 "Frentania"
  PEL:1 "Pelignia"
 
  LCA:0 "Lucania"
@@ -980,16 +983,11 @@
  UMB_ADJ:0 "Umbrian"
 
  SAB_ADJ:0 "Sabinian"
- APU_ADJ:0 "Apulian"
  NEP_ADJ:0 "Neapolitan"
- FRE_ADJ:0 "Frentanian"
  PEL_ADJ:0 "Pelignian"
- MSP_ADJ:0 "Messapii"
  LCA_ADJ:0 "Lucanian"
- BRT_ADJ:0 "Bruttian"
  ANO_ADJ:0 "Anconian"
  MET_ADJ:0 "Metapontine"
- TAR_ADJ:0 "Tarentine"
  THU_ADJ:0 "Thurian"
  HCL_ADJ:0 "Herakleian"
  CRO_ADJ:0 "Crotine"

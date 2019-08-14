@@ -1,10 +1,5 @@
 diplomacy = {
 	
-	defensive_league = {
-		member = MET
-		member = HCL
-		member = CRO
-	}
 	
 	defensive_league = {
 		member = MAS
@@ -33,29 +28,37 @@ diplomacy = {
 		member = HRA
 	}
 	
+	#Silver Blade defensive league
+	defensive_league = {
+		member = HCL
+		member = CRO
+		member = HPO 
+		member = THU
+		member = MET
+		member = LOC
+	}
+	
 	#Rome
+	
+	#Roman Wolves tributaries
+	dependency = { first = PIE second = FRE subject_type = feudatory }
 	
 	#Samnium - Lucania Alliance
 	alliance = { first = SAM second = LCA }
 	
 	#Tarentum
-	#guarantee = { first = TAR second = SPA }
-	alliance = { first = TAR second = MSP }
-	alliance = { first = TAR second = APU }
 	
-	#Apulii
+	#Archdukes alliance
 	alliance = { first = APU second = MSP }
 	
 	#Lucanii
 	alliance = { first = LCA second = BRT }
 	
-	#Bruttii
-	dependency = { first = BRT second = HPO subject_type = tributary }
-	dependency = { first = BRT second = THU subject_type = tributary }
-	
 	#Syracuse
-	dependency = { first = SYR second = LOC subject_type = feudatory }
 	dependency = { first = SYR second = RHG subject_type = feudatory }
+	
+	#Sicilian Lasombra
+	dependency = { first = SCU second = ACR subject_type = feudatory }
 	
 	#Knossos
 	dependency = { first = KNO second = ELT subject_type = feudatory }
@@ -67,7 +70,8 @@ diplomacy = {
 	#Bosporan Kingdom
 	dependency = { first = BPK second = HNY subject_type = vassal_tribe }
 	
-	#Umbria (GP)
+	#Roman Lasombra alliance 
+	dependency = { first = UMB second = SAB subject_type = feudatory }
 	
 	#Etruria, Tinia's crumbling network
 	alliance = { first = ETR second = FNT }
@@ -10910,12 +10914,12 @@ country = {
 			#organized_recruitment = yes
 			
 		}
-		
+		#Dominus, Ventrue Warmaster
 		SAM = {
 			government = aristocratic_republic
 			diplomatic_stance=warmongering_stance
-			primary_culture = samnite
-			religion = roman_pantheon
+			primary_culture = ventrueculture
+			religion = vampirereligion
 			centralization = 50
 			capital = 32
 		
@@ -10940,12 +10944,12 @@ country = {
 			
 			
 		}
-		
+		#Drusilla Euphemia
 		SIO = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = malkavianculture
+			religion = vampirereligion
 
 			capital = 38
 		
@@ -10955,12 +10959,12 @@ country = {
 			
 			
 		}
-		
+		#Servius Marius Pustula
 		NUC = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = samnite
-			religion = roman_pantheon
+			primary_culture = nosferatuculture
+			religion = vampirereligion
 
 			capital = 1713
 		
@@ -11013,11 +11017,11 @@ country = {
 			}
 			
 		}
-		
+		#Karotos, Tubalcain's sbire
 		SAB = {
 			government = tribal_kingdom
-			primary_culture = umbrian
-			religion = roman_pantheon
+			primary_culture = lasombraculture
+			religion = vampirereligion
 			centralization = 40
 			capital = 107
 			diplomatic_stance=trading_stance
@@ -11026,11 +11030,11 @@ country = {
 			}
 			
 		}
-		
+		#Tubalcain, lasombra presence in Italy
 		UMB = {
 			government = aristocratic_republic
-			primary_culture = umbrian
-			religion = roman_pantheon
+			primary_culture = lasombraculture
+			religion = vampirereligion
 			centralization = 40
 			capital = 103
 			diplomatic_stance=warmongering_stance
@@ -11039,37 +11043,35 @@ country = {
 			}
 			
 		}
-		
+		#Abaddon
 		APU = {
 			government = tribal_kingdom
-			primary_culture = messapian
-			religion = roman_pantheon
+			primary_culture = ebonlegionculture
+			religion = infernalreligion
 			centralization = 40
 			capital = 66
-			diplomatic_stance=appeasement_stance
 			own_control_core = 	{
 				66 67 68 69 58
 			}
 			
 		}
-		
+		#Asmodeus
 		MSP = {
 			government = tribal_kingdom
-			primary_culture = messapian
-			religion = roman_pantheon
+			primary_culture = silverlegionculture
+			religion = infernalreligion
 			centralization = 40
 			capital = 62
-			diplomatic_stance=appeasement_stance
 			own_control_core = 	{
 				62 63 64 65 57
 			}
 			
 		}
-		
+		#Valerianus, Dominus' voice
 		LCA = {
 			government = tribal_kingdom
-			primary_culture = lucanian
-			religion = roman_pantheon
+			primary_culture = ventrueculture
+			religion = vampirereligion
 			centralization = 40
 			capital = 53
 			diplomatic_stance=appeasement_stance
@@ -11081,22 +11083,21 @@ country = {
 		
 		BRT = {
 			government = tribal_kingdom
-			primary_culture = bruttian
-			religion = roman_pantheon
+			primary_culture = ventrueculture
+			religion = vampirereligion
 			centralization = 40
 			capital = 77
-			diplomatic_stance=appeasement_stance
 			own_control_core = 	{
 				51 77 76 79 74
 			}
 			
 		}
-		
+		#Tryphosa
 		ANO = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = malkavianculture
+			religion = vampirereligion
 			capital = 117
 		
 			own_control_core = 	{
@@ -11118,12 +11119,12 @@ country = {
 			}
 			
 		}
-		
+		#Silver Blade
 		HPO = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = verbenaculture
+			religion = vampirereligion
 
 			capital = 75
 		
@@ -11310,13 +11311,12 @@ country = {
 			}
 		}
 		
-		#Italiot League (Croton, Thurii, Metapontum, Rhegium, Herakleia, Hipponium)#
-		
+		#Silver Blade
 		MET = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = verbenaculture
+			religion = magickreligion
 
 			capital = 55
 		
@@ -11325,12 +11325,12 @@ country = {
 			}
 			
 		}
-		
+		#Lysander
 		TAR = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = ventrueculture
+			religion = vampirereligion
 
 			capital = 56
 		
@@ -11339,12 +11339,12 @@ country = {
 			}
 			
 		}
-		
+		#Silver Blade
 		THU = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = verbenaculture
+			religion = magickreligion
 
 			capital = 52
 		
@@ -11354,12 +11354,12 @@ country = {
 			
 		}
 		
-		
+		#Silver blade
 		HCL = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = verbenaculture
+			religion = magickreligion
 
 			capital = 54
 		
@@ -11368,12 +11368,12 @@ country = {
 			}
 			
 		}
-		
+		#Silver Blade
 		CRO = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = verbenaculture
+			religion = magickreligion
 
 			capital = 78
 		
@@ -11382,11 +11382,11 @@ country = {
 			}
 			
 		}
-		
+		#Silver Blade
 		LOC = {
 			government = plutocratic_republic
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = verbenaculture
+			religion = magickreligion
 
 			capital = 73
 		
@@ -11395,12 +11395,12 @@ country = {
 			}
 			
 		}
-		
+		#Mellandis
 		RHG = {
 			government = plutocratic_republic
 			diplomatic_stance=trading_stance
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = malkavianculture
+			religion = vampirereligion
 
 			capital = 72
 		
@@ -11410,11 +11410,11 @@ country = {
 			
 		}
 		
+		#Sept of the Seventh Hill, Bone Gnawers
 		FRE = {
 			government = tribal_kingdom
-			primary_culture = samnite
-			religion = roman_pantheon
-			#Vassal of Rome
+			primary_culture = bonegnawerculture
+			religion = gaiareligion
 			capital = 35
 		
 			own_control_core = 	{
@@ -11423,11 +11423,11 @@ country = {
 			
 		}
 
-		#Vassal of Rome
+		#Daedelans Builders
 		PEL = {
 			government = tribal_kingdom
-			primary_culture = umbrian
-			religion = roman_pantheon
+			primary_culture = daedelanculture
+			religion = rationalityreligion
 
 			capital = 28
 
@@ -11436,11 +11436,11 @@ country = {
 			}
 			
 		}
-		
+		#Lasombra himself
 		SCU = {
 			government = tribal_kingdom
-			primary_culture = siculian
-			religion = roman_pantheon
+			primary_culture = lasombraculture
+			religion = vampirereligion
 
 			capital = 88
 
@@ -11646,11 +11646,11 @@ country = {
 				3208 3205 3198 3209 3246 3210 3197 3247 3214 3237 3216 3235 3248 3201 3199 3194 3195
 			}
 		}
-		
+		#Aconia Messalina
 		ACR = {
 			government = oligarchic_republic
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = lasombraculture
+			religion = vampirereligion
 			capital = 86
 			
 			own_control_core = 	{
@@ -11658,11 +11658,11 @@ country = {
 			}
 			
 		}
-		
+		#Alchias
 		SYR = {
 			government = aristocratic_monarchy
-			primary_culture = syracusan
-			religion = roman_pantheon
+			primary_culture = malkavianculture
+			religion = vampirereligion
 			capital = 84
 			
 			own_control_core = 	{

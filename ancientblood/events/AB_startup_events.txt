@@ -20,57 +20,57 @@ AB_startup_events.1 = {
 		set_variable = {
 			name = romesetup_flag
 		}
-		hidden_effect = {
-		create_character = {
-                first_name = "Titus Camilla"
-                age = 70
-                female = no
-                culture = ventrueculture
-                religion = masqueradereligion
-                family = char:207.family
-                birth_province = 1
-                force_add_trait = vampire
-                force_add_trait = generation6
-                force_add_trait = ventrue
-				force_add_trait = ancilla
-				force_add_trait = ambitious
-                force_add_trait = disciplined
-                force_add_trait = shrewd
-				father = char:207
-                add_martial = 11
-                add_charisma = 12
-                add_finesse = 15
-                add_zeal = 10
-                add_loyalty = 80
-                add_prominence = 100
-                add_popularity = 100
-            }
+		# hidden_effect = {
+		# create_character = {
+                # first_name = "Titus Camilla"
+                # age = 70
+                # female = no
+                # culture = ventrueculture
+                # religion = masqueradereligion
+                # family = char:207.family
+                # birth_province = 1
+                # force_add_trait = vampire
+                # force_add_trait = generation6
+                # force_add_trait = ventrue
+				# force_add_trait = ancilla
+				# force_add_trait = ambitious
+                # force_add_trait = disciplined
+                # force_add_trait = shrewd
+				# father = char:207
+                # add_martial = 11
+                # add_charisma = 12
+                # add_finesse = 15
+                # add_zeal = 10
+                # add_loyalty = 80
+                # add_prominence = 100
+                # add_popularity = 100
+            # }
 			
-		create_character = {
-                first_name = "Julia Antasia"
-                age = 30
-                female = yes
-                culture = ventrueculture
-                religion = masqueradereligion
-                family = char:207.family
-                birth_province = 1
-                force_add_trait = vampire
-                force_add_trait = generation5
-                force_add_trait = ventrue
-				force_add_trait = neonate
-				force_add_trait = wise
-                force_add_trait = zealous
-				force_add_trait = silver_tongued
-				mother = char:208
-                add_martial = 5
-                add_charisma = 8
-                add_finesse = 10
-                add_zeal = 12
-                add_loyalty = 70
-                add_prominence = 60
-                add_popularity = 40
-            }	
-				}
+		# create_character = {
+                # first_name = "Julia Antasia"
+                # age = 30
+                # female = yes
+                # culture = ventrueculture
+                # religion = masqueradereligion
+                # family = char:207.family
+                # birth_province = 1
+                # force_add_trait = vampire
+                # force_add_trait = generation5
+                # force_add_trait = ventrue
+				# force_add_trait = neonate
+				# force_add_trait = wise
+                # force_add_trait = zealous
+				# force_add_trait = silver_tongued
+				# mother = char:208
+                # add_martial = 5
+                # add_charisma = 8
+                # add_finesse = 10
+                # add_zeal = 12
+                # add_loyalty = 70
+                # add_prominence = 60
+                # add_popularity = 40
+            # }	
+				# }
 	}
 	
 	option = {
